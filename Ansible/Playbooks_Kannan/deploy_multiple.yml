@@ -1,0 +1,27 @@
+
+#- include: temp.yml
+
+- name: Existing {{ rpms_uninstall }}  package
+  shell: /bin/rpm -qa {{ rpms_uninstall }} warn=no
+  #shell: yum list installed {{ rpms_uninstall }}
+  register: pkgs
+  #check_mode: no
+- debug: var=pkgs.stdout_lines
+
+- name: create directory {{ pkgdir }} if not present
+  file: path={{ pkgdir }} owner=dashboard group=dashboard state=directory mode=0755
+
+- name: Current {{ rpms_uninstall }} rpms
+  shell: /bin/rpm -qa {{ rpms_uninstall }} | tr "\n" " " > /{{ pkgdir }}/{{ releasename }} warn=no
+
+- name: Fetch the {{ rpms_uninstall }} rpms
+  fetch: src=/{{ pkgdir }}/{{ releasename }} dest=/{{ pkgdir }}/{{ releasename }}.{{ role }} flat=yes
+  become_user: root
+
+- name: Uninstalling {{ rpms_uninstall }}  package
+  yum: name={{ item }} state=absent
+  with_items: "{{ pkg_remove }}"
+
+- name: Installing {{ pkg_install }} package
+  yum: name={{ item }} state=present update_cache=yes
+  with_items: "{{ pkg_install }}"

@@ -1,0 +1,2 @@
+chown -R username ~username
+chgrp -R $(id -gn username) ~username

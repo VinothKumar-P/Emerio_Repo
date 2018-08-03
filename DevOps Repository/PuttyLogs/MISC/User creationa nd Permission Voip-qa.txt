@@ -1,0 +1,120 @@
+login as: vinoth
+vinoth@192.168.4.213's password:
+Welcome to Ubuntu 16.04.1 LTS (GNU/Linux 4.4.0-128-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+122 packages can be updated.
+0 updates are security updates.
+
+
+Last login: Thu Jun 28 10:29:13 2018 from 192.168.4.35
+vinoth@em-voip-qa:~$ sudo bash
+[sudo] password for vinoth:
+root@em-voip-qa:~# userdel -r ashwin1v
+userdel: ashwin1v mail spool (/var/mail/ashwin1v) not found
+root@em-voip-qa:~# cd /home/
+root@em-voip-qa:/home# ll
+total 24
+drwxr-xr-x  6 root    root    4096 Jun 28 10:40 ./
+drwxr-xr-x 23 root    root    4096 Jun 27 06:20 ../
+drwxr-xr-x  3 root    root    4096 Jun 26 07:28 .ecryptfs/
+drwxr-xr-x  2 jenkins jenkins 4096 Jun 27 17:24 jenkins/
+drwxr-xr-x  2 root    root    4096 Jun 27 17:08 kannan/
+drwxrwxrwx  4 vinoth  vinoth  4096 Jun 28 10:37 vinoth/
+root@em-voip-qa:/home# adduser ashwin1v
+Adding user `ashwin1v' ...
+Adding new group `ashwin1v' (1004) ...
+Adding new user `ashwin1v' (1004) with group `ashwin1v' ...
+Creating home directory `/home/ashwin1v' ...
+Copying files from `/etc/skel' ...
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+Changing the user information for ashwin1v
+Enter the new value, or press ENTER for the default
+        Full Name []: ashwin
+        Room Number []:
+        Work Phone []:
+        Home Phone []:
+        Other []:
+Is the information correct? [Y/n] Y
+root@em-voip-qa:/home# usermod -aG sudo ashwin1v
+root@em-voip-qa:/home# su - ashwin1v
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ashwin1v@em-voip-qa:~$ exit
+logout
+root@em-voip-qa:/home# cat /etc/sudoers
+#
+# This file MUST be edited with the 'visudo' command as root.
+#
+# Please consider adding local content in /etc/sudoers.d/ instead of
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#
+Defaults        env_reset
+Defaults        mail_badpass
+Defaults        secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification
+root    ALL=(ALL:ALL) ALL
+kannan ALL=(ALL:ALL) ALL
+vinoth ALL=(ALL:ALL) ALL
+ashwin1v ALL=(ALL:ALL) ALL
+# Members of the admin group may gain root privileges
+%admin ALL=(ALL) ALL
+
+# Allow members of group sudo to execute any command
+%sudo   ALL=(ALL:ALL) ALL
+
+# See sudoers(5) for more information on "#include" directives:
+
+#includedir /etc/sudoers.d
+root@em-voip-qa:/home# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
+systemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
+systemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false
+systemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
+syslog:x:104:108::/home/syslog:/bin/false
+_apt:x:105:65534::/nonexistent:/bin/false
+lxd:x:106:65534::/var/lib/lxd/:/bin/false
+messagebus:x:107:111::/var/run/dbus:/bin/false
+uuidd:x:108:112::/run/uuidd:/bin/false
+dnsmasq:x:109:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+vinoth:x:1000:1000:vinoth,,,:/home/vinoth:/bin/bash
+kanna:x:1001:1001::/home/kanna:
+kannan:x:1002:1002::/home/kannan:/bin/bash
+sshd:x:110:65534::/var/run/sshd:/usr/sbin/nologin
+jenkins:x:1003:1003::/home/jenkins:
+mysql:x:111:118:MySQL Server,,,:/nonexistent:/bin/false
+ashwin1v:x:1004:1004:ashwin,,,:/home/ashwin1v:/bin/bash
+root@em-voip-qa:/home#

@@ -1,0 +1,4 @@
+---
+# tasks file for dubatchap
+
+- include: deploy.yml

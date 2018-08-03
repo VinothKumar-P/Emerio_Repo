@@ -1,0 +1,5 @@
+---
+# tasks file for mr3pp
+
+- include: deploy.yml
+- include: supervisorctl.yml

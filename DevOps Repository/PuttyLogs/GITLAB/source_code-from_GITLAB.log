@@ -1,0 +1,797 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2018.06.13 08:15:34 =~=~=~=~=~=~=~=~=~=~=~=
+login as: kannan
+ragw-gs03 SSH-GW
+#######################################################
+#
+# This is SecureCube / Access Check SSH-GW
+# Your whole access is logged and checked!
+#
+#######################################################
+kannan@10.121.54.203's password: =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2018.06.13 08:16:00 =~=~=~=~=~=~=~=~=~=~=~=
+login as: kannan
+kannan@192.168.4.211's password: 
+Welcome to Ubuntu 16.04.1 LTS (GNU/Linux 4.4.0-31-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+136 packages can be updated.
+1 update is a security update.
+
+
+*** System restart required ***
+Last login: Wed Jun 13 07:55:47 2018 from 192.168.4.37
+]0;kannan@em-voip-app: ~kannan@em-voip-app:~$ sudo bash
+[sudo] password for kannan: 
+]0;root@em-voip-app: ~root@em-voip-app:~# git clone [K[K[K[K[K[K[K[K[K[Kcd .[K/usr/;loca[K[K[K[K[Klocal/
+]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# ll
+total 44
+drwxr-xr-x 11 root root 4096 Jun 12 17:24 [0m[01;34m.[0m/
+drwxr-xr-x 10 root root 4096 Jun  8 12:49 [01;34m..[0m/
+drwxr-xr-x  2 root root 4096 Jun 12 17:17 [01;34mbin[0m/
+drwxr-xr-x  2 root root 4096 Jul 20  2016 [01;34metc[0m/
+drwxr-xr-x  2 root root 4096 Jul 20  2016 [01;34mgames[0m/
+drwxr-xr-x  2 root root 4096 Jul 20  2016 [01;34minclude[0m/
+drwxr-xr-x  4 root root 4096 Jun  8 13:11 [01;34mlib[0m/
+lrwxrwxrwx  1 root root    9 Jun  8 12:49 [01;36mman[0m -> [01;34mshare/man[0m/
+drwxr-xr-x  2 root root 4096 Jul 20  2016 [01;34msbin[0m/
+drwxr-xr-x  6 root root 4096 Jun  8 13:21 [01;34mshare[0m/
+drwxr-xr-x  2 root root 4096 Jul 20  2016 [01;34msrc[0m/
+drwxr-xr-x  2 root root 4096 Jun 12 17:24 [01;34mvoip[0m/
+]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# git clone git@192.168.4.102:nttpc-admin/NTTPC-VOIP. git [A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C git@192.168.4.102:nttpc-admin/NTTPC-VOIP.[1@g[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C- git@192.168.4.102:nttpc-admin/NTTPC-VOIP[1@.[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[Cv git@192.168.4.102:nttpc-admin/NTTPC-VOI[1@P[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C[C git@192.168.4.102:nttpc-admin/NTTPC-VO[1@I[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C[Cgit@192.168.4.102:nttpc-admin/NTTPC-VOI[1P[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C git@192.168.4.102:nttpc-admin/NTTPC-VOIP[1P[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C= git@192.168.4.102:nttpc-admin/NTTPC-VOI[1@P[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C git@192.168.4.102:nttpc-admin/NTTPC-VOIP[1P[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[Cb git@192.168.4.102:nttpc-admin/NTTPC-VOI[1@P[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C[C git@192.168.4.102:nttpc-admin/NTTPC-VO[1@I[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C[Cv git@192.168.4.102:nttpc-admin/NTTPC-V[1@O[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C[C[Co git@192.168.4.102:nttpc-admin/NTTPC-[1@V[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci git@192.168.4.102:nttpc-admin/NTTPC[1@-[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp git@192.168.4.102:nttpc-admin/NTTP[1@C[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- git@192.168.4.102:nttpc-admin/NTT[1@P[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd git@192.168.4.102:nttpc-admin/NT[1@T[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce git@192.168.4.102:nttpc-admin/N[C[1@T[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv git@192.168.4.102:nttpc-admin/[1@N[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+Cloning into 'NTTPC-VOIP'...
+The authenticity of host '192.168.4.102 (192.168.4.102)' can't be established.
+ECDSA key fingerprint is SHA256:Q3awEvElFMQvwaF3HtJEQJLJ9dqwemCKimfjN7Y8vxA.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.4.102' (ECDSA) to the list of known hosts.
+git@192.168.4.102's password: 
+Permission denied, please try again.
+git@192.168.4.102's password: 
+]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# 
+git clone -b voip-dev git@192.168.4.102:nttpc-admin//NTTPC-VOIP.git[A]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# ll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd /usr/local/ll[Kgit clone -b voip-dev git@192.168.4.102:nttpc-admin//NTTPC-VOIP.git[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttp://192.168.4.102/nttpc-ad min/NTTPC-VOIP.git
+Cloning into 'NTTPC-VOIP'...
+Username for 'http://192.168.4.102': emerio_admin
+Password for 'http://emerio_admin@192.168.4.102': 
+remote: Counting objects: 716, done.[K
+remote: Compressing objects:   0% (1/229)   [Kremote: Compressing objects:   1% (3/229)   [Kremote: Compressing objects:   2% (5/229)   [Kremote: Compressing objects:   3% (7/229)   [Kremote: Compressing objects:   4% (10/229)   [Kremote: Compressing objects:   5% (12/229)   [Kremote: Compressing objects:   6% (14/229)   [Kremote: Compressing objects:   7% (17/229)   [Kremote: Compressing objects:   8% (19/229)   [Kremote: Compressing objects:   9% (21/229)   [Kremote: Compressing objects:  10% (23/229)   [Kremote: Compressing objects:  11% (26/229)   [Kremote: Compressing objects:  12% (28/229)   [Kremote: Compressing objects:  13% (30/229)   [Kremote: Compressing objects:  14% (33/229)   [Kremote: Compressing objects:  15% (35/229)   [Kremote: Compressing objects:  16% (37/229)   [Kremote: Compressing objects:  17% (39/229)   [Kremote: Compressing objects:  18% (42/229)   [Kremote: Compressing objects:  19% (44/229)   [Kremote: Compressing objects:  20% (46/229)   [Kremote: Compressing objects:  21% (49/229)   [Kremote: Compressing objects:  22% (51/229)   [Kremote: Compressing objects:  23% (53/229)   [Kremote: Compressing objects:  24% (55/229)   [Kremote: Compressing objects:  25% (58/229)   [Kremote: Compressing objects:  26% (60/229)   [Kremote: Compressing objects:  27% (62/229)   [Kremote: Compressing objects:  28% (65/229)   [Kremote: Compressing objects:  29% (67/229)   [Kremote: Compressing objects:  30% (69/229)   [Kremote: Compressing objects:  31% (71/229)   [Kremote: Compressing objects:  32% (74/229)   [Kremote: Compressing objects:  33% (76/229)   [Kremote: Compressing objects:  34% (78/229)   [Kremote: Compressing objects:  35% (81/229)   [Kremote: Compressing objects:  36% (83/229)   [Kremote: Compressing objects:  37% (85/229)   [Kremote: Compressing objects:  38% (88/229)   [Kremote: Compressing objects:  39% (90/229)   [Kremote: Compressing objects:  40% (92/229)   [Kremote: Compressing objects:  41% (94/229)   [Kremote: Compressing objects:  42% (97/229)   [Kremote: Compressing objects:  43% (99/229)   [Kremote: Compressing objects:  44% (101/229)   [Kremote: Compressing objects:  45% (104/229)   [Kremote: Compressing objects:  46% (106/229)   [Kremote: Compressing objects:  47% (108/229)   [Kremote: Compressing objects:  48% (110/229)   [Kremote: Compressing objects:  49% (113/229)   [Kremote: Compressing objects:  50% (115/229)   [Kremote: Compressing objects:  51% (117/229)   [Kremote: Compressing objects:  52% (120/229)   [Kremote: Compressing objects:  53% (122/229)   [Kremote: Compressing objects:  54% (124/229)   [Kremote: Compressing objects:  55% (126/229)   [Kremote: Compressing objects:  56% (129/229)   [Kremote: Compressing objects:  57% (131/229)   [Kremote: Compressing objects:  58% (133/229)   [Kremote: Compressing objects:  59% (136/229)   [Kremote: Compressing objects:  60% (138/229)   [Kremote: Compressing objects:  61% (140/229)   [Kremote: Compressing objects:  62% (142/229)   [Kremote: Compressing objects:  63% (145/229)   [Kremote: Compressing objects:  64% (147/229)   [Kremote: Compressing objects:  65% (149/229)   [Kremote: Compressing objects:  66% (152/229)   [Kremote: Compressing objects:  67% (154/229)   [Kremote: Compressing objects:  68% (156/229)   [Kremote: Compressing objects:  69% (159/229)   [Kremote: Compressing objects:  70% (161/229)   [Kremote: Compressing objects:  71% (163/229)   [Kremote: Compressing objects:  72% (165/229)   [Kremote: Compressing objects:  73% (168/229)   [Kremote: Compressing objects:  74% (170/229)   [Kremote: Compressing objects:  75% (172/229)   [Kremote: Compressing objects:  76% (175/229)   [Kremote: Compressing objects:  77% (177/229)   [Kremote: Compressing objects:  78% (179/229)   [Kremote: Compressing objects:  79% (181/229)   [Kremote: Compressing objects:  80% (184/229)   [Kremote: Compressing objects:  81% (186/229)   [Kremote: Compressing objects:  82% (188/229)   [Kremote: Compressing objects:  83% (191/229)   [Kremote: Compressing objects:  84% (193/229)   [Kremote: Compressing objects:  85% (195/229)   [Kremote: Compressing objects:  86% (197/229)   [Kremote: Compressing objects:  87% (200/229)   [Kremote: Compressing objects:  88% (202/229)   [Kremote: Compressing objects:  89% (204/229)   [Kremote: Compressing objects:  90% (207/229)   [Kremote: Compressing objects:  91% (209/229)   [Kremote: Compressing objects:  92% (211/229)   [Kremote: Compressing objects:  93% (213/229)   [Kremote: Compressing objects:  94% (216/229)   [Kremote: Compressing objects:  95% (218/229)   [Kremote: Compressing objects:  96% (220/229)   [Kremote: Compressing objects:  97% (223/229)   [Kremote: Compressing objects:  98% (225/229)   [Kremote: Compressing objects:  99% (227/229)   [Kremote: Compressing objects: 100% (229/229)   [Kremote: Compressing objects: 100% (229/229), done.[K
+Receiving objects:   0% (1/716)   Receiving objects:   1% (8/716)   Receiving objects:   2% (15/716)   Receiving objects:   3% (22/716)   Receiving objects:   4% (29/716)   Receiving objects:   5% (36/716)   Receiving objects:   6% (43/716)   Receiving objects:   7% (51/716)   Receiving objects:   8% (58/716)   Receiving objects:   9% (65/716)   Receiving objects:  10% (72/716)   Receiving objects:  11% (79/716)   Receiving objects:  12% (86/716)   Receiving objects:  13% (94/716)   Receiving objects:  14% (101/716)   Receiving objects:  15% (108/716)   Receiving objects:  16% (115/716)   Receiving objects:  17% (122/716)   Receiving objects:  18% (129/716)   Receiving objects:  19% (137/716)   Receiving objects:  20% (144/716)   Receiving objects:  21% (151/716)   Receiving objects:  22% (158/716)   Receiving objects:  23% (165/716)   Receiving objects:  24% (172/716)   Receiving objects:  25% (179/716)   Receiving objects:  26% (187/716)   Receiving objects:  27% (194/716)   Receiving objects:  28% (201/716)   Receiving objects:  29% (208/716)   Receiving objects:  30% (215/716)   Receiving objects:  31% (222/716)   Receiving objects:  32% (230/716)   Receiving objects:  33% (237/716)   Receiving objects:  34% (244/716)   Receiving objects:  35% (251/716)   Receiving objects:  36% (258/716)   Receiving objects:  37% (265/716)   Receiving objects:  38% (273/716)   Receiving objects:  39% (280/716)   Receiving objects:  40% (287/716)   Receiving objects:  41% (294/716)   Receiving objects:  42% (301/716)   Receiving objects:  43% (308/716)   Receiving objects:  44% (316/716)   Receiving objects:  45% (323/716)   Receiving objects:  46% (330/716)   Receiving objects:  47% (337/716)   Receiving objects:  48% (344/716)   Receiving objects:  49% (351/716)   Receiving objects:  50% (358/716)   Receiving objects:  51% (366/716)   Receiving objects:  52% (373/716)   Receiving objects:  53% (380/716)   Receiving objects:  54% (387/716)   Receiving objects:  55% (394/716)   Receiving objects:  56% (401/716)   Receiving objects:  57% (409/716)   Receiving objects:  58% (416/716)   Receiving objects:  59% (423/716)   Receiving objects:  60% (430/716)   Receiving objects:  61% (437/716)   Receiving objects:  62% (444/716)   Receiving objects:  63% (452/716)   Receiving objects:  64% (459/716)   Receiving objects:  65% (466/716)   Receiving objects:  66% (473/716)   Receiving objects:  67% (480/716)   Receiving objects:  68% (487/716)   Receiving objects:  69% (495/716)   Receiving objects:  70% (502/716)   Receiving objects:  71% (509/716)   Receiving objects:  72% (516/716)   Receiving objects:  73% (523/716)   Receiving objects:  74% (530/716)   Receiving objects:  75% (537/716)   remote: Total 716 (delta 459), reused 714 (delta 459)[K
+Receiving objects:  75% (537/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  76% (545/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  77% (552/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  78% (559/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  79% (566/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  80% (573/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  81% (580/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  82% (588/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  83% (595/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  84% (602/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  85% (609/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  86% (616/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  87% (623/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  88% (631/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  89% (638/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  90% (645/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  91% (652/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  92% (659/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  93% (666/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  94% (674/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  95% (681/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  96% (688/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  97% (695/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  98% (702/716), 268.00 KiB | 253.00 KiB/s   Receiving objects:  99% (709/716), 268.00 KiB | 253.00 KiB/s   Receiving objects: 100% (716/716), 268.00 KiB | 253.00 KiB/s   Receiving objects: 100% (716/716), 322.70 KiB | 253.00 KiB/s, done.
+Resolving deltas:   0% (0/459)   Resolving deltas:  15% (71/459)   Resolving deltas:  22% (101/459)   Resolving deltas:  23% (107/459)   Resolving deltas:  26% (120/459)   Resolving deltas:  27% (128/459)   Resolving deltas:  29% (135/459)   Resolving deltas:  31% (146/459)   Resolving deltas:  42% (196/459)   Resolving deltas:  43% (199/459)   Resolving deltas:  44% (204/459)   Resolving deltas:  45% (208/459)   Resolving deltas:  47% (217/459)   Resolving deltas:  48% (221/459)   Resolving deltas:  50% (230/459)   Resolving deltas:  51% (236/459)   Resolving deltas:  52% (243/459)   Resolving deltas:  53% (244/459)   Resolving deltas:  55% (256/459)   Resolving deltas:  60% (279/459)   Resolving deltas:  61% (282/459)   Resolving deltas:  67% (308/459)   Resolving deltas:  70% (325/459)   Resolving deltas:  79% (366/459)   Resolving deltas:  80% (370/459)   Resolving deltas:  83% (381/459)   Resolving deltas:  84% (388/459)   Resolving deltas:  86% (396/459)   Resolving deltas:  87% (400/459)   Resolving deltas:  92% (426/459)   Resolving deltas:  93% (427/459)   Resolving deltas:  94% (432/459)   Resolving deltas:  95% (438/459)   Resolving deltas:  99% (457/459)   Resolving deltas: 100% (459/459)   Resolving deltas: 100% (459/459), done.
+Checking connectivity... done.
+]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# ll
+total 48
+drwxr-xr-x 12 root root 4096 Jun 13 08:17 [0m[01;34m.[0m/
+drwxr-xr-x 10 root root 4096 Jun  8 12:49 [01;34m..[0m/
+drwxr-xr-x  2 root root 4096 Jun 12 17:17 [01;34mbin[0m/
+drwxr-xr-x  2 root root 4096 Jul 20  2016 [01;34metc[0m/
+drwxr-xr-x  2 root root 4096 Jul 20  2016 [01;34mgames[0m/
+drwxr-xr-x  2 root root 4096 Jul 20  2016 [01;34minclude[0m/
+drwxr-xr-x  4 root root 4096 Jun  8 13:11 [01;34mlib[0m/
+lrwxrwxrwx  1 root root    9 Jun  8 12:49 [01;36mman[0m -> [01;34mshare/man[0m/
+drwxr-xr-x 12 root root 4096 Jun 13 08:18 [01;34mNTTPC-VOIP[0m/
+drwxr-xr-x  2 root root 4096 Jul 20  2016 [01;34msbin[0m/
+drwxr-xr-x  6 root root 4096 Jun  8 13:21 [01;34mshare[0m/
+drwxr-xr-x  2 root root 4096 Jul 20  2016 [01;34msrc[0m/
+drwxr-xr-x  2 root root 4096 Jun 12 17:24 [01;34mvoip[0m/
+]0;root@em-voip-app: /usr/localroot@em-voip-app:/usr/local# cd NTt[KTPC-VOIP/
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# ll
+total 488
+drwxr-xr-x 12 root root   4096 Jun 13 08:18 [0m[01;34m.[0m/
+drwxr-xr-x 12 root root   4096 Jun 13 08:17 [01;34m..[0m/
+drwxr-xr-x  6 root root   4096 Jun 13 08:18 [01;34mapp[0m/
+-rw-r--r--  1 root root   1686 Jun 13 08:18 artisan
+drwxr-xr-x  3 root root   4096 Jun 13 08:18 [01;34mbootstrap[0m/
+-rw-r--r--  1 root root   1487 Jun 13 08:18 composer.json
+-rw-r--r--  1 root root 185800 Jun 13 08:18 composer.lock
+drwxr-xr-x  2 root root   4096 Jun 13 08:18 [01;34mconfig[0m/
+drwxr-xr-x  5 root root   4096 Jun 13 08:18 [01;34mdatabase[0m/
+-rw-r--r--  1 root root    974 Jun 13 08:18 .env.example
+drwxr-xr-x  8 root root   4096 Jun 13 08:18 [01;34m.git[0m/
+-rw-r--r--  1 root root    111 Jun 13 08:18 .gitattributes
+-rw-r--r--  1 root root    176 Jun 13 08:18 .gitignore
+-rw-r--r--  1 root root    159 Jun 13 08:18 jenkins.sh
+-rw-r--r--  1 root root   1129 Jun 13 08:18 package.json
+-rw-r--r--  1 root root   1040 Jun 13 08:18 phpunit.xml
+drwxr-xr-x  4 root root   4096 Jun 13 08:18 [01;34mpublic[0m/
+-rw-r--r--  1 root root      0 Jun 13 08:18 README.md
+drwxr-xr-x  5 root root   4096 Jun 13 08:18 [01;34mresources[0m/
+drwxr-xr-x  2 root root   4096 Jun 13 08:18 [01;34mroutes[0m/
+-rw-r--r--  1 root root    563 Jun 13 08:18 server.php
+drwxr-xr-x  5 root root   4096 Jun 13 08:18 [01;34mstorage[0m/
+drwxr-xr-x  4 root root   4096 Jun 13 08:18 [01;34mtests[0m/
+-rw-r--r--  1 root root    549 Jun 13 08:18 webpack.mix.js
+-rw-r--r--  1 root root 219089 Jun 13 08:18 yarn.lock
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# [K]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# composer install[1@s[1@u[1@d[1@o[1@ [K]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo composer install[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[30;43mDo not run Composer as root/super user! See https://getcomposer.org/root for details[39;49m
+[32mLoading composer repositories with package information[39m
+[32mInstalling dependencies (including require-dev) from lock file[39m
+[37;41mYour requirements could not be resolved to an installable set of packages.[39;49m
+
+  Problem 1
+    - Installation request for doctrine/annotations v1.6.0 -> satisfiable by doctrine/annotations[v1.6.0].
+    - doctrine/annotations v1.6.0 requires php ^7.1 -> your PHP version (7.0.30) does not satisfy that requirement.
+  Problem 2
+    - Installation request for doctrine/cache v1.7.1 -> satisfiable by doctrine/cache[v1.7.1].
+    - doctrine/cache v1.7.1 requires php ~7.1 -> your PHP version (7.0.30) does not satisfy that requirement.
+  Problem 3
+    - Installation request for doctrine/collections v1.5.0 -> satisfiable by doctrine/collections[v1.5.0].
+    - doctrine/collections v1.5.0 requires php ^7.1 -> your PHP version (7.0.30) does not satisfy that requirement.
+  Problem 4
+    - Installation request for doctrine/common v2.8.1 -> satisfiable by doctrine/common[v2.8.1].
+    - doctrine/common v2.8.1 requires php ~7.1 -> your PHP version (7.0.30) does not satisfy that requirement.
+  Problem 5
+    - Installation request for doctrine/dbal v2.7.1 -> satisfiable by doctrine/dbal[v2.7.1].
+    - doctrine/dbal v2.7.1 requires php ^7.1 -> your PHP version (7.0.30) does not satisfy that requirement.
+  Problem 6
+    - Installation request for doctrine/inflector v1.3.0 -> satisfiable by doctrine/inflector[v1.3.0].
+    - doctrine/inflector v1.3.0 requires php ^7.1 -> your PHP version (7.0.30) does not satisfy that requirement.
+  Problem 7
+    - Installation request for erusev/parsedown 1.7.1 -> satisfiable by erusev/parsedown[1.7.1].
+    - erusev/parsedown 1.7.1 requires ext-mbstring * -> the requested PHP extension mbstring is missing from your system.
+  Problem 8
+    - Installation request for laravel/framework v5.5.40 -> satisfiable by laravel/framework[v5.5.40].
+    - laravel/framework v5.5.40 requires ext-mbstring * -> the requested PHP extension mbstring is missing from your system.
+  Problem 9
+    - Installation request for symfony/css-selector v4.1.0 -> satisfiable by symfony/css-selector[v4.1.0].
+    - symfony/css-selector v4.1.0 requires php ^7.1.3 -> your PHP version (7.0.30) does not satisfy that requirement.
+  Problem 10
+    - Installation request for symfony/event-dispatcher v4.1.0 -> satisfiable by symfony/event-dispatcher[v4.1.0].
+    - symfony/event-dispatcher v4.1.0 requires php ^7.1.3 -> your PHP version (7.0.30) does not satisfy that requirement.
+  Problem 11
+    - Installation request for symfony/translation v4.1.0 -> satisfiable by symfony/translation[v4.1.0].
+    - symfony/translation v4.1.0 requires php ^7.1.3 -> your PHP version (7.0.30) does not satisfy that requirement.
+  Problem 12
+    - Installation request for doctrine/instantiator 1.1.0 -> satisfiable by doctrine/instantiator[1.1.0].
+    - doctrine/instantiator 1.1.0 requires php ^7.1 -> your PHP version (7.0.30) does not satisfy that requirement.
+  Problem 13
+    - Installation request for myclabs/deep-copy 1.8.0 -> satisfiable by myclabs/deep-copy[1.8.0].
+    - myclabs/deep-copy 1.8.0 requires php ^7.1 -> your PHP version (7.0.30) does not satisfy that requirement.
+  Problem 14
+    - Installation request for phar-io/manifest 1.0.1 -> satisfiable by phar-io/manifest[1.0.1].
+    - phar-io/manifest 1.0.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+  Problem 15
+    - Installation request for phpunit/php-code-coverage 5.3.2 -> satisfiable by phpunit/php-code-coverage[5.3.2].
+    - phpunit/php-code-coverage 5.3.2 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+  Problem 16
+    - Installation request for phpunit/phpunit 6.5.8 -> satisfiable by phpunit/phpunit[6.5.8].
+    - phpunit/phpunit 6.5.8 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+  Problem 17
+    - Installation request for squizlabs/php_codesniffer 3.2.3 -> satisfiable by squizlabs/php_codesniffer[3.2.3].
+    - squizlabs/php_codesniffer 3.2.3 requires ext-simplexml * -> the requested PHP extension simplexml is missing from your system.
+  Problem 18
+    - Installation request for theseer/tokenizer 1.1.0 -> satisfiable by theseer/tokenizer[1.1.0].
+    - theseer/tokenizer 1.1.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+  Problem 19
+    - laravel/framework v5.5.40 requires ext-mbstring * -> the requested PHP extension mbstring is missing from your system.
+    - laravel/tinker v1.0.7 requires illuminate/console ~5.1 -> satisfiable by laravel/framework[v5.5.40].
+    - Installation request for laravel/tinker v1.0.7 -> satisfiable by laravel/tinker[v1.0.7].
+
+  To enable extensions, verify that they are enabled in your .ini files:
+    - /etc/php/7.0/cli/php.ini
+    - /etc/php/7.0/cli/conf.d/10-mysqlnd.ini
+    - /etc/php/7.0/cli/conf.d/10-opcache.ini
+    - /etc/php/7.0/cli/conf.d/10-pdo.ini
+    - /etc/php/7.0/cli/conf.d/20-calendar.ini
+    - /etc/php/7.0/cli/conf.d/20-ctype.ini
+    - /etc/php/7.0/cli/conf.d/20-exif.ini
+    - /etc/php/7.0/cli/conf.d/20-fileinfo.ini
+    - /etc/php/7.0/cli/conf.d/20-ftp.ini
+    - /etc/php/7.0/cli/conf.d/20-gettext.ini
+    - /etc/php/7.0/cli/conf.d/20-iconv.ini
+    - /etc/php/7.0/cli/conf.d/20-json.ini
+    - /etc/php/7.0/cli/conf.d/20-mcrypt.ini
+    - /etc/php/7.0/cli/conf.d/20-mysqli.ini
+    - /etc/php/7.0/cli/conf.d/20-pdo_mysql.ini
+    - /etc/php/7.0/cli/conf.d/20-phar.ini
+    - /etc/php/7.0/cli/conf.d/20-posix.ini
+    - /etc/php/7.0/cli/conf.d/20-readline.ini
+    - /etc/php/7.0/cli/conf.d/20-shmop.ini
+    - /etc/php/7.0/cli/conf.d/20-sockets.ini
+    - /etc/php/7.0/cli/conf.d/20-sysvmsg.ini
+    - /etc/php/7.0/cli/conf.d/20-sysvsem.ini
+    - /etc/php/7.0/cli/conf.d/20-sysvshm.ini
+    - /etc/php/7.0/cli/conf.d/20-tokenizer.ini
+  You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# [K]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo composer installll[Ksudo composer install[K[K]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo add-apt-repository ppa:ondrej/php
+ Co-installable PHP versions: PHP 5.6, PHP 7.x and most requested extensions are included. Only Supported Versions of PHP (http://php.net/supported-versions.php) for Supported Ubuntu Releases (https://wiki.ubuntu.com/Releases) are provided. Don't ask for end-of-life PHP versions or Ubuntu release, they won't be provided.
+
+Debian oldstable and stable packages are provided as well: https://deb.sury.org/#debian-dpa
+
+You can get more information about the packages at https://deb.sury.org
+
+BUGS&FEATURES: This PPA now has a issue tracker:
+https://deb.sury.org/#bug-reporting
+
+CAVEATS:
+1. If you are using php-gearman, you need to add ppa:ondrej/pkg-gearman
+2. If you are using apache2, you are advised to add ppa:ondrej/apache2
+3. If you are using nginx, you are advise to add ppa:ondrej/nginx-mainline
+   or ppa:ondrej/nginx
+
+PLEASE READ: If you like my work and want to give me a little motivation, please consider donating regularly: https://donate.sury.org/
+
+WARNING: add-apt-repository is broken with non-UTF-8 locales, see 
+https://github.com/oerdnj/deb.sury.org/issues/56 for workaround:
+
+# LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
+ More info: https://launchpad.net/~ondrej/+archive/ubuntu/php
+Press [ENTER] to continue or ctrl-c to cancel adding it
+
+gpg: keyring `/tmp/tmpyln33r9s/secring.gpg' created
+gpg: keyring `/tmp/tmpyln33r9s/pubring.gpg' created
+gpg: requesting key E5267A6C from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmpyln33r9s/trustdb.gpg: trustdb created
+gpg: key E5267A6C: public key "Launchpad PPA for Ondřej Surý" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+OK
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo add-apt-repository ppa:ondrej/phpsudo apt-get install php7.1^C
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo apt-get install php7.1
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 4%Reading package lists... 4%Reading package lists... 8%Reading package lists... 8%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 35%Reading package lists... 35%Reading package lists... 42%Reading package lists... 60%Reading package lists... 60%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 75%Reading package lists... 75%Reading package lists... 78%Reading package lists... 78%Reading package lists... 81%Reading package lists... 81%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 86%Reading package lists... 86%Reading package lists... 88%Reading package lists... 88%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 90%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package php7.1
+E: Couldn't find any package by glob 'php7.1'
+E: Couldn't find any package by regex 'php7.1'
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# [K]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo apt-get update
+0% [Working]            Hit:1 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+0% [Waiting for headers] [Waiting for headers]0% [1 InRelease gpgv 247 kB] [Waiting for headers] [Waiting for headers] [Waiti                                                                               0% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                    Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+0% [2 InRelease 10.8 kB/109 kB 10%] [Waiting for headers] [Waiting for headers]                                                                               Get:3 http://ppa.launchpad.net/ondrej/php/ubuntu xenial InRelease [23.9 kB]
+0% [2 InRelease 13.6 kB/109 kB 12%] [Waiting for headers] [3 InRelease 12.7 kB/                                                                               Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]
+0% [2 InRelease 13.6 kB/109 kB 12%] [4 InRelease 1,089 B/107 kB 1%] [3 InReleas                                                                               0% [2 InRelease 88.1 kB/109 kB 81%] [4 InRelease 29.1 kB/107 kB 27%]0% [3 InRelease gpgv 23.9 kB] [2 InRelease 88.1 kB/109 kB 81%] [4 InRelease 29.                                                                               0% [2 InRelease 108 kB/109 kB 99%] [4 InRelease 29.1 kB/107 kB 27%]                                                                   0% [Waiting for headers] [4 InRelease 29.1 kB/107 kB 27%]0% [2 InRelease gpgv 109 kB] [Waiting for headers] [4 InRelease 29.1 kB/107 kB 0% [Waiting for headers] [4 InRelease 29.1 kB/107 kB 27%] [Waiting for headers]                                                                               Get:5 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+0% [5 InRelease 6,604 B/107 kB 6%] [4 InRelease 29.1 kB/107 kB 27%] [Waiting fo                                                                               Get:6 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 Packages [46.0 kB]
+0% [5 InRelease 82.9 kB/107 kB 78%] [4 InRelease 71.3 kB/107 kB 67%] [6 Package                                                                               0% [4 InRelease 71.3 kB/107 kB 67%] [6 Packages 13.8 kB/46.0 kB 30%]0% [5 InRelease gpgv 107 kB] [4 InRelease 71.3 kB/107 kB 67%] [6 Packages 13.8 0% [Waiting for headers] [4 InRelease 71.3 kB/107 kB 67%] [6 Packages 13.8 kB/4                                                                               Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [793 kB]
+0% [7 Packages 6,691 B/793 kB 1%] [4 InRelease 80.9 kB/107 kB 76%] [6 Packages                                                                                0% [7 Packages 65.3 kB/793 kB 8%] [6 Packages 41.8 kB/46.0 kB 91%]0% [4 InRelease gpgv 107 kB] [7 Packages 65.3 kB/793 kB 8%] [6 Packages 41.8 kB                                                                               37% [7 Packages 65.3 kB/793 kB 8%] [6 Packages 41.8 kB/46.0 kB 91%]                                                                   37% [7 Packages 65.3 kB/793 kB 8%]37% [6 Packages store 0 B] [7 Packages 65.3 kB/793 kB 8%] [Connecting to ppa.la                                                                               38% [7 Packages 65.3 kB/793 kB 8%] [Waiting for headers]                                                        Get:8 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main i386 Packages [45.8 kB]
+43% [7 Packages 187 kB/793 kB 24%] [8 Packages 1,090 B/45.8 kB 2%]49% [7 Packages 293 kB/793 kB 37%] [Connecting to ppa.launchpad.net (91.189.95.49% [8 Packages store 0 B] [7 Packages 293 kB/793 kB 37%] [Connecting to ppa.la                                                                               49% [7 Packages 293 kB/793 kB 37%] [Waiting for headers]                                                        Get:9 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main Translation-en [26.5 kB]
+53% [7 Packages 399 kB/793 kB 50%] [9 Translation-en 1,090 B/26.5 kB 4%]                                                                        57% [7 Packages 465 kB/793 kB 59%]57% [9 Translation-en store 0 B] [7 Packages 465 kB/793 kB 59%]                                                               57% [7 Packages 465 kB/793 kB 59%]60% [7 Packages 548 kB/793 kB 69%]68% [7 Packages 743 kB/793 kB 94%]                                  70% [Working]70% [7 Packages store 0 B]                          Get:10 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [725 kB]
+70% [7 Packages store 0 B] [10 Packages 0 B/725 kB 0%]                                                      72% [10 Packages 32.2 kB/725 kB 4%]79% [10 Packages 199 kB/725 kB 27%]81% [10 Packages 271 kB/725 kB 37%]87% [10 Packages 414 kB/725 kB 57%]92% [10 Packages 533 kB/725 kB 73%]92% [10 Packages 542 kB/725 kB 75%]                                 280 kB/s 0s93% [10 Packages 562 kB/725 kB 78%]                                 280 kB/s 0s93% [10 Packages 562 kB/725 kB 78%]                                 280 kB/s 0s93% [10 Packages 565 kB/725 kB 78%]                                 280 kB/s 0s93% [10 Packages 565 kB/725 kB 78%]                                 280 kB/s 0s93% [10 Packages 565 kB/725 kB 78%]                                 280 kB/s 0s94% [10 Packages 583 kB/725 kB 80%]                                 280 kB/s 0s100% [Working]                                                      280 kB/s 0s100% [10 Packages store 0 B]                                        280 kB/s 0s100% [Working]                                                      280 kB/s 0s                                                                               Fetched 1,983 kB in 10s (198 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 4%Reading package lists... 4%Reading package lists... 8%Reading package lists... 8%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 35%Reading package lists... 35%Reading package lists... 46%Reading package lists... 59%Reading package lists... 59%Reading package lists... 73%Reading package lists... 73%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 77%Reading package lists... 77%Reading package lists... 80%Reading package lists... 80%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 86%Reading package lists... 86%Reading package lists... 88%Reading package lists... 88%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo apt-get install php7.1
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libapache2-mod-php7.1 libpcre3 libssl1.1 php7.1-cli php7.1-common
+  php7.1-json php7.1-opcache php7.1-readline
+Suggested packages:
+  php-pear
+The following NEW packages will be installed:
+  libapache2-mod-php7.1 libssl1.1 php7.1 php7.1-cli php7.1-common php7.1-json
+  php7.1-opcache php7.1-readline
+The following packages will be upgraded:
+  libpcre3
+1 upgraded, 8 newly installed, 0 to remove and 149 not upgraded.
+Need to get 5,282 kB of archives.
+After this operation, 17.8 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y Y
+0% [Working]            Get:1 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 libpcre3 amd64 2:8.41-4+ubuntu16.04.1+deb.sury.org+1 [235 kB]
+0% [1 libpcre3 0 B/235 kB 0%]1% [1 libpcre3 41.3 kB/235 kB 18%]                                  3% [1 libpcre3 191 kB/235 kB 81%]                                 6% [Working]            Get:2 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 libssl1.1 amd64 1.1.0h-2.0+ubuntu16.04.1+deb.sury.org+1 [1,341 kB]
+6% [2 libssl1.1 0 B/1,341 kB 0%]8% [2 libssl1.1 156 kB/1,341 kB 12%]12% [2 libssl1.1 378 kB/1,341 kB 28%]13% [2 libssl1.1 481 kB/1,341 kB 36%]16% [2 libssl1.1 652 kB/1,341 kB 49%]17% [2 libssl1.1 746 kB/1,341 kB 56%]19% [2 libssl1.1 845 kB/1,341 kB 63%]21% [2 libssl1.1 1,013 kB/1,341 kB 75%]22% [2 libssl1.1 1,054 kB/1,341 kB 79%]22% [2 libssl1.1 1,054 kB/1,341 kB 79%]                            204 kB/s 19s22% [2 libssl1.1 1,054 kB/1,341 kB 79%]                            204 kB/s 19s22% [2 libssl1.1 1,054 kB/1,341 kB 79%]                            204 kB/s 19s25% [2 libssl1.1 1,240 kB/1,341 kB 92%]                            204 kB/s 18s25% [2 libssl1.1 1,245 kB/1,341 kB 93%]                            204 kB/s 18s25% [2 libssl1.1 1,250 kB/1,341 kB 93%]                            204 kB/s 18s25% [2 libssl1.1 1,256 kB/1,341 kB 94%]                            204 kB/s 18s25% [2 libssl1.1 1,275 kB/1,341 kB 95%]                            204 kB/s 18s28% [Working]                                                      204 kB/s 18s                                                                               Get:3 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.1-common amd64 7.1.18-1+ubuntu16.04.1+deb.sury.org+1 [886 kB]
+28% [3 php7.1-common 0 B/886 kB 0%]                                204 kB/s 18s30% [3 php7.1-common 101 kB/886 kB 11%]                            204 kB/s 17s32% [3 php7.1-common 269 kB/886 kB 30%]                            204 kB/s 16s34% [3 php7.1-common 403 kB/886 kB 46%]                            204 kB/s 16s36% [3 php7.1-common 535 kB/886 kB 60%]                            135 kB/s 23s38% [3 php7.1-common 659 kB/886 kB 74%]                            135 kB/s 22s41% [3 php7.1-common 828 kB/886 kB 93%]                            135 kB/s 21s44% [Working]                                                      135 kB/s 20s                                                                               Get:4 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.1-json amd64 7.1.18-1+ubuntu16.04.1+deb.sury.org+1 [17.2 kB]
+44% [4 php7.1-json 0 B/17.2 kB 0%]                                 135 kB/s 20s46% [Working]                                                      135 kB/s 20s                                                                               Get:5 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.1-opcache amd64 7.1.18-1+ubuntu16.04.1+deb.sury.org+1 [143 kB]
+46% [5 php7.1-opcache 0 B/143 kB 0%]                               135 kB/s 20s51% [Working]                                                      135 kB/s 19s                                                                               Get:6 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.1-readline amd64 7.1.18-1+ubuntu16.04.1+deb.sury.org+1 [12.8 kB]
+51% [6 php7.1-readline 0 B/12.8 kB 0%]                             135 kB/s 19s53% [Working]                                                      135 kB/s 19s                                                                               Get:7 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.1-cli amd64 7.1.18-1+ubuntu16.04.1+deb.sury.org+1 [1,323 kB]
+53% [7 php7.1-cli 0 B/1,323 kB 0%]                                 135 kB/s 19s55% [7 php7.1-cli 117 kB/1,323 kB 9%]                              135 kB/s 18s58% [7 php7.1-cli 296 kB/1,323 kB 22%]                             135 kB/s 17s59% [7 php7.1-cli 373 kB/1,323 kB 28%]                             135 kB/s 16s59% [7 php7.1-cli 387 kB/1,323 kB 29%]                             135 kB/s 16s61% [7 php7.1-cli 503 kB/1,323 kB 38%]                             135 kB/s 15s62% [7 php7.1-cli 586 kB/1,323 kB 44%]                             135 kB/s 15s64% [7 php7.1-cli 736 kB/1,323 kB 56%]                              198 kB/s 9s67% [7 php7.1-cli 881 kB/1,323 kB 67%]                              198 kB/s 8s69% [7 php7.1-cli 1,068 kB/1,323 kB 81%]                            198 kB/s 7s72% [7 php7.1-cli 1,270 kB/1,323 kB 96%]                            198 kB/s 6s76% [Working]                                                       198 kB/s 6s76% [Waiting for headers]                                           198 kB/s 6s                                                                               Get:8 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 libapache2-mod-php7.1 amd64 7.1.18-1+ubuntu16.04.1+deb.sury.org+1 [1,266 kB]
+76% [8 libapache2-mod-php7.1 0 B/1,266 kB 0%]                       198 kB/s 6s76% [8 libapache2-mod-php7.1 10.1 kB/1,266 kB 1%]                   198 kB/s 6s77% [8 libapache2-mod-php7.1 79.0 kB/1,266 kB 6%]                   198 kB/s 6s78% [8 libapache2-mod-php7.1 132 kB/1,266 kB 10%]                   198 kB/s 6s78% [8 libapache2-mod-php7.1 186 kB/1,266 kB 15%]                   198 kB/s 5s79% [8 libapache2-mod-php7.1 229 kB/1,266 kB 18%]                   198 kB/s 5s80% [8 libapache2-mod-php7.1 275 kB/1,266 kB 22%]                   198 kB/s 5s80% [8 libapache2-mod-php7.1 329 kB/1,266 kB 26%]                   149 kB/s 6s81% [8 libapache2-mod-php7.1 395 kB/1,266 kB 31%]                   149 kB/s 6s82% [8 libapache2-mod-php7.1 461 kB/1,266 kB 36%]                   149 kB/s 5s83% [8 libapache2-mod-php7.1 515 kB/1,266 kB 41%]                   149 kB/s 5s85% [8 libapache2-mod-php7.1 617 kB/1,266 kB 49%]                   149 kB/s 4s86% [8 libapache2-mod-php7.1 686 kB/1,266 kB 54%]                   149 kB/s 4s87% [8 libapache2-mod-php7.1 775 kB/1,266 kB 61%]                   149 kB/s 3s89% [8 libapache2-mod-php7.1 876 kB/1,266 kB 69%]                   149 kB/s 2s90% [8 libapache2-mod-php7.1 972 kB/1,266 kB 77%]                   149 kB/s 2s92% [8 libapache2-mod-php7.1 1,058 kB/1,266 kB 84%]                 149 kB/s 1s94% [8 libapache2-mod-php7.1 1,198 kB/1,266 kB 95%]                 149 kB/s 0s97% [Working]                                                       149 kB/s 0s                                                                               Get:9 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.1 all 7.1.18-1+ubuntu16.04.1+deb.sury.org+1 [57.8 kB]
+97% [9 php7.1 0 B/57.8 kB 0%]                                       149 kB/s 0s98% [9 php7.1 53.0 kB/57.8 kB 92%]                                  162 kB/s 0s100% [Working]                                                      162 kB/s 0s                                                                               Fetched 5,282 kB in 31s (170 kB/s)
+Preconfiguring packages ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94066 files and directories currently installed.)
+Preparing to unpack .../libpcre3_2%3a8.41-4+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking libpcre3:amd64 (2:8.41-4+ubuntu16.04.1+deb.sury.org+1) over (2:8.38-3.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libpcre3:amd64 (2:8.41-4+ubuntu16.04.1+deb.sury.org+1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Selecting previously unselected package libssl1.1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94066 files and directories currently installed.)
+Preparing to unpack .../libssl1.1_1.1.0h-2.0+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking libssl1.1:amd64 (1.1.0h-2.0+ubuntu16.04.1+deb.sury.org+1) ...
+Selecting previously unselected package php7.1-common.
+Preparing to unpack .../php7.1-common_7.1.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.1-common (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Selecting previously unselected package php7.1-json.
+Preparing to unpack .../php7.1-json_7.1.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.1-json (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Selecting previously unselected package php7.1-opcache.
+Preparing to unpack .../php7.1-opcache_7.1.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.1-opcache (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Selecting previously unselected package php7.1-readline.
+Preparing to unpack .../php7.1-readline_7.1.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.1-readline (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Selecting previously unselected package php7.1-cli.
+Preparing to unpack .../php7.1-cli_7.1.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.1-cli (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Selecting previously unselected package libapache2-mod-php7.1.
+Preparing to unpack .../libapache2-mod-php7.1_7.1.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking libapache2-mod-php7.1 (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Selecting previously unselected package php7.1.
+Preparing to unpack .../php7.1_7.1.18-1+ubuntu16.04.1+deb.sury.org+1_all.deb ...
+Unpacking php7.1 (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libssl1.1:amd64 (1.1.0h-2.0+ubuntu16.04.1+deb.sury.org+1) ...
+Setting up php7.1-common (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.1/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/tokenizer.ini with new version
+Setting up php7.1-json (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.1/mods-available/json.ini with new version
+Setting up php7.1-opcache (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.1/mods-available/opcache.ini with new version
+Setting up php7.1-readline (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.1/mods-available/readline.ini with new version
+Setting up php7.1-cli (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+update-alternatives: using /usr/bin/php7.1 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar7.1 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar7.1 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/7.1/cli/php.ini with new version
+Setting up libapache2-mod-php7.1 (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.1/apache2/php.ini with new version
+libapache2-mod-php7.1: php7.0 module already enabled, not enabling PHP 7.1
+Setting up php7.1 (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo apt-get install php7.1[8Pupdateinstall php7.1dd-apt-repository ppa:ondrej/php[17Pcomposer installll[Kcd NTTPC-VOIP/ll[Ksudo composer install
+[30;43mDo not run Composer as root/super user! See https://getcomposer.org/root for details[39;49m
+[32mLoading composer repositories with package information[39m
+[32mInstalling dependencies (including require-dev) from lock file[39m
+[37;41mYour requirements could not be resolved to an installable set of packages.[39;49m
+
+  Problem 1
+    - Installation request for erusev/parsedown 1.7.1 -> satisfiable by erusev/parsedown[1.7.1].
+    - erusev/parsedown 1.7.1 requires ext-mbstring * -> the requested PHP extension mbstring is missing from your system.
+  Problem 2
+    - Installation request for laravel/framework v5.5.40 -> satisfiable by laravel/framework[v5.5.40].
+    - laravel/framework v5.5.40 requires ext-mbstring * -> the requested PHP extension mbstring is missing from your system.
+  Problem 3
+    - Installation request for phar-io/manifest 1.0.1 -> satisfiable by phar-io/manifest[1.0.1].
+    - phar-io/manifest 1.0.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+  Problem 4
+    - Installation request for phpunit/php-code-coverage 5.3.2 -> satisfiable by phpunit/php-code-coverage[5.3.2].
+    - phpunit/php-code-coverage 5.3.2 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+  Problem 5
+    - Installation request for phpunit/phpunit 6.5.8 -> satisfiable by phpunit/phpunit[6.5.8].
+    - phpunit/phpunit 6.5.8 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+  Problem 6
+    - Installation request for squizlabs/php_codesniffer 3.2.3 -> satisfiable by squizlabs/php_codesniffer[3.2.3].
+    - squizlabs/php_codesniffer 3.2.3 requires ext-simplexml * -> the requested PHP extension simplexml is missing from your system.
+  Problem 7
+    - Installation request for theseer/tokenizer 1.1.0 -> satisfiable by theseer/tokenizer[1.1.0].
+    - theseer/tokenizer 1.1.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+  Problem 8
+    - laravel/framework v5.5.40 requires ext-mbstring * -> the requested PHP extension mbstring is missing from your system.
+    - laravel/tinker v1.0.7 requires illuminate/console ~5.1 -> satisfiable by laravel/framework[v5.5.40].
+    - Installation request for laravel/tinker v1.0.7 -> satisfiable by laravel/tinker[v1.0.7].
+
+  To enable extensions, verify that they are enabled in your .ini files:
+    - /etc/php/7.1/cli/php.ini
+    - /etc/php/7.1/cli/conf.d/10-opcache.ini
+    - /etc/php/7.1/cli/conf.d/10-pdo.ini
+    - /etc/php/7.1/cli/conf.d/20-calendar.ini
+    - /etc/php/7.1/cli/conf.d/20-ctype.ini
+    - /etc/php/7.1/cli/conf.d/20-exif.ini
+    - /etc/php/7.1/cli/conf.d/20-fileinfo.ini
+    - /etc/php/7.1/cli/conf.d/20-ftp.ini
+    - /etc/php/7.1/cli/conf.d/20-gettext.ini
+    - /etc/php/7.1/cli/conf.d/20-iconv.ini
+    - /etc/php/7.1/cli/conf.d/20-json.ini
+    - /etc/php/7.1/cli/conf.d/20-phar.ini
+    - /etc/php/7.1/cli/conf.d/20-posix.ini
+    - /etc/php/7.1/cli/conf.d/20-readline.ini
+    - /etc/php/7.1/cli/conf.d/20-shmop.ini
+    - /etc/php/7.1/cli/conf.d/20-sockets.ini
+    - /etc/php/7.1/cli/conf.d/20-sysvmsg.ini
+    - /etc/php/7.1/cli/conf.d/20-sysvsem.ini
+    - /etc/php/7.1/cli/conf.d/20-sysvshm.ini
+    - /etc/php/7.1/cli/conf.d/20-tokenizer.ini
+  You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# [K]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo apt-get install php5 libapache2-mod -php5 php5-mcrypt[1P-mcrypt7-mcrypt[C[1P php7-mcrypt[C[C[C[C7 php7-mcrypt[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C libapache2-mod-p[1P[A]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5 libapache2-mod-[1@p[A]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C libapache2-mod-p[1P[A]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C libapache2-mod-ph[1P[A]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C libapache2-mod-php[1P[A]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C libapache2-mod-php7[1P php7-mcrypt[A]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clibapache2-mod-php7 [1Pphp7-mcrypt[A]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package libapache2-mod-php7
+E: Unable to locate package php7-mcrypt
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# [K]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo apt-get install libapache2-mod-php7 php7-mcrypt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Pcomposer installapt-get install libapache2-mod-php7 php7-mcrypt. php7-mcrypt1 php7-mcrypt[C[C[C[C[C.-mcrypt1-mcrypt
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+libapache2-mod-php7.1 is already the newest version (7.1.18-1+ubuntu16.04.1+deb.sury.org+1).
+libapache2-mod-php7.1 set to manually installed.
+The following NEW packages will be installed:
+  php7.1-mcrypt
+0 upgraded, 1 newly installed, 0 to remove and 149 not upgraded.
+Need to get 14.5 kB of archives.
+After this operation, 72.7 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.1-mcrypt amd64 7.1.18-1+ubuntu16.04.1+deb.sury.org+1 [14.5 kB]
+0% [1 php7.1-mcrypt 0 B/14.5 kB 0%]56% [1 php7.1-mcrypt 10.1 kB/14.5 kB 70%]                                         100% [Working]              Fetched 14.5 kB in 0s (16.3 kB/s)
+Selecting previously unselected package php7.1-mcrypt.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94197 files and directories currently installed.)
+Preparing to unpack .../php7.1-mcrypt_7.1.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.1-mcrypt (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Processing triggers for libapache2-mod-php7.1 (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Setting up php7.1-mcrypt (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.1/mods-available/mcrypt.ini with new version
+Processing triggers for libapache2-mod-php7.1 (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo apt-get install libapache2-mod-php7.1 php7.1-mcrypt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kphp7.1-mysql
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  php7.1-mysql
+0 upgraded, 1 newly installed, 0 to remove and 149 not upgraded.
+Need to get 121 kB of archives.
+After this operation, 465 kB of additional disk space will be used.
+0% [Working]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]                                    Get:1 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.1-mysql amd64 7.1.18-1+ubuntu16.04.1+deb.sury.org+1 [121 kB]
+                                    0% [1 php7.1-mysql 0 B/121 kB 0%]50% [1 php7.1-mysql 75.1 kB/121 kB 62%]100% [Working]                                                                                                                                             19.7 kB/s 0s                                                                                                                                                                       Fetched 121 kB in 6s (19.7 kB/s)
+Selecting previously unselected package php7.1-mysql.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94206 files and directories currently installed.)
+Preparing to unpack .../php7.1-mysql_7.1.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.1-mysql (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Processing triggers for libapache2-mod-php7.1 (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Setting up php7.1-mysql (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.1/mods-available/mysqlnd.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/mysqli.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/pdo_mysql.ini with new version
+Processing triggers for libapache2-mod-php7.1 (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo apt-get install php7.1-mysql[H[2J]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo apt-get install php7.1-mysql^C
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo apt-get install php7.0-mbstring[1P-mbstring1-mbstring[C[C[C[C[C[C[C[C[C
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  php7.1-mbstring
+0 upgraded, 1 newly installed, 0 to remove and 149 not upgraded.
+Need to get 465 kB of archives.
+After this operation, 1,501 kB of additional disk space will be used.
+0% [Working]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]0% [Connecting to ppa.launchpad.net]                                    Get:1 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.1-mbstring amd64 7.1.18-1+ubuntu16.04.1+deb.sury.org+1 [465 kB]
+0% [1 php7.1-mbstring 0 B/465 kB 0%]11% [1 php7.1-mbstring 66.0 kB/465 kB 14%]22% [1 php7.1-mbstring 127 kB/465 kB 27%]                                                                                                                 20.2 kB/s 16s36% [1 php7.1-mbstring 208 kB/465 kB 45%]                                                                                                                 20.2 kB/s 12s46% [1 php7.1-mbstring 269 kB/465 kB 58%]                                                                                                                  20.2 kB/s 9s55% [1 php7.1-mbstring 318 kB/465 kB 68%]                                                                                                                  20.2 kB/s 7s70% [1 php7.1-mbstring 409 kB/465 kB 88%]                                                                                                                  20.2 kB/s 2s100% [Working]                                                                                                                                             20.2 kB/s 0s                                                                                                                                                                       Fetched 465 kB in 8s (53.3 kB/s)
+Selecting previously unselected package php7.1-mbstring.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94219 files and directories currently installed.)
+Preparing to unpack .../php7.1-mbstring_7.1.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.1-mbstring (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Processing triggers for libapache2-mod-php7.1 (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Setting up php7.1-mbstring (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.1/mods-available/mbstring.ini with new version
+Processing triggers for libapache2-mod-php7.1 (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo apt-get install php7.1-mbstring[3Pysqllibapache2-mod-php7.1 php7.1-mcrypt[4P php7-mcrypt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Pcomposer install
+[30;43mDo not run Composer as root/super user! See https://getcomposer.org/root for details[39;49m
+[32mLoading composer repositories with package information[39m
+[32mInstalling dependencies (including require-dev) from lock file[39m
+[37;41mYour requirements could not be resolved to an installable set of packages.[39;49m
+
+  Problem 1
+    - Installation request for phar-io/manifest 1.0.1 -> satisfiable by phar-io/manifest[1.0.1].
+    - phar-io/manifest 1.0.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+  Problem 2
+    - Installation request for phpunit/php-code-coverage 5.3.2 -> satisfiable by phpunit/php-code-coverage[5.3.2].
+    - phpunit/php-code-coverage 5.3.2 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+  Problem 3
+    - Installation request for phpunit/phpunit 6.5.8 -> satisfiable by phpunit/phpunit[6.5.8].
+    - phpunit/phpunit 6.5.8 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+  Problem 4
+    - Installation request for squizlabs/php_codesniffer 3.2.3 -> satisfiable by squizlabs/php_codesniffer[3.2.3].
+    - squizlabs/php_codesniffer 3.2.3 requires ext-simplexml * -> the requested PHP extension simplexml is missing from your system.
+  Problem 5
+    - Installation request for theseer/tokenizer 1.1.0 -> satisfiable by theseer/tokenizer[1.1.0].
+    - theseer/tokenizer 1.1.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+
+  To enable extensions, verify that they are enabled in your .ini files:
+    - /etc/php/7.1/cli/php.ini
+    - /etc/php/7.1/cli/conf.d/10-mysqlnd.ini
+    - /etc/php/7.1/cli/conf.d/10-opcache.ini
+    - /etc/php/7.1/cli/conf.d/10-pdo.ini
+    - /etc/php/7.1/cli/conf.d/20-calendar.ini
+    - /etc/php/7.1/cli/conf.d/20-ctype.ini
+    - /etc/php/7.1/cli/conf.d/20-exif.ini
+    - /etc/php/7.1/cli/conf.d/20-fileinfo.ini
+    - /etc/php/7.1/cli/conf.d/20-ftp.ini
+    - /etc/php/7.1/cli/conf.d/20-gettext.ini
+    - /etc/php/7.1/cli/conf.d/20-iconv.ini
+    - /etc/php/7.1/cli/conf.d/20-json.ini
+    - /etc/php/7.1/cli/conf.d/20-mbstring.ini
+    - /etc/php/7.1/cli/conf.d/20-mcrypt.ini
+    - /etc/php/7.1/cli/conf.d/20-mysqli.ini
+    - /etc/php/7.1/cli/conf.d/20-pdo_mysql.ini
+    - /etc/php/7.1/cli/conf.d/20-phar.ini
+    - /etc/php/7.1/cli/conf.d/20-posix.ini
+    - /etc/php/7.1/cli/conf.d/20-readline.ini
+    - /etc/php/7.1/cli/conf.d/20-shmop.ini
+    - /etc/php/7.1/cli/conf.d/20-sockets.ini
+    - /etc/php/7.1/cli/conf.d/20-sysvmsg.ini
+    - /etc/php/7.1/cli/conf.d/20-sysvsem.ini
+    - /etc/php/7.1/cli/conf.d/20-sysvshm.ini
+    - /etc/php/7.1/cli/conf.d/20-tokenizer.ini
+  You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# [H[2J]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo apt-get install php7.1-xml
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libxslt1.1
+The following NEW packages will be installed:
+  libxslt1.1 php7.1-xml
+0 upgraded, 2 newly installed, 0 to remove and 149 not upgraded.
+Need to get 259 kB of archives.
+After this operation, 957 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+0% [Working]            Get:1 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.1-xml amd64 7.1.18-1+ubuntu16.04.1+deb.sury.org+1 [113 kB]
+0% [Waiting for headers] [1 php7.1-xml 1,044 B/113 kB 1%]                                                         Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxslt1.1 amd64 1.1.28-2.1ubuntu0.1 [145 kB]
+0% [2 libxslt1.1 0 B/145 kB 0%] [1 php7.1-xml 1,044 B/113 kB 1%]55% [2 libxslt1.1 118 kB/145 kB 81%] [1 php7.1-xml 60.8 kB/113 kB 54%]                                                                      78% [1 php7.1-xml 75.1 kB/113 kB 66%]                                     100% [Working]              Fetched 259 kB in 1s (212 kB/s)
+Selecting previously unselected package libxslt1.1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94228 files and directories currently installed.)
+Preparing to unpack .../libxslt1.1_1.1.28-2.1ubuntu0.1_amd64.deb ...
+Unpacking libxslt1.1:amd64 (1.1.28-2.1ubuntu0.1) ...
+Selecting previously unselected package php7.1-xml.
+Preparing to unpack .../php7.1-xml_7.1.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking php7.1-xml (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for libapache2-mod-php7.1 (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+Setting up libxslt1.1:amd64 (1.1.28-2.1ubuntu0.1) ...
+Setting up php7.1-xml (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+
+Creating config file /etc/php/7.1/mods-available/dom.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/simplexml.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/wddx.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/xml.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/xmlreader.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/xmlwriter.ini with new version
+
+Creating config file /etc/php/7.1/mods-available/xsl.ini with new version
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for libapache2-mod-php7.1 (7.1.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# sudo apt-get install php7.1-xml[10Pcomposer install
+[30;43mDo not run Composer as root/super user! See https://getcomposer.org/root for details[39;49m
+[32mLoading composer repositories with package information[39m
+[32mInstalling dependencies (including require-dev) from lock file[39m
+[32mPackage operations: 89 installs, 0 updates, 0 removals[39m
+    [30;43mFailed to download doctrine/lexer from dist: The zip extension and unzip command are both missing, skipping.
+Your command-line PHP is using multiple ini files. Run `php --ini` to show them.[39;49m
+    [30;43mNow trying to download from source[39;49m
+  - Installing [32mdoctrine/lexer[39m ([33mv1.0.1[39m): Cloning 83893c552f from cache
+    [30;43mFailed to download doctrine/annotations from dist: The zip extension and unzip command are both missing, skipping.
+Your command-line PHP is using multiple ini files. Run `php --ini` to show them.[39;49m
+    [30;43mNow trying to download from source[39;49m
+  - Installing [32mdoctrine/annotations[39m ([33mv1.6.0[39m): ^C
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# apt-get install zip
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  unzip
+The following NEW packages will be installed:
+  unzip zip
+0 upgraded, 2 newly installed, 0 to remove and 149 not upgraded.
+Need to get 317 kB of archives.
+After this operation, 1,117 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 unzip amd64 6.0-20ubuntu1 [158 kB]
+0% [1 unzip 0 B/158 kB 0%]33% [1 unzip 131 kB/158 kB 83%]                               50% [Working]             Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 zip amd64 3.0-11 [158 kB]
+50% [2 zip 0 B/158 kB 0%]                         100% [Working]              Fetched 317 kB in 1s (212 kB/s)
+Selecting previously unselected package unzip.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94264 files and directories currently installed.)
+Preparing to unpack .../unzip_6.0-20ubuntu1_amd64.deb ...
+Unpacking unzip (6.0-20ubuntu1) ...
+Selecting previously unselected package zip.
+Preparing to unpack .../archives/zip_3.0-11_amd64.deb ...
+Unpacking zip (3.0-11) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up unzip (6.0-20ubuntu1) ...
+Setting up zip (3.0-11) ...
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# apt-get install zipsudo composer install
+[30;43mDo not run Composer as root/super user! See https://getcomposer.org/root for details[39;49m
+[32mLoading composer repositories with package information[39m
+[32mInstalling dependencies (including require-dev) from lock file[39m
+[32mPackage operations: 88 installs, 0 updates, 0 removals[39m
+  - Installing [32mdoctrine/annotations[39m ([33mv1.6.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m15%[39m)Downloading ([33m30%[39m)Downloading ([33m45%[39m)Downloading ([33m60%[39m)Downloading ([33m70%[39m)Downloading ([33m85%[39m)Downloading ([33m100%[39m)
+  - Installing [32mdoctrine/cache[39m ([33mv1.7.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m100%[39m)
+  - Installing [32mdoctrine/collections[39m ([33mv1.5.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m70%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mdoctrine/inflector[39m ([33mv1.3.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m35%[39m)Downloading ([33m70%[39m)Downloading ([33m100%[39m)
+  - Installing [32mdoctrine/common[39m ([33mv2.8.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m80%[39m)Downloading ([33m100%[39m)
+  - Installing [32mdoctrine/dbal[39m ([33mv2.7.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32merusev/parsedown[39m ([33m1.7.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m25%[39m)Downloading ([33m100%[39m)
+  - Installing [32mvlucas/phpdotenv[39m ([33mv2.4.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m80%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/css-selector[39m ([33mv4.1.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mtijsverkoyen/css-to-inline-styles[39m ([33m2.2.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m40%[39m)Downloading ([33m80%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/polyfill-mbstring[39m ([33mv1.8.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m20%[39m)Downloading ([33m40%[39m)Downloading ([33m60%[39m)Downloading ([33m80%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/var-dumper[39m ([33mv3.4.11[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m10%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m45%[39m)Downloading ([33m55%[39m)Downloading ([33m65%[39m)Downloading ([33m75%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/routing[39m ([33mv3.4.11[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/process[39m ([33mv3.4.11[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m50%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m90%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/polyfill-ctype[39m ([33mv1.8.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m35%[39m)Downloading ([33m100%[39m)
+  - Installing [32mparagonie/random_compat[39m ([33mv2.0.12[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m35%[39m)Downloading ([33m70%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/polyfill-php70[39m ([33mv1.8.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m85%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/http-foundation[39m ([33mv3.4.11[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/event-dispatcher[39m ([33mv4.1.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m100%[39m)
+  - Installing [32mpsr/log[39m ([33m1.0.2[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m15%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/debug[39m ([33mv3.4.11[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/http-kernel[39m ([33mv3.4.11[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/finder[39m ([33mv3.4.11[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/console[39m ([33mv3.4.11[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32megulias/email-validator[39m ([33m2.1.4[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m25%[39m)Downloading ([33m55%[39m)Downloading ([33m75%[39m)Downloading ([33m90%[39m)Downloading ([33m100%[39m)
+  - Installing [32mswiftmailer/swiftmailer[39m ([33mv6.0.2[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mramsey/uuid[39m ([33m3.7.3[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m10%[39m)Downloading ([33m20%[39m)Downloading ([33m30%[39m)Downloading ([33m40%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m65%[39m)Downloading ([33m75%[39m)Downloading ([33m90%[39m)Downloading ([33m100%[39m)
+  - Installing [32mpsr/simple-cache[39m ([33m1.0.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m30%[39m)Downloading ([33m60%[39m)Downloading ([33m90%[39m)Downloading ([33m100%[39m)
+  - Installing [32mpsr/container[39m ([33m1.0.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m75%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/translation[39m ([33mv4.1.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mnesbot/carbon[39m ([33m1.29.2[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m100%[39m)
+  - Installing [32mmtdowling/cron-expression[39m ([33mv1.2.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m100%[39m)
+  - Installing [32mmonolog/monolog[39m ([33m1.23.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mleague/flysystem[39m ([33m1.0.45[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m10%[39m)Downloading ([33m35%[39m)Downloading ([33m80%[39m)Downloading ([33m90%[39m)Downloading ([33m100%[39m)
+  - Installing [32mlaravel/framework[39m ([33mv5.5.40[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mfideloper/proxy[39m ([33m3.3.4[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m25%[39m)Downloading ([33m50%[39m)Downloading ([33m75%[39m)Downloading ([33m100%[39m)
+  - Installing [32mguzzlehttp/promises[39m ([33mv1.3.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m30%[39m)Downloading ([33m40%[39m)Downloading ([33m70%[39m)Downloading ([33m80%[39m)Downloading ([33m100%[39m)
+  - Installing [32mpsr/http-message[39m ([33m1.0.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mguzzlehttp/psr7[39m ([33m1.4.2[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mjakub-onderka/php-console-color[39m ([33m0.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m50%[39m)Downloading ([33m100%[39m)
+  - Installing [32mzendframework/zend-diactoros[39m ([33m1.7.2[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m20%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32msymfony/psr-http-message-bridge[39m ([33mv1.0.2[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m35%[39m)Downloading ([33m75%[39m)Downloading ([33m100%[39m)
+  - Installing [32mphpseclib/phpseclib[39m ([33m2.0.11[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mleague/event[39m ([33m2.1.2[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m60%[39m)Downloading ([33m80%[39m)Downloading ([33m100%[39m)
+  - Installing [32mlcobucci/jwt[39m ([33m3.2.2[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m15%[39m)Downloading ([33m25%[39m)Downloading ([33m35%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mdefuse/php-encryption[39m ([33mv2.2.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mleague/oauth2-server[39m ([33m6.1.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m40%[39m)Downloading ([33m55%[39m)Downloading ([33m65%[39m)Downloading ([33m75%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mguzzlehttp/guzzle[39m ([33m6.3.3[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m15%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mfirebase/php-jwt[39m ([33mv5.0.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m40%[39m)Downloading ([33m100%[39m)
+  - Installing [32mlaravel/passport[39m ([33mv4.0.3[39m): Downloading ([33mconnecting...[39m)Downloading ([33m100%[39m)         
+  - Installing [32mnikic/php-parser[39m ([33mv4.0.2[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mjakub-onderka/php-console-highlighter[39m ([33mv0.3.2[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m65%[39m)Downloading ([33m100%[39m)
+  - Installing [32mdnoegel/php-xdg-base-dir[39m ([33m0.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m100%[39m)
+  - Installing [32mpsy/psysh[39m ([33mv0.9.5[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mlaravel/tinker[39m ([33mv1.0.7[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m100%[39m)
+  - Installing [32mfilp/whoops[39m ([33m2.2.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m10%[39m)Downloading ([33m20%[39m)Downloading ([33m35%[39m)Downloading ([33m45%[39m)Downloading ([33m60%[39m)Downloading ([33m70%[39m)Downloading ([33m80%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mfzaninotto/faker[39m ([33mv1.7.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mhamcrest/hamcrest-php[39m ([33mv1.2.2[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mmockery/mockery[39m ([33m0.9.9[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mwebmozart/assert[39m ([33m1.3.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m65%[39m)Downloading ([33m100%[39m)
+  - Installing [32mphpdocumentor/reflection-common[39m ([33m1.0.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m100%[39m)
+  - Installing [32mphpdocumentor/type-resolver[39m ([33m0.4.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m100%[39m)
+  - Installing [32mphpdocumentor/reflection-docblock[39m ([33m4.3.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m100%[39m)
+  - Installing [32mphpunit/php-token-stream[39m ([33m2.0.2[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m100%[39m)
+  - Installing [32msebastian/version[39m ([33m2.0.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m100%[39m)
+  - Installing [32msebastian/resource-operations[39m ([33m1.0.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m65%[39m)Downloading ([33m100%[39m)
+  - Installing [32msebastian/recursion-context[39m ([33m3.0.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m35%[39m)Downloading ([33m70%[39m)Downloading ([33m100%[39m)
+  - Installing [32msebastian/object-reflector[39m ([33m1.1.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m65%[39m)Downloading ([33m100%[39m)
+  - Installing [32msebastian/object-enumerator[39m ([33m3.0.3[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32msebastian/global-state[39m ([33m2.0.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m20%[39m)Downloading ([33m75%[39m)Downloading ([33m100%[39m)
+  - Installing [32msebastian/exporter[39m ([33m3.1.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m100%[39m)
+  - Installing [32msebastian/environment[39m ([33m3.1.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m45%[39m)Downloading ([33m100%[39m)
+  - Installing [32msebastian/diff[39m ([33m2.0.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m25%[39m)Downloading ([33m50%[39m)Downloading ([33m75%[39m)Downloading ([33m100%[39m)
+  - Installing [32msebastian/comparator[39m ([33m2.1.3[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m10%[39m)Downloading ([33m20%[39m)Downloading ([33m30%[39m)Downloading ([33m40%[39m)Downloading ([33m85%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mphpunit/php-text-template[39m ([33m1.2.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m35%[39m)Downloading ([33m100%[39m)
+  - Installing [32mdoctrine/instantiator[39m ([33m1.1.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m25%[39m)Downloading ([33m50%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mphpunit/phpunit-mock-objects[39m ([33m5.0.7[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mphpunit/php-timer[39m ([33m1.0.9[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m45%[39m)Downloading ([33m90%[39m)Downloading ([33m100%[39m)
+  - Installing [32mphpunit/php-file-iterator[39m ([33m1.4.5[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m100%[39m)
+  - Installing [32mtheseer/tokenizer[39m ([33m1.1.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m15%[39m)Downloading ([33m75%[39m)Downloading ([33m90%[39m)Downloading ([33m100%[39m)
+  - Installing [32msebastian/code-unit-reverse-lookup[39m ([33m1.0.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m55%[39m)Downloading ([33m100%[39m)
+  - Installing [32mphpunit/php-code-coverage[39m ([33m5.3.2[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mphpspec/prophecy[39m ([33m1.7.6[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m10%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m45%[39m)Downloading ([33m55%[39m)Downloading ([33m65%[39m)Downloading ([33m75%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mphar-io/version[39m ([33m1.0.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m100%[39m)
+  - Installing [32mphar-io/manifest[39m ([33m1.0.1[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m25%[39m)Downloading ([33m35%[39m)Downloading ([33m45%[39m)Downloading ([33m60%[39m)Downloading ([33m70%[39m)Downloading ([33m80%[39m)Downloading ([33m90%[39m)Downloading ([33m100%[39m)
+  - Installing [32mmyclabs/deep-copy[39m ([33m1.8.0[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m15%[39m)Downloading ([33m30%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32mphpunit/phpunit[39m ([33m6.5.8[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+  - Installing [32msquizlabs/php_codesniffer[39m ([33m3.2.3[39m): Downloading ([33mconnecting...[39m)Downloading ([33m0%[39m)           Downloading ([33m5%[39m)Downloading ([33m10%[39m)Downloading ([33m15%[39m)Downloading ([33m20%[39m)Downloading ([33m25%[39m)Downloading ([33m30%[39m)Downloading ([33m35%[39m)Downloading ([33m40%[39m)Downloading ([33m45%[39m)Downloading ([33m50%[39m)Downloading ([33m55%[39m)Downloading ([33m60%[39m)Downloading ([33m65%[39m)Downloading ([33m70%[39m)Downloading ([33m75%[39m)Downloading ([33m80%[39m)Downloading ([33m85%[39m)Downloading ([33m90%[39m)Downloading ([33m95%[39m)Downloading ([33m100%[39m)
+doctrine/cache suggests installing alcaeus/mongo-php-adapter (Required to use legacy MongoDB driver)
+symfony/var-dumper suggests installing ext-intl (To show region name in time zone dump)
+symfony/var-dumper suggests installing ext-symfony_debug ()
+symfony/routing suggests installing symfony/config (For using the all-in-one router or any loader)
+symfony/routing suggests installing symfony/dependency-injection (For loading routes from a service)
+symfony/routing suggests installing symfony/expression-language (For using expression matching)
+symfony/routing suggests installing symfony/yaml (For using the YAML loader)
+paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+symfony/event-dispatcher suggests installing symfony/dependency-injection ()
+symfony/http-kernel suggests installing symfony/browser-kit ()
+symfony/http-kernel suggests installing symfony/config ()
+symfony/http-kernel suggests installing symfony/dependency-injection ()
+symfony/console suggests installing symfony/lock ()
+egulias/email-validator suggests installing ext-intl (PHP Internationalization Libraries are required to use the SpoofChecking validation)
+ramsey/uuid suggests installing ext-libsodium (Provides the PECL libsodium extension for use with the SodiumRandomGenerator)
+ramsey/uuid suggests installing ext-uuid (Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator)
+ramsey/uuid suggests installing ircmaxell/random-lib (Provides RandomLib for use with the RandomLibAdapter)
+ramsey/uuid suggests installing moontoast/math (Provides support for converting UUID to 128-bit integer (in string form).)
+ramsey/uuid suggests installing ramsey/uuid-console (A console application for generating UUIDs with ramsey/uuid)
+ramsey/uuid suggests installing ramsey/uuid-doctrine (Allows the use of Ramsey\Uuid\Uuid as Doctrine field type.)
+symfony/translation suggests installing symfony/config ()
+symfony/translation suggests installing symfony/yaml ()
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server via PHP Driver)
+monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+monolog/monolog suggests installing sentry/sentry (Allow sending log messages to a Sentry server)
+league/flysystem suggests installing league/flysystem-aws-s3-v2 (Allows you to use S3 storage with AWS SDK v2)
+league/flysystem suggests installing league/flysystem-aws-s3-v3 (Allows you to use S3 storage with AWS SDK v3)
+league/flysystem suggests installing league/flysystem-azure (Allows you to use Windows Azure Blob storage)
+league/flysystem suggests installing league/flysystem-cached-adapter (Flysystem adapter decorator for metadata caching)
+league/flysystem suggests installing league/flysystem-eventable-filesystem (Allows you to use EventableFilesystem)
+league/flysystem suggests installing league/flysystem-rackspace (Allows you to use Rackspace Cloud Files)
+league/flysystem suggests installing league/flysystem-sftp (Allows you to use SFTP server storage via phpseclib)
+league/flysystem suggests installing league/flysystem-webdav (Allows you to use WebDAV storage)
+league/flysystem suggests installing league/flysystem-ziparchive (Allows you to use ZipArchive adapter)
+league/flysystem suggests installing spatie/flysystem-dropbox (Allows you to use Dropbox storage)
+league/flysystem suggests installing srmklive/flysystem-dropbox-v2 (Allows you to use Dropbox storage for PHP 5 applications)
+laravel/framework suggests installing aws/aws-sdk-php (Required to use the SQS queue driver and SES mail driver (~3.0).)
+laravel/framework suggests installing league/flysystem-aws-s3-v3 (Required to use the Flysystem S3 driver (~1.0).)
+laravel/framework suggests installing league/flysystem-cached-adapter (Required to use Flysystem caching (~1.0).)
+laravel/framework suggests installing league/flysystem-rackspace (Required to use the Flysystem Rackspace driver (~1.0).)
+laravel/framework suggests installing nexmo/client (Required to use the Nexmo transport (~1.0).)
+laravel/framework suggests installing pda/pheanstalk (Required to use the beanstalk queue driver (~3.0).)
+laravel/framework suggests installing predis/predis (Required to use the redis cache and queue drivers (~1.0).)
+laravel/framework suggests installing pusher/pusher-php-server (Required to use the Pusher broadcast driver (~3.0).)
+laravel/framework suggests installing symfony/dom-crawler (Required to use most of the crawler integration testing tools (~3.3).)
+phpseclib/phpseclib suggests installing ext-gmp (Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.)
+phpseclib/phpseclib suggests installing ext-libsodium (SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.)
+lcobucci/jwt suggests installing mdanter/ecc (Required to use Elliptic Curves based algorithms.)
+psy/psysh suggests installing ext-pdo-sqlite (The doc command requires SQLite to work.)
+psy/psysh suggests installing hoa/console (A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit.)
+filp/whoops suggests installing whoops/soap (Formats errors as SOAP responses)
+sebastian/global-state suggests installing ext-uopz (*)
+phpunit/phpunit-mock-objects suggests installing ext-soap (*)
+phpunit/php-code-coverage suggests installing ext-xdebug (^2.5.5)
+phpunit/phpunit suggests installing ext-xdebug (*)
+phpunit/phpunit suggests installing phpunit/php-invoker (^1.1)
+[32mGenerating optimized autoload files[39m
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover
+Discovered Package: fideloper/proxy
+Discovered Package: laravel/passport
+Discovered Package: laravel/tinker
+Package manifest generated successfully.
+]0;root@em-voip-app: /usr/local/NTTPC-VOIProot@em-voip-app:/usr/local/NTTPC-VOIP# exit
+exit
+]0;kannan@em-voip-app: ~kannan@em-voip-app:~$ exit
+logout

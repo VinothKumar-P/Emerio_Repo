@@ -1,0 +1,13 @@
+Running script
+
+DATE='date +%Y-%m-%d_%H-%M-%S';
+JOB_HOME=/var/lib/jenkins/workspace/devops
+TARFILE=devops-`${DATE}`.tar.gz
+ARCHIVE_LOCATION=/usr/local/downloads/devops
+REMOTE_DEST=/usr/local/dev
+
+cd ${JOB_HOME}
+tar -zcvf ${ARCHIVE_LOCATION}/${TARFILE} * --exclude ${JOB_HOME}/.git/;
+scp -pr ${ARCHIVE_LOCATION}/${TARFILE} jenkins@192.168.4.211:${REMOTE_DEST};
+
+ssh jenkins@192.168.4.211 "/usr/local/scripts/devops_deployment.sh" ${TARFILE}

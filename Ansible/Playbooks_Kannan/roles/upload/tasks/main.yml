@@ -1,0 +1,5 @@
+---
+# tasks file for upload
+
+- include: deploy.yml
+- include: supervisorctl.yml

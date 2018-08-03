@@ -1,0 +1,9 @@
+---
+# tasks file for quartz
+#
+
+- include: deploy.yml
+
+- name: Restart {{ role }}
+  service: name={{ application }} state=restarted
+  when: active

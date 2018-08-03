@@ -1,0 +1,351 @@
+login as: vinoth
+vinoth@192.168.4.213's password:
+Welcome to Ubuntu 16.04.1 LTS (GNU/Linux 4.4.0-128-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+124 packages can be updated.
+2 updates are security updates.
+
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+Last login: Thu Jun 28 06:33:38 2018 from 192.168.4.35
+vinoth@em-voip-qa:~$
+vinoth@em-voip-qa:~$ sudo bash
+[sudo] password for vinoth:
+Sorry, try again.
+[sudo] password for vinoth:
+root@em-voip-qa:~# composer
+Do not run Composer as root/super user! See https://getcomposer.org/root for details
+   ______
+  / ____/___  ____ ___  ____  ____  ________  _____
+ / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /
+\____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
+                    /_/
+Composer version 1.6.5 2018-05-04 11:44:59
+
+Usage:
+  command [options] [arguments]
+
+Options:
+  -h, --help                     Display this help message
+  -q, --quiet                    Do not output any message
+  -V, --version                  Display this application version
+      --ansi                     Force ANSI output
+      --no-ansi                  Disable ANSI output
+  -n, --no-interaction           Do not ask any interactive question
+      --profile                  Display timing and memory usage information
+      --no-plugins               Whether to disable plugins.
+  -d, --working-dir=WORKING-DIR  If specified, use the given directory as working directory.
+  -v|vv|vvv, --verbose           Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+
+Available commands:
+  about                Shows the short information about Composer.
+  archive              Creates an archive of this composer package.
+  browse               Opens the package's repository URL or homepage in your browser.
+  check-platform-reqs  Check that platform requirements are satisfied.
+  clear-cache          Clears composer's internal package cache.
+  clearcache           Clears composer's internal package cache.
+  config               Sets config options.
+  create-project       Creates new project from a package into given directory.
+  depends              Shows which packages cause the given package to be installed.
+  diagnose             Diagnoses the system to identify common errors.
+  dump-autoload        Dumps the autoloader.
+  dumpautoload         Dumps the autoloader.
+  exec                 Executes a vendored binary/script.
+  global               Allows running commands in the global composer dir ($COMPOSER_HOME).
+  help                 Displays help for a command
+  home                 Opens the package's repository URL or homepage in your browser.
+  info                 Shows information about packages.
+  init                 Creates a basic composer.json file in current directory.
+  install              Installs the project dependencies from the composer.lock file if present, or falls back on the composer.json.
+  licenses             Shows information about licenses of dependencies.
+  list                 Lists commands
+  outdated             Shows a list of installed packages that have updates available, including their latest version.
+  prohibits            Shows which packages prevent the given package from being installed.
+  remove               Removes a package from the require or require-dev.
+  require              Adds required packages to your composer.json and installs them.
+  run-script           Runs the scripts defined in composer.json.
+  search               Searches for packages.
+  self-update          Updates composer.phar to the latest version.
+  selfupdate           Updates composer.phar to the latest version.
+  show                 Shows information about packages.
+  status               Shows a list of locally modified packages, for packages installed from source.
+  suggests             Shows package suggestions.
+  update               Upgrades your dependencies to the latest version according to composer.json, and updates the composer.lock file.
+  upgrade              Upgrades your dependencies to the latest version according to composer.json, and updates the composer.lock file.
+  validate             Validates a composer.json and composer.lock.
+  why                  Shows which packages cause the given package to be installed.
+  why-not              Shows which packages prevent the given package from being installed.
+root@em-voip-qa:~#
+root@em-voip-qa:~# composer
+Do not run Composer as root/super user! See https://getcomposer.org/root for det
+   ______
+  / ____/___  ____ ___  ____  ____  ________  _____
+ / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /
+\____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
+                    /_/
+Composer version 1.6.5 2018-05-04 11:44:59
+
+Usage:
+  command [options] [arguments]
+
+Options:
+  -h, --help                     Display this help message
+  -q, --quiet                    Do not output any message
+  -V, --version                  Display this application version
+      --ansi                     Force ANSI output
+      --no-ansi                  Disable ANSI output
+  -n, --no-interaction           Do not ask any interactive question
+      --profile                  Display timing and memory usage information
+      --no-plugins               Whether to disable plugins.
+  -d, --working-dir=WORKING-DIR  If specified, use the given directory as workin
+  -v|vv|vvv, --verbose           Increase the verbosity of messages: 1 for norma
+
+Available commands:
+  about                Shows the short information about Composer.
+  archive              Creates an archive of this composer package.
+  browse               Opens the package's repository URL or homepage in your br
+  check-platform-reqs  Check that platform requirements are satisfied.
+  clear-cache          Clears composer's internal package cache.
+  clearcache           Clears composer's internal package cache.
+  config               Sets config options.
+  create-project       Creates new project from a package into given directory.
+  depends              Shows which packages cause the given package to be instal
+  diagnose             Diagnoses the system to identify common errors.
+  dump-autoload        Dumps the autoloader.
+  dumpautoload         Dumps the autoloader.
+  exec                 Executes a vendored binary/script.
+  global               Allows running commands in the global composer dir ($COMP
+  help                 Displays help for a command
+  home                 Opens the package's repository URL or homepage in your br
+  info                 Shows information about packages.
+  init                 Creates a basic composer.json file in current directory.
+  install              Installs the project dependencies from the composer.lock
+  licenses             Shows information about licenses of dependencies.
+  list                 Lists commands
+  outdated             Shows a list of installed packages that have updates avai
+  prohibits            Shows which packages prevent the given package from being
+  remove               Removes a package from the require or require-dev.
+  require              Adds required packages to your composer.json and installs
+  run-script           Runs the scripts defined in composer.json.
+  search               Searches for packages.
+  self-update          Updates composer.phar to the latest version.
+  selfupdate           Updates composer.phar to the latest version.
+  show                 Shows information about packages.
+  status               Shows a list of locally modified packages, for packages i
+  suggests             Shows package suggestions.
+  update               Upgrades your dependencies to the latest version accordin
+  upgrade              Upgrades your dependencies to the latest version accordin
+  validate             Validates a composer.json and composer.lock.
+  why                  Shows which packages cause the given package to be instal
+  why-not              Shows which packages prevent the given package from being
+root@em-voip-qa:~#
+root@em-voip-qa:~# cd /usr/local/NTTPC-VOIP/
+root@em-voip-qa:/usr/local/NTTPC-VOIP# ls -la
+total 480
+drwxr-xr-x 13 jenkins jenkins   4096 Jun 28 06:22 .
+drwxr-xr-x 11 root    root      4096 Jun 28 06:07 ..
+drwxr-xr-x  6 jenkins jenkins   4096 Jun 28 06:07 app
+-rw-r--r--  1 jenkins jenkins   1686 Jun 28 06:07 artisan
+drwxr-xr-x  3 jenkins jenkins   4096 Jun 28 06:07 bootstrap
+-rw-r--r--  1 jenkins jenkins   1454 Jun 28 06:07 composer.json
+-rw-r--r--  1 jenkins jenkins 174208 Jun 28 06:30 composer.lock
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 config
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 database
+-rw-r--r--  1 jenkins jenkins    542 Jun 28 06:07 .env.example
+drwxr-xr-x  8 jenkins jenkins   4096 Jun 28 06:07 .git
+-rw-r--r--  1 jenkins jenkins    111 Jun 28 06:07 .gitattributes
+-rw-r--r--  1 jenkins jenkins    153 Jun 28 06:07 .gitignore
+-rw-r--r--  1 jenkins jenkins    159 Jun 28 06:07 jenkins.sh
+-rw-r--r--  1 jenkins jenkins   1129 Jun 28 06:07 package.json
+-rw-r--r--  1 jenkins jenkins   1040 Jun 28 06:07 phpunit.xml
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 public
+-rw-r--r--  1 jenkins jenkins      0 Jun 28 06:07 README.md
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 resources
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 routes
+-rw-r--r--  1 jenkins jenkins    563 Jun 28 06:07 server.php
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 storage
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 tests
+drwxr-xr-x 43 root    root      4096 Jun 28 06:30 vendor
+-rw-r--r--  1 jenkins jenkins    549 Jun 28 06:07 webpack.mix.js
+-rw-r--r--  1 jenkins jenkins 219089 Jun 28 06:07 yarn.lock
+root@em-voip-qa:/usr/local/NTTPC-VOIP# cp .env.example .env
+root@em-voip-qa:/usr/local/NTTPC-VOIP# ls -la
+total 484
+drwxr-xr-x 13 jenkins jenkins   4096 Jun 28 08:18 .
+drwxr-xr-x 11 root    root      4096 Jun 28 06:07 ..
+drwxr-xr-x  6 jenkins jenkins   4096 Jun 28 06:07 app
+-rw-r--r--  1 jenkins jenkins   1686 Jun 28 06:07 artisan
+drwxr-xr-x  3 jenkins jenkins   4096 Jun 28 06:07 bootstrap
+-rw-r--r--  1 jenkins jenkins   1454 Jun 28 06:07 composer.json
+-rw-r--r--  1 jenkins jenkins 174208 Jun 28 06:30 composer.lock
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 config
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 database
+-rw-r--r--  1 root    root       542 Jun 28 08:18 .env
+-rw-r--r--  1 jenkins jenkins    542 Jun 28 06:07 .env.example
+drwxr-xr-x  8 jenkins jenkins   4096 Jun 28 06:07 .git
+-rw-r--r--  1 jenkins jenkins    111 Jun 28 06:07 .gitattributes
+-rw-r--r--  1 jenkins jenkins    153 Jun 28 06:07 .gitignore
+-rw-r--r--  1 jenkins jenkins    159 Jun 28 06:07 jenkins.sh
+-rw-r--r--  1 jenkins jenkins   1129 Jun 28 06:07 package.json
+-rw-r--r--  1 jenkins jenkins   1040 Jun 28 06:07 phpunit.xml
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 public
+-rw-r--r--  1 jenkins jenkins      0 Jun 28 06:07 README.md
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 resources
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 routes
+-rw-r--r--  1 jenkins jenkins    563 Jun 28 06:07 server.php
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 storage
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 tests
+drwxr-xr-x 43 root    root      4096 Jun 28 06:30 vendor
+-rw-r--r--  1 jenkins jenkins    549 Jun 28 06:07 webpack.mix.js
+-rw-r--r--  1 jenkins jenkins 219089 Jun 28 06:07 yarn.lock
+root@em-voip-qa:/usr/local/NTTPC-VOIP# vi .env
+root@em-voip-qa:/usr/local/NTTPC-VOIP# vi /etc/apache2/sites-available/default
+root@em-voip-qa:/usr/local/NTTPC-VOIP# cd  /etc/apache2/sites-available/
+root@em-voip-qa:/etc/apache2/sites-available# ls -la
+total 20
+drwxr-xr-x 2 root root 4096 Jun 28 08:23 .
+drwxr-xr-x 8 root root 4096 Jun 27 19:37 ..
+-rw-r--r-- 1 root root 1332 Mar 19  2016 000-default.conf
+-rw-r--r-- 1 root root 6338 Apr  6  2016 default-ssl.conf
+root@em-voip-qa:/etc/apache2/sites-available# vi 000-default.conf
+root@em-voip-qa:/etc/apache2/sites-available# service apache2 restart
+root@em-voip-qa:/etc/apache2/sites-available# cd /usr/local/
+root@em-voip-qa:/usr/local# cd NTTPC-VOIP/
+root@em-voip-qa:/usr/local/NTTPC-VOIP# ls -la
+total 484
+drwxr-xr-x 13 jenkins jenkins   4096 Jun 28 08:19 .
+drwxr-xr-x 11 root    root      4096 Jun 28 06:07 ..
+drwxr-xr-x  6 jenkins jenkins   4096 Jun 28 06:07 app
+-rw-r--r--  1 jenkins jenkins   1686 Jun 28 06:07 artisan
+drwxr-xr-x  3 jenkins jenkins   4096 Jun 28 06:07 bootstrap
+-rw-r--r--  1 jenkins jenkins   1454 Jun 28 06:07 composer.json
+-rw-r--r--  1 jenkins jenkins 174208 Jun 28 06:30 composer.lock
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 config
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 database
+-rw-r--r--  1 root    root       542 Jun 28 08:19 .env
+-rw-r--r--  1 jenkins jenkins    542 Jun 28 06:07 .env.example
+drwxr-xr-x  8 jenkins jenkins   4096 Jun 28 06:07 .git
+-rw-r--r--  1 jenkins jenkins    111 Jun 28 06:07 .gitattributes
+-rw-r--r--  1 jenkins jenkins    153 Jun 28 06:07 .gitignore
+-rw-r--r--  1 jenkins jenkins    159 Jun 28 06:07 jenkins.sh
+-rw-r--r--  1 jenkins jenkins   1129 Jun 28 06:07 package.json
+-rw-r--r--  1 jenkins jenkins   1040 Jun 28 06:07 phpunit.xml
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 public
+-rw-r--r--  1 jenkins jenkins      0 Jun 28 06:07 README.md
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 resources
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 routes
+-rw-r--r--  1 jenkins jenkins    563 Jun 28 06:07 server.php
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 storage
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 tests
+drwxr-xr-x 43 root    root      4096 Jun 28 06:30 vendor
+-rw-r--r--  1 jenkins jenkins    549 Jun 28 06:07 webpack.mix.js
+-rw-r--r--  1 jenkins jenkins 219089 Jun 28 06:07 yarn.lock
+root@em-voip-qa:/usr/local/NTTPC-VOIP# chown -R jenkins:jenkins /usr/local/NTTPCOIP/.env
+root@em-voip-qa:/usr/local/NTTPC-VOIP# ls -la
+total 484
+drwxr-xr-x 13 jenkins jenkins   4096 Jun 28 08:19 .
+drwxr-xr-x 11 root    root      4096 Jun 28 06:07 ..
+drwxr-xr-x  6 jenkins jenkins   4096 Jun 28 06:07 app
+-rw-r--r--  1 jenkins jenkins   1686 Jun 28 06:07 artisan
+drwxr-xr-x  3 jenkins jenkins   4096 Jun 28 06:07 bootstrap
+-rw-r--r--  1 jenkins jenkins   1454 Jun 28 06:07 composer.json
+-rw-r--r--  1 jenkins jenkins 174208 Jun 28 06:30 composer.lock
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 config
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 database
+-rw-r--r--  1 jenkins jenkins    542 Jun 28 08:19 .env
+-rw-r--r--  1 jenkins jenkins    542 Jun 28 06:07 .env.example
+drwxr-xr-x  8 jenkins jenkins   4096 Jun 28 06:07 .git
+-rw-r--r--  1 jenkins jenkins    111 Jun 28 06:07 .gitattributes
+-rw-r--r--  1 jenkins jenkins    153 Jun 28 06:07 .gitignore
+-rw-r--r--  1 jenkins jenkins    159 Jun 28 06:07 jenkins.sh
+-rw-r--r--  1 jenkins jenkins   1129 Jun 28 06:07 package.json
+-rw-r--r--  1 jenkins jenkins   1040 Jun 28 06:07 phpunit.xml
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 public
+-rw-r--r--  1 jenkins jenkins      0 Jun 28 06:07 README.md
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 resources
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 routes
+-rw-r--r--  1 jenkins jenkins    563 Jun 28 06:07 server.php
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 storage
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 tests
+drwxr-xr-x 43 root    root      4096 Jun 28 06:30 vendor
+-rw-r--r--  1 jenkins jenkins    549 Jun 28 06:07 webpack.mix.js
+-rw-r--r--  1 jenkins jenkins 219089 Jun 28 06:07 yarn.lock
+root@em-voip-qa:/usr/local/NTTPC-VOIP# chmod 777 s
+server.php  storage/
+root@em-voip-qa:/usr/local/NTTPC-VOIP# chmod -R 777 storage/
+root@em-voip-qa:/usr/local/NTTPC-VOIP# ls -la
+total 484
+drwxr-xr-x 13 jenkins jenkins   4096 Jun 28 08:19 .
+drwxr-xr-x 11 root    root      4096 Jun 28 06:07 ..
+drwxr-xr-x  6 jenkins jenkins   4096 Jun 28 06:07 app
+-rw-r--r--  1 jenkins jenkins   1686 Jun 28 06:07 artisan
+drwxr-xr-x  3 jenkins jenkins   4096 Jun 28 06:07 bootstrap
+-rw-r--r--  1 jenkins jenkins   1454 Jun 28 06:07 composer.json
+-rw-r--r--  1 jenkins jenkins 174208 Jun 28 06:30 composer.lock
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 config
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 database
+-rw-r--r--  1 jenkins jenkins    542 Jun 28 08:19 .env
+-rw-r--r--  1 jenkins jenkins    542 Jun 28 06:07 .env.example
+drwxr-xr-x  8 jenkins jenkins   4096 Jun 28 06:07 .git
+-rw-r--r--  1 jenkins jenkins    111 Jun 28 06:07 .gitattributes
+-rw-r--r--  1 jenkins jenkins    153 Jun 28 06:07 .gitignore
+-rw-r--r--  1 jenkins jenkins    159 Jun 28 06:07 jenkins.sh
+-rw-r--r--  1 jenkins jenkins   1129 Jun 28 06:07 package.json
+-rw-r--r--  1 jenkins jenkins   1040 Jun 28 06:07 phpunit.xml
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 public
+-rw-r--r--  1 jenkins jenkins      0 Jun 28 06:07 README.md
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 resources
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 routes
+-rw-r--r--  1 jenkins jenkins    563 Jun 28 06:07 server.php
+drwxrwxrwx  5 jenkins jenkins   4096 Jun 28 06:07 storage
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 tests
+drwxr-xr-x 43 root    root      4096 Jun 28 06:30 vendor
+-rw-r--r--  1 jenkins jenkins    549 Jun 28 06:07 webpack.mix.js
+-rw-r--r--  1 jenkins jenkins 219089 Jun 28 06:07 yarn.lock
+root@em-voip-qa:/usr/local/NTTPC-VOIP# chown -R jenkins:jenkins /usr/local/NTTPCOIP/vendor/
+root@em-voip-qa:/usr/local/NTTPC-VOIP# ls -la
+total 484
+drwxr-xr-x 13 jenkins jenkins   4096 Jun 28 08:19 .
+drwxr-xr-x 11 root    root      4096 Jun 28 06:07 ..
+drwxr-xr-x  6 jenkins jenkins   4096 Jun 28 06:07 app
+-rw-r--r--  1 jenkins jenkins   1686 Jun 28 06:07 artisan
+drwxr-xr-x  3 jenkins jenkins   4096 Jun 28 06:07 bootstrap
+-rw-r--r--  1 jenkins jenkins   1454 Jun 28 06:07 composer.json
+-rw-r--r--  1 jenkins jenkins 174208 Jun 28 06:30 composer.lock
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 config
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 database
+-rw-r--r--  1 jenkins jenkins    542 Jun 28 08:19 .env
+-rw-r--r--  1 jenkins jenkins    542 Jun 28 06:07 .env.example
+drwxr-xr-x  8 jenkins jenkins   4096 Jun 28 06:07 .git
+-rw-r--r--  1 jenkins jenkins    111 Jun 28 06:07 .gitattributes
+-rw-r--r--  1 jenkins jenkins    153 Jun 28 06:07 .gitignore
+-rw-r--r--  1 jenkins jenkins    159 Jun 28 06:07 jenkins.sh
+-rw-r--r--  1 jenkins jenkins   1129 Jun 28 06:07 package.json
+-rw-r--r--  1 jenkins jenkins   1040 Jun 28 06:07 phpunit.xml
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 public
+-rw-r--r--  1 jenkins jenkins      0 Jun 28 06:07 README.md
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 resources
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 routes
+-rw-r--r--  1 jenkins jenkins    563 Jun 28 06:07 server.php
+drwxrwxrwx  5 jenkins jenkins   4096 Jun 28 06:07 storage
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 tests
+drwxr-xr-x 43 jenkins jenkins   4096 Jun 28 06:30 vendor
+-rw-r--r--  1 jenkins jenkins    549 Jun 28 06:07 webpack.mix.js
+-rw-r--r--  1 jenkins jenkins 219089 Jun 28 06:07 yarn.lock
+root@em-voip-qa:/usr/local/NTTPC-VOIP# service apache2 restart
+root@em-voip-qa:/usr/local/NTTPC-VOIP# vi /etc/apache2/sites-available/000-default.conf
+root@em-voip-qa:/usr/local/NTTPC-VOIP# service apache2 restart
+root@em-voip-qa:/usr/local/NTTPC-VOIP#

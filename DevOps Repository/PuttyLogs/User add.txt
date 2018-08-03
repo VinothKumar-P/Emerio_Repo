@@ -1,0 +1,2 @@
+useradd <username> -m -G sudo
+useradd <username> -m -G wheel

@@ -1,0 +1,4 @@
+---
+# tasks file for empreportprocessor
+
+- include: deploy.yml

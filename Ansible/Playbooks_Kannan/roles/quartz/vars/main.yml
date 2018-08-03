@@ -1,0 +1,4 @@
+---
+# vars file for quartz
+pkg_remove: TRMB-quartzap
+application: quartz

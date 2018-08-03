@@ -1,0 +1,5 @@
+---
+# tasks file for driverauth
+#
+- include: deploy.yml
+- include: supervisorctl.yml

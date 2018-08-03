@@ -1,0 +1,199 @@
+************
+1.Kibana Reports
+2. Agile / DevOps
+3. Chef / Ansible / Puppet 
+4.Explain how you can move or copy Jenkins from one server to another?
+5. Infrastructure as code
+6. Containerization or virtualization
+7. Nagios / Zabbix
+8. What may prevent 100% adoption of DevOps practices?
+9. What all major Monitoring, Alerting, logging and Trending Tools?
+10.Diffrentiate Private Cloud, Public Cloud, Hybrid Cloud and Community Cloud?
+11.SaaS , PaaS , IaaS
+
+*************
+DevOps Basics :
+************
+
+What is DevOps?
+How DevOps can help?
+What are some of the Devops best practices?
+What is Continuous Integration?
+What is Continuous Delivery?
+What is Continuous Deployment?
+Provide Difference between Continuous Integration, delivery and deployment?
+What role does SCM team plays in DevOps?
+hat role does QA team plays in DevOps?
+What are the Benefits of Continuous Integration and Delivery
+What are the Core component of CI/CD
+Define a typical DevOps Work Flow
+What may prevent 100% adoption of DevOps practices?
+When to implement CI/CD?
+What are the Common Practices for CI/CD
+What is ALM (Application LifeCycle Management)?
+How you do change management?
+How you handle the internal and exteral dependencies?
+
+************
+DevOps Tools :
+************
+
+What all major CI tools?
+What all Virtualization Tools?
+What all major Containerization Tools?
+What all major OS Installation Provisioning?
+What all major Configuration Management Tools?
+What all major Provisioning Tools?
+What all major Monitoring, Alerting, logging and Trending Tools?
+What all major Test Automation Tools?
+What all major unit testing Tools?
+What all major functional testing Tools?
+What all major code coverage tools?
+What all major code review tools?
+What all major Continuous Delivery Tools?
+What all major Build Tools?
+Provide list of most commonly used compilers?
+Provide list of most commonly used scripting laguages? Perl vs Python when to use what?
+What all major Collaboration Tools?
+What all major planning tools?
+How you would be choosing the DevOps tools?
+
+************
+Virtualization :
+************
+
+What is virtulaization?
+Why virtualization is gaining popularity?
+Provide Types of Virtualization?
+What is Hardware or Server Virtualization?
+Explain Network virtualization?
+Expalin Storage Virtualization?
+Explan Application Virtualization?
+What is ESX and ESXi? Explain the ESX architechture?
+How to VM on ESXi server using vSphere client?
+How to deploy a VM using template and CLI?
+How you can automate the VM deployment in an ESX enviroment?
+What are major Diffrences between ESX and Hyper-V?
+
+************
+Cloud :
+************
+
+What is “Cloud”?
+What is cloud computing?
+What are the important Characteristics of cloud computing?
+How can you use the cloud?
+What is SaaS (Software-as-a-Service)?
+What is PaaS (Platform-as-a-Service)?
+What is IaaS (Infrastructure-as–a-Service)?
+Diffrentiate Private Cloud, Public Cloud, Hybrid Cloud and Community Cloud?
+What are the Benefits of cloud computing?
+What are the Risks/Challenges related to Cloud Computing?
+Then there may be some questions arround AWS / Azure
+What is AWS?
+How does auto scaling work?
+How to access and manage cloud infrastructure using AWS?
+Explain AWS infrastcrure?
+Compare AWS and Azure?
+
+************
+Vagrant & Ansible:
+************
+
+How you create a new image using vagrant?
+What is Ansible?
+What is the diff between vagrant amd Ansible?
+What is Ansible Playbook?
+What is Ansible tower?
+What is Ansible Inventory?
+How to install and configure Ansible on Control Machine?
+What is Ansible modules?
+How to use Ansible from the command line?
+How does Ansible work?
+
+************
+SCM :
+************
+
+What is SCM?
+Why we need SCM?
+What are the Building blocks of Software Configuration Management (SCM) system?
+What is Version Control System (VCS)?
+Why use version control?
+What are the Types of Version Control Systems?
+How you would choose a Version Control System?
+Explain Git Architecture?
+Explain Git branching model?
+What's Inside .git directory?
+How you install and configure Git?
+What is git hooks, how to use them?
+What git version, client you have used?
+How to create a repo?
+How you add and commit to a repo?
+How you push and gets update to\from a reomote repo?
+How you create, delete and rename a branch?
+How you merge a branch to other?
+How you tag, what are the types of tags you have?
+What is The make utility
+What is a Makefile?
+How to craete and Write Makefile?
+What is Apache Maven
+How Maven works?
+How you install and configure Maven?
+What is POM?
+How you create a Maven Project	236
+Explain Maven Build lifecycles?
+Explain Maven Repositories?
+Scritping excercise in Python
+
+************
+Jenkins :
+************
+
+What is Jenkins?
+What can Jenkins do? it benefits?
+Why Jenkins as CI tools what all alternative you have?
+How to design Distributed build System using Jenkins?
+How to install Jenkins Masters?
+Explain Jenkins – Administration?
+How to Set up a Slave Node?
+Explain enkins - Plugins, Provide some of the most commonly used plug-ins?
+How to setup a job in Jenkins?
+Explain Jenkins Job - Freestyle Project?
+Explain Jenkins Job – MultiJob Project?
+Explain Jenkins Job – Pipeline Project	310
+How to configure notifications in Jenkins?
+How does Jenkins fail or pass the builds?
+How does Log Parser work how to enable?
+Explain Backup and restore using Jenkins?
+How you move Jenkins master from one server to another server?
+Explain Security in Jenkins?
+
+************
+Continuous Deployment and Delivery
+************
+
+What is the difference between Continuous Delivery and Deployment?
+Explain Benefits of Continuous Delivery?
+Explain Benefits of Continuous Deployment?
+
+************
+Database
+************
+
+Explain DevOps and Databases?
+Difference between SQL and No SQL database?
+How you can automate deployment of databse changes?
+
+************
+Continous Verification?
+************
+
+Explain TDD and BDD?
+Explain Continuous Testing Perspective in DevOps and Agile?
+How we can achive change driven testing?
+Diff between TDD and BDD?
+OS
+
+Get some basic understanding on Linux and Shell
+Basic linux commands

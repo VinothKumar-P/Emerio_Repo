@@ -1,0 +1,417 @@
+login as: emerio_admin
+Server refused our key
+emerio_admin@192.168.4.102's password:
+login as: emerio_admin
+Authenticating with public key "imported-openssh-key"
+Last login: Wed Jun  6 05:27:49 2018
+[emerio_admin@localhost ~]$
+[emerio_admin@localhost ~]$
+[emerio_admin@localhost ~]$
+[emerio_admin@localhost ~]$
+[emerio_admin@localhost ~]$
+[emerio_admin@localhost ~]$ ls
+[emerio_admin@localhost ~]$ ll
+total 0
+[emerio_admin@localhost ~]$
+login as: root
+Server refused our key
+root@192.168.4.102's password:
+Last login: Wed Jun  6 05:07:58 2018 from 10.254.1.9
+[root@localhost ~]# su - emerio_admin
+Last login: Wed Jun  6 05:31:36 EDT 2018 from 10.254.1.9 on pts/1
+[emerio_admin@localhost ~]$ cd /home/
+[emerio_admin@localhost home]$ ll
+total 0
+drwx------. 4 emerio_admin emerio_admin 136 Jun  6 06:24 emerio_admin
+[emerio_admin@localhost home]$ cd emerio_admin/
+[emerio_admin@localhost ~]$ ll
+total 4
+drwxr-xr-x. 11 root root 4096 Jun  6 06:24 nttpc-api-development.git_Develop
+[emerio_admin@localhost ~]$ git config --global user.name "emerio_admin"
+[emerio_admin@localhost ~]$ git config --global user.email "vinoth.kumar@emerioc                                                                                        orp.com"
+[emerio_admin@localhost ~]$ git clone git@192.168.4.102:emerio_admin/NTT-PC_VOIP                                                                                        .git
+Cloning into 'NTT-PC_VOIP'...
+The authenticity of host '192.168.4.102 (192.168.4.102)' can't be established.
+ECDSA key fingerprint is SHA256:Q3awEvElFMQvwaF3HtJEQJLJ9dqwemCKimfjN7Y8vxA.
+ECDSA key fingerprint is MD5:b4:d3:dc:80:2d:94:1e:27:73:08:30:14:f4:86:5f:40.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.4.102' (ECDSA) to the list of known hosts.
+warning: You appear to have cloned an empty repository.
+[emerio_admin@localhost ~]$ ll
+[emerio_admin@localhost ~]$ llll
+-bash: llll: command not found
+[emerio_admin@localhost ~]$ ll
+total 4
+drwxr-xr-x. 11 root         root         4096 Jun  6 06:24 nttpc-api-development.git_Develop
+drwxrwxr-x.  3 emerio_admin emerio_admin   18 Jun  6 06:27 NTT-PC_VOIP
+[emerio_admin@localhost ~]$ cd NTT-PC_VOIP/
+[emerio_admin@localhost NTT-PC_VOIP]$ l
+-bash: l: command not found
+[emerio_admin@localhost NTT-PC_VOIP]$ ll
+total 0
+[emerio_admin@localhost NTT-PC_VOIP]$ git init
+Reinitialized existing Git repository in /home/emerio_admin/NTT-PC_VOIP/.git/
+[emerio_admin@localhost NTT-PC_VOIP]$ ll
+total 0
+[emerio_admin@localhost NTT-PC_VOIP]$ ls
+[emerio_admin@localhost NTT-PC_VOIP]$ ls -ltr
+total 0
+[emerio_admin@localhost NTT-PC_VOIP]$ git status
+# On branch master
+#
+# Initial commit
+#
+nothing to commit (create/copy files and use "git add" to track)
+[emerio_admin@localhost NTT-PC_VOIP]$ cd ..
+[emerio_admin@localhost ~]$ cd nttpc-api-development.git_Develop/
+[emerio_admin@localhost nttpc-api-development.git_Develop]$ ll
+total 412
+drwxr-xr-x. 6 root root    104 Jun  6 06:24 app
+-rw-r--r--. 1 root root   1686 Jun  4 02:12 artisan
+drwxr-xr-x. 3 root root     34 Jun  6 06:24 bootstrap
+-rw-r--r--. 1 root root   1454 Jun  4 02:12 composer.json
+-rw-r--r--. 1 root root 168420 Jun  4 02:12 composer.lock
+drwxr-xr-x. 2 root root    209 Jun  6 06:24 config
+drwxr-xr-x. 5 root root     72 Jun  6 06:24 database
+-rw-r--r--. 1 root root    159 Jun  4 02:12 jenkins.sh
+-rw-r--r--. 1 root root   1129 Jun  4 02:12 package.json
+-rw-r--r--. 1 root root   1040 Jun  4 02:12 phpunit.xml
+drwxr-xr-x. 4 root root     98 Jun  6 06:24 public
+-rw-r--r--. 1 root root      0 Jun  4 02:12 README.md
+drwxr-xr-x. 5 root root     45 Jun  6 06:24 resources
+drwxr-xr-x. 2 root root     75 Jun  6 06:24 routes
+-rw-r--r--. 1 root root    563 Jun  4 02:12 server.php
+drwxr-xr-x. 5 root root     46 Jun  6 06:24 storage
+drwxr-xr-x. 4 root root     83 Jun  6 06:24 tests
+-rw-r--r--. 1 root root    549 Jun  4 02:12 webpack.mix.js
+-rw-r--r--. 1 root root 219089 Jun  4 02:12 yarn.lock
+[emerio_admin@localhost nttpc-api-development.git_Develop]$ cd ..
+[emerio_admin@localhost ~]$ cd NTT-PC_VOIP/
+[emerio_admin@localhost NTT-PC_VOIP]$
+[emerio_admin@localhost NTT-PC_VOIP]$ mv /home/emerio_admin/nttpc-api-development.git_Develop/ *
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/’ to ‘*’: Permission denied
+[emerio_admin@localhost NTT-PC_VOIP]$ mv /home/emerio_admin/nttpc-api-development.git_Develop/*
+mv: target ‘/home/emerio_admin/nttpc-api-development.git_Develop/yarn.lock’ is not a directory
+[emerio_admin@localhost NTT-PC_VOIP]$ mv /home/emerio_admin/nttpc-api-development.git_Develop/* .
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/app’ to ‘./app’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/artisan’ to ‘./artisan’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/bootstrap’ to ‘./bootstrap’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/composer.json’ to ‘./composer.json’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/composer.lock’ to ‘./composer.lock’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/config’ to ‘./config’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/database’ to ‘./database’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/jenkins.sh’ to ‘./jenkins.sh’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/package.json’ to ‘./package.json’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/phpunit.xml’ to ‘./phpunit.xml’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/public’ to ‘./public’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/README.md’ to ‘./README.md’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/resources’ to ‘./resources’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/routes’ to ‘./routes’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/server.php’ to ‘./server.php’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/storage’ to ‘./storage’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/tests’ to ‘./tests’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/webpack.mix.js’ to ‘./webpack.mix.js’: Permission denied
+mv: cannot move ‘/home/emerio_admin/nttpc-api-development.git_Develop/yarn.lock’ to ‘./yarn.lock’: Permission denied
+[emerio_admin@localhost NTT-PC_VOIP]$ ll
+total 0
+[emerio_admin@localhost NTT-PC_VOIP]$ sudo bash
+[root@localhost NTT-PC_VOIP]# su - emerio_admin
+Last login: Wed Jun  6 06:25:00 EDT 2018 on pts/2
+[emerio_admin@localhost ~]$ ls -ltr
+total 4
+drwxr-xr-x. 11 root         root         4096 Jun  6 06:24 nttpc-api-development.git_Develop
+drwxrwxr-x.  3 emerio_admin emerio_admin   18 Jun  6 06:27 NTT-PC_VOIP
+[emerio_admin@localhost ~]$ sudo bash
+[root@localhost emerio_admin]# mv /home/emerio_admin/nttpc-api-development.git_Develop/* /home/emerio_admin/NTT-PC_VOIP/
+[root@localhost emerio_admin]# ll
+total 4
+drwxr-xr-x.  2 root         root           66 Jun  6 06:33 nttpc-api-development.git_Develop
+drwxrwxr-x. 12 emerio_admin emerio_admin 4096 Jun  6 06:33 NTT-PC_VOIP
+[root@localhost emerio_admin]# cd NTT-PC_VOIP/
+[root@localhost NTT-PC_VOIP]# ll
+total 412
+drwxr-xr-x. 6 root root    104 Jun  6 06:24 app
+-rw-r--r--. 1 root root   1686 Jun  4 02:12 artisan
+drwxr-xr-x. 3 root root     34 Jun  6 06:24 bootstrap
+-rw-r--r--. 1 root root   1454 Jun  4 02:12 composer.json
+-rw-r--r--. 1 root root 168420 Jun  4 02:12 composer.lock
+drwxr-xr-x. 2 root root    209 Jun  6 06:24 config
+drwxr-xr-x. 5 root root     72 Jun  6 06:24 database
+-rw-r--r--. 1 root root    159 Jun  4 02:12 jenkins.sh
+-rw-r--r--. 1 root root   1129 Jun  4 02:12 package.json
+-rw-r--r--. 1 root root   1040 Jun  4 02:12 phpunit.xml
+drwxr-xr-x. 4 root root     98 Jun  6 06:24 public
+-rw-r--r--. 1 root root      0 Jun  4 02:12 README.md
+drwxr-xr-x. 5 root root     45 Jun  6 06:24 resources
+drwxr-xr-x. 2 root root     75 Jun  6 06:24 routes
+-rw-r--r--. 1 root root    563 Jun  4 02:12 server.php
+drwxr-xr-x. 5 root root     46 Jun  6 06:24 storage
+drwxr-xr-x. 4 root root     83 Jun  6 06:24 tests
+-rw-r--r--. 1 root root    549 Jun  4 02:12 webpack.mix.js
+-rw-r--r--. 1 root root 219089 Jun  4 02:12 yarn.lock
+[root@localhost NTT-PC_VOIP]# chown -R emerio_admin:emerio_admin .
+[root@localhost NTT-PC_VOIP]# ll
+total 412
+drwxr-xr-x. 6 emerio_admin emerio_admin    104 Jun  6 06:24 app
+-rw-r--r--. 1 emerio_admin emerio_admin   1686 Jun  4 02:12 artisan
+drwxr-xr-x. 3 emerio_admin emerio_admin     34 Jun  6 06:24 bootstrap
+-rw-r--r--. 1 emerio_admin emerio_admin   1454 Jun  4 02:12 composer.json
+-rw-r--r--. 1 emerio_admin emerio_admin 168420 Jun  4 02:12 composer.lock
+drwxr-xr-x. 2 emerio_admin emerio_admin    209 Jun  6 06:24 config
+drwxr-xr-x. 5 emerio_admin emerio_admin     72 Jun  6 06:24 database
+-rw-r--r--. 1 emerio_admin emerio_admin    159 Jun  4 02:12 jenkins.sh
+-rw-r--r--. 1 emerio_admin emerio_admin   1129 Jun  4 02:12 package.json
+-rw-r--r--. 1 emerio_admin emerio_admin   1040 Jun  4 02:12 phpunit.xml
+drwxr-xr-x. 4 emerio_admin emerio_admin     98 Jun  6 06:24 public
+-rw-r--r--. 1 emerio_admin emerio_admin      0 Jun  4 02:12 README.md
+drwxr-xr-x. 5 emerio_admin emerio_admin     45 Jun  6 06:24 resources
+drwxr-xr-x. 2 emerio_admin emerio_admin     75 Jun  6 06:24 routes
+-rw-r--r--. 1 emerio_admin emerio_admin    563 Jun  4 02:12 server.php
+drwxr-xr-x. 5 emerio_admin emerio_admin     46 Jun  6 06:24 storage
+drwxr-xr-x. 4 emerio_admin emerio_admin     83 Jun  6 06:24 tests
+-rw-r--r--. 1 emerio_admin emerio_admin    549 Jun  4 02:12 webpack.mix.js
+-rw-r--r--. 1 emerio_admin emerio_admin 219089 Jun  4 02:12 yarn.lock
+[root@localhost NTT-PC_VOIP]# su - emerio_admin
+Last login: Wed Jun  6 06:32:30 EDT 2018 on pts/2
+[emerio_admin@localhost ~]$ cd /home/emerio_admin/NTT-PC_VOIP/
+[emerio_admin@localhost NTT-PC_VOIP]$ ll
+total 412
+drwxr-xr-x. 6 emerio_admin emerio_admin    104 Jun  6 06:24 app
+-rw-r--r--. 1 emerio_admin emerio_admin   1686 Jun  4 02:12 artisan
+drwxr-xr-x. 3 emerio_admin emerio_admin     34 Jun  6 06:24 bootstrap
+-rw-r--r--. 1 emerio_admin emerio_admin   1454 Jun  4 02:12 composer.json
+-rw-r--r--. 1 emerio_admin emerio_admin 168420 Jun  4 02:12 composer.lock
+drwxr-xr-x. 2 emerio_admin emerio_admin    209 Jun  6 06:24 config
+drwxr-xr-x. 5 emerio_admin emerio_admin     72 Jun  6 06:24 database
+-rw-r--r--. 1 emerio_admin emerio_admin    159 Jun  4 02:12 jenkins.sh
+-rw-r--r--. 1 emerio_admin emerio_admin   1129 Jun  4 02:12 package.json
+-rw-r--r--. 1 emerio_admin emerio_admin   1040 Jun  4 02:12 phpunit.xml
+drwxr-xr-x. 4 emerio_admin emerio_admin     98 Jun  6 06:24 public
+-rw-r--r--. 1 emerio_admin emerio_admin      0 Jun  4 02:12 README.md
+drwxr-xr-x. 5 emerio_admin emerio_admin     45 Jun  6 06:24 resources
+drwxr-xr-x. 2 emerio_admin emerio_admin     75 Jun  6 06:24 routes
+-rw-r--r--. 1 emerio_admin emerio_admin    563 Jun  4 02:12 server.php
+drwxr-xr-x. 5 emerio_admin emerio_admin     46 Jun  6 06:24 storage
+drwxr-xr-x. 4 emerio_admin emerio_admin     83 Jun  6 06:24 tests
+-rw-r--r--. 1 emerio_admin emerio_admin    549 Jun  4 02:12 webpack.mix.js
+-rw-r--r--. 1 emerio_admin emerio_admin 219089 Jun  4 02:12 yarn.lock
+[emerio_admin@localhost NTT-PC_VOIP]$ git add .
+[emerio_admin@localhost NTT-PC_VOIP]$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#       new file:   README.md
+#       new file:   app/Console/Kernel.php
+#       new file:   app/Exceptions/Handler.php
+#       new file:   app/Http/Config.php
+#       new file:   app/Http/Controllers/Auth/ForgotPasswordController.php
+#       new file:   app/Http/Controllers/Auth/LoginController.php
+#       new file:   app/Http/Controllers/Auth/RegisterController.php
+#       new file:   app/Http/Controllers/Auth/ResetPasswordController.php
+#       new file:   app/Http/Controllers/BillingInformationController.php
+#       new file:   app/Http/Controllers/CommonController.php
+#       new file:   app/Http/Controllers/Controller.php
+#       new file:   app/Http/Controllers/UserManagementController.php
+#       new file:   app/Http/Kernel.php
+#       new file:   app/Http/Middleware/AdminValidityCheck.php
+#       new file:   app/Http/Middleware/DomainCheck.php
+#       new file:   app/Http/Middleware/EncryptCookies.php
+#       new file:   app/Http/Middleware/NoCache.php
+#       new file:   app/Http/Middleware/NotUserCheck.php
+#       new file:   app/Http/Middleware/RedirectIfAuthenticated.php
+#       new file:   app/Http/Middleware/SuperAdminAuth.php
+#       new file:   app/Http/Middleware/TrimStrings.php
+#       new file:   app/Http/Middleware/TrustProxies.php
+#       new file:   app/Http/Middleware/VerifyCsrfToken.php
+#       new file:   app/Providers/AppServiceProvider.php
+#       new file:   app/Providers/AuthServiceProvider.php
+#       new file:   app/Providers/BroadcastServiceProvider.php
+#       new file:   app/Providers/EventServiceProvider.php
+#       new file:   app/Providers/RouteServiceProvider.php
+#       new file:   app/User.php
+#       new file:   app/UserRole.php
+#       new file:   artisan
+#       new file:   bootstrap/app.php
+#       new file:   bootstrap/cache/.gitignore
+#       new file:   composer.json
+#       new file:   composer.lock
+#       new file:   config/app.php
+#       new file:   config/auth.php
+#       new file:   config/broadcasting.php
+#       new file:   config/cache.php
+#       new file:   config/database.php
+#       new file:   config/filesystems.php
+#       new file:   config/mail.php
+#       new file:   config/queue.php
+#       new file:   config/services.php
+#       new file:   config/session.php
+#       new file:   config/view.php
+#       new file:   database/.gitignore
+#       new file:   database/factories/UserFactory.php
+#       new file:   database/migrations/2014_10_12_000000_create_users_table.php
+#       new file:   database/migrations/2017_10_30_091614_create_ispcode_info_table.php
+#       new file:   database/migrations/2017_11_03_110002_create_bi_auditlog_table.php
+#       new file:   database/migrations/2017_11_03_110045_create_um_auditlog_table.php
+#       new file:   database/migrations/2017_11_06_075802_create_error_log_table.php
+#       new file:   database/migrations/2017_11_24_121410_create_table_user_roles.php
+#       new file:   database/seeds/DatabaseSeeder.php
+#       new file:   database/seeds/ISPInfoTableSeeder.php
+#       new file:   database/seeds/SuperAdminCredentialsSeeder.php
+#       new file:   database/seeds/UserRoleSeeder.php
+#       new file:   jenkins.sh
+#       new file:   package.json
+#       new file:   phpunit.xml
+#       new file:   public/.htaccess
+#       new file:   public/css/app.css
+#       new file:   public/favicon.ico
+#       new file:   public/index.php
+#       new file:   public/js/app.js
+#       new file:   public/robots.txt
+#       new file:   resources/assets/js/app.js
+#       new file:   resources/assets/js/bootstrap.js
+#       new file:   resources/assets/js/components/ExampleComponent.vue
+#       new file:   resources/assets/sass/_variables.scss
+#       new file:   resources/assets/sass/app.scss
+#       new file:   resources/lang/en/auth.php
+#       new file:   resources/lang/en/pagination.php
+#       new file:   resources/lang/en/passwords.php
+#       new file:   resources/lang/en/validation.php
+#       new file:   resources/views/welcome.blade.php
+#       new file:   routes/api.php
+#       new file:   routes/channels.php
+#       new file:   routes/console.php
+#       new file:   routes/web.php
+#       new file:   server.php
+#       new file:   storage/app/.gitignore
+#       new file:   storage/app/public/.gitignore
+#       new file:   storage/framework/.gitignore
+#       new file:   storage/framework/cache/.gitignore
+#       new file:   storage/framework/sessions/.gitignore
+#       new file:   storage/framework/testing/.gitignore
+#       new file:   storage/framework/views/.gitignore
+#       new file:   storage/logs/.gitignore
+#       new file:   tests/CreatesApplication.php
+#       new file:   tests/Feature/ExampleTest.php
+#       new file:   tests/TestCase.php
+#       new file:   tests/Unit/ExampleTest.php
+#       new file:   webpack.mix.js
+#       new file:   yarn.lock
+#
+[emerio_admin@localhost NTT-PC_VOIP]$ git commit -m "NTT-PC_VOIP first Commit"
+[master (root-commit) 2030260] NTT-PC_VOIP first Commit
+ 96 files changed, 16589 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 app/Console/Kernel.php
+ create mode 100644 app/Exceptions/Handler.php
+ create mode 100644 app/Http/Config.php
+ create mode 100644 app/Http/Controllers/Auth/ForgotPasswordController.php
+ create mode 100644 app/Http/Controllers/Auth/LoginController.php
+ create mode 100644 app/Http/Controllers/Auth/RegisterController.php
+ create mode 100644 app/Http/Controllers/Auth/ResetPasswordController.php
+ create mode 100644 app/Http/Controllers/BillingInformationController.php
+ create mode 100644 app/Http/Controllers/CommonController.php
+ create mode 100644 app/Http/Controllers/Controller.php
+ create mode 100644 app/Http/Controllers/UserManagementController.php
+ create mode 100644 app/Http/Kernel.php
+ create mode 100644 app/Http/Middleware/AdminValidityCheck.php
+ create mode 100644 app/Http/Middleware/DomainCheck.php
+ create mode 100644 app/Http/Middleware/EncryptCookies.php
+ create mode 100644 app/Http/Middleware/NoCache.php
+ create mode 100644 app/Http/Middleware/NotUserCheck.php
+ create mode 100644 app/Http/Middleware/RedirectIfAuthenticated.php
+ create mode 100644 app/Http/Middleware/SuperAdminAuth.php
+ create mode 100644 app/Http/Middleware/TrimStrings.php
+ create mode 100644 app/Http/Middleware/TrustProxies.php
+ create mode 100644 app/Http/Middleware/VerifyCsrfToken.php
+ create mode 100644 app/Providers/AppServiceProvider.php
+ create mode 100644 app/Providers/AuthServiceProvider.php
+ create mode 100644 app/Providers/BroadcastServiceProvider.php
+ create mode 100644 app/Providers/EventServiceProvider.php
+ create mode 100644 app/Providers/RouteServiceProvider.php
+ create mode 100644 app/User.php
+ create mode 100644 app/UserRole.php
+ create mode 100644 artisan
+ create mode 100644 bootstrap/app.php
+ create mode 100644 bootstrap/cache/.gitignore
+ create mode 100644 composer.json
+ create mode 100644 composer.lock
+ create mode 100644 config/app.php
+ create mode 100644 config/auth.php
+ create mode 100644 config/broadcasting.php
+ create mode 100644 config/cache.php
+ create mode 100644 config/database.php
+ create mode 100644 config/filesystems.php
+ create mode 100644 config/mail.php
+ create mode 100644 config/queue.php
+ create mode 100644 config/services.php
+ create mode 100644 config/session.php
+ create mode 100644 config/view.php
+ create mode 100644 database/.gitignore
+ create mode 100644 database/factories/UserFactory.php
+ create mode 100644 database/migrations/2014_10_12_000000_create_users_table.php
+ create mode 100644 database/migrations/2017_10_30_091614_create_ispcode_info_table.php
+ create mode 100644 database/migrations/2017_11_03_110002_create_bi_auditlog_table.php
+ create mode 100644 database/migrations/2017_11_03_110045_create_um_auditlog_table.php
+ create mode 100644 database/migrations/2017_11_06_075802_create_error_log_table.php
+ create mode 100644 database/migrations/2017_11_24_121410_create_table_user_roles.php
+ create mode 100644 database/seeds/DatabaseSeeder.php
+ create mode 100644 database/seeds/ISPInfoTableSeeder.php
+ create mode 100644 database/seeds/SuperAdminCredentialsSeeder.php
+ create mode 100644 database/seeds/UserRoleSeeder.php
+ create mode 100644 jenkins.sh
+ create mode 100644 package.json
+ create mode 100644 phpunit.xml
+ create mode 100644 public/.htaccess
+ create mode 100644 public/css/app.css
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.php
+ create mode 100644 public/js/app.js
+ create mode 100644 public/robots.txt
+ create mode 100644 resources/assets/js/app.js
+ create mode 100644 resources/assets/js/bootstrap.js
+ create mode 100644 resources/assets/js/components/ExampleComponent.vue
+ create mode 100644 resources/assets/sass/_variables.scss
+ create mode 100644 resources/assets/sass/app.scss
+ create mode 100644 resources/lang/en/auth.php
+ create mode 100644 resources/lang/en/pagination.php
+ create mode 100644 resources/lang/en/passwords.php
+ create mode 100644 resources/lang/en/validation.php
+ create mode 100644 resources/views/welcome.blade.php
+ create mode 100644 routes/api.php
+ create mode 100644 routes/channels.php
+ create mode 100644 routes/console.php
+ create mode 100644 routes/web.php
+ create mode 100644 server.php
+ create mode 100644 storage/app/.gitignore
+ create mode 100644 storage/app/public/.gitignore
+ create mode 100644 storage/framework/.gitignore
+ create mode 100644 storage/framework/cache/.gitignore
+ create mode 100644 storage/framework/sessions/.gitignore
+ create mode 100644 storage/framework/testing/.gitignore
+ create mode 100644 storage/framework/views/.gitignore
+ create mode 100644 storage/logs/.gitignore
+ create mode 100644 tests/CreatesApplication.php
+ create mode 100644 tests/Feature/ExampleTest.php
+ create mode 100644 tests/TestCase.php
+ create mode 100644 tests/Unit/ExampleTest.php
+ create mode 100644 webpack.mix.js
+ create mode 100644 yarn.lock
+[emerio_admin@localhost NTT-PC_VOIP]$ git branch -a
+* master
+[emerio_admin@localhost NTT-PC_VOIP]$ git push origin master
+Counting objects: 124, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (108/108), done.
+Writing objects: 100% (124/124), 245.98 KiB | 0 bytes/s, done.
+Total 124 (delta 14), reused 0 (delta 0)
+remote: Resolving deltas: 100% (14/14), done.
+To git@192.168.4.102:emerio_admin/NTT-PC_VOIP.git
+ * [new branch]      master -> master
+[emerio_admin@localhost NTT-PC_VOIP]$ git status
+# On branch master
+nothing to commit, working directory clean
+[emerio_admin@localhost NTT-PC_VOIP]$

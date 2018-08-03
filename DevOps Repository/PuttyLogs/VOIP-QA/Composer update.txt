@@ -1,0 +1,824 @@
+login as: vinoth
+vinoth@192.168.4.213's password:
+Welcome to Ubuntu 16.04.1 LTS (GNU/Linux 4.4.0-128-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+123 packages can be updated.
+1 update is a security update.
+
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+Last login: Wed Jun 27 19:58:53 2018 from 10.254.1.8
+Could not chdir to home directory /home/vinoth: Permission denied
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+-bash: /home/vinoth/.bash_profile: Permission denied
+vinoth@em-voip-qa:/$ sudo bash
+[sudo] password for vinoth:
+root@em-voip-qa:/#
+root@em-voip-qa:/# cd /usr/local/
+root@em-voip-qa:/usr/local# ls -la
+total 40
+drwxr-xr-x 10 root root 4096 Jun 26 06:50 .
+drwxr-xr-x 10 root root 4096 Jun 26 06:50 ..
+drwxr-xr-x  2 root root 4096 Jul 20  2016 bin
+drwxr-xr-x  2 root root 4096 Jul 20  2016 etc
+drwxr-xr-x  2 root root 4096 Jul 20  2016 games
+drwxr-xr-x  2 root root 4096 Jul 20  2016 include
+drwxr-xr-x  3 root root 4096 Jun 26 06:50 lib
+lrwxrwxrwx  1 root root    9 Jun 26 06:50 man -> share/man
+drwxr-xr-x  2 root root 4096 Jul 20  2016 sbin
+drwxr-xr-x  6 root root 4096 Jun 26 07:22 share
+drwxr-xr-x  2 root root 4096 Jul 20  2016 src
+root@em-voip-qa:/usr/local# useradd jenkins jenkins
+Usage: useradd [options] LOGIN
+       useradd -D
+       useradd -D [options]
+
+Options:
+  -b, --base-dir BASE_DIR       base directory for the home directory of the
+                                new account
+  -c, --comment COMMENT         GECOS field of the new account
+  -d, --home-dir HOME_DIR       home directory of the new account
+  -D, --defaults                print or change default useradd configuration
+  -e, --expiredate EXPIRE_DATE  expiration date of the new account
+  -f, --inactive INACTIVE       password inactivity period of the new account
+  -g, --gid GROUP               name or ID of the primary group of the new
+                                account
+  -G, --groups GROUPS           list of supplementary groups of the new
+                                account
+  -h, --help                    display this help message and exit
+  -k, --skel SKEL_DIR           use this alternative skeleton directory
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -l, --no-log-init             do not add the user to the lastlog and
+                                faillog databases
+  -m, --create-home             create the user's home directory
+  -M, --no-create-home          do not create the user's home directory
+  -N, --no-user-group           do not create a group with the same name as
+                                the user
+  -o, --non-unique              allow to create users with duplicate
+                                (non-unique) UID
+  -p, --password PASSWORD       encrypted password of the new account
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -s, --shell SHELL             login shell of the new account
+  -u, --uid UID                 user ID of the new account
+  -U, --user-group              create a group with the same name as the user
+  -Z, --selinux-user SEUSER     use a specific SEUSER for the SELinux user mapping
+      --extrausers              Use the extra users database
+
+root@em-voip-qa:/usr/local# useradd jenkins jenkins
+Usage: useradd [options] LOGIN
+       useradd -D
+       useradd -D [options]
+
+Options:
+  -b, --base-dir BASE_DIR       base directory for the home directory of the
+                                new account
+  -c, --comment COMMENT         GECOS field of the new account
+  -d, --home-dir HOME_DIR       home directory of the new account
+  -D, --defaults                print or change default useradd configuration
+  -e, --expiredate EXPIRE_DATE  expiration date of the new account
+  -f, --inactive INACTIVE       password inactivity period of the new account
+  -g, --gid GROUP               name or ID of the primary group of the new
+                                account
+  -G, --groups GROUPS           list of supplementary groups of the new
+                                account
+  -h, --help                    display this help message and exit
+  -k, --skel SKEL_DIR           use this alternative skeleton directory
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -l, --no-log-init             do not add the user to the lastlog and
+                                faillog databases
+  -m, --create-home             create the user's home directory
+  -M, --no-create-home          do not create the user's home directory
+  -N, --no-user-group           do not create a group with the same name as
+                                the user
+  -o, --non-unique              allow to create users with duplicate
+                                (non-unique) UID
+  -p, --password PASSWORD       encrypted password of the new account
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -s, --shell SHELL             login shell of the new account
+  -u, --uid UID                 user ID of the new account
+  -U, --user-group              create a group with the same name as the user
+  -Z, --selinux-user SEUSER     use a specific SEUSER for the SELinux user mapping
+      --extrausers              Use the extra users database
+
+root@em-voip-qa:/usr/local# useradd jenkins
+useradd: user 'jenkins' already exists
+root@em-voip-qa:/usr/local#
+root@em-voip-qa:/usr/local# mkdir NTTPC-VOIP
+root@em-voip-qa:/usr/local# ls -la
+total 44
+drwxr-xr-x 11 root root 4096 Jun 28 06:02 .
+drwxr-xr-x 10 root root 4096 Jun 26 06:50 ..
+drwxr-xr-x  2 root root 4096 Jul 20  2016 bin
+drwxr-xr-x  2 root root 4096 Jul 20  2016 etc
+drwxr-xr-x  2 root root 4096 Jul 20  2016 games
+drwxr-xr-x  2 root root 4096 Jul 20  2016 include
+drwxr-xr-x  3 root root 4096 Jun 26 06:50 lib
+lrwxrwxrwx  1 root root    9 Jun 26 06:50 man -> share/man
+drwxr-xr-x  2 root root 4096 Jun 28 06:02 NTTPC-VOIP
+drwxr-xr-x  2 root root 4096 Jul 20  2016 sbin
+drwxr-xr-x  6 root root 4096 Jun 26 07:22 share
+drwxr-xr-x  2 root root 4096 Jul 20  2016 src
+root@em-voip-qa:/usr/local# chown -R jenkins jenkins
+chown: cannot access 'jenkins': No such file or directory
+root@em-voip-qa:/usr/local# chown -R jenkins:jenkins /usr/local/NTTPC-VOIP/
+root@em-voip-qa:/usr/local# ls -la
+total 44
+drwxr-xr-x 11 root    root    4096 Jun 28 06:02 .
+drwxr-xr-x 10 root    root    4096 Jun 26 06:50 ..
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 bin
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 etc
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 games
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 include
+drwxr-xr-x  3 root    root    4096 Jun 26 06:50 lib
+lrwxrwxrwx  1 root    root       9 Jun 26 06:50 man -> share/man
+drwxr-xr-x  2 jenkins jenkins 4096 Jun 28 06:02 NTTPC-VOIP
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 sbin
+drwxr-xr-x  6 root    root    4096 Jun 26 07:22 share
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 src
+root@em-voip-qa:/usr/local# cd NTTPC-VOIP/
+root@em-voip-qa:/usr/local/NTTPC-VOIP# git clone git@192.168.4.102:nttpc-admin/NTTPC-VOIP
+Cloning into 'NTTPC-VOIP'...
+The authenticity of host '192.168.4.102 (192.168.4.102)' can't be established.
+ECDSA key fingerprint is SHA256:Q3awEvElFMQvwaF3HtJEQJLJ9dqwemCKimfjN7Y8vxA.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.4.102' (ECDSA) to the list of known hosts.
+git@192.168.4.102's password:
+Permission denied, please try again.
+git@192.168.4.102's password:
+root@em-voip-qa:/usr/local/NTTPC-VOIP#
+IP.git^C92.168.4.102/nttpc-admin/NTTPC-VO
+root@em-voip-qa:/usr/local/NTTPC-VOIP# http://192.168.4.102/nttpc-admin/NTTPC-VOIP.git
+bash: http://192.168.4.102/nttpc-admin/NTTPC-VOIP.git: No such file or directory
+root@em-voip-qa:/usr/local/NTTPC-VOIP# git clone http://192.168.4.102/nttpc-admin/NTTPC-VOIP.git
+Cloning into 'NTTPC-VOIP'...
+Username for 'http://192.168.4.102': emerio_admin
+Password for 'http://emerio_admin@192.168.4.102':
+remote: Counting objects: 1002, done.
+remote: Compressing objects: 100% (92/92), done.
+remote: Total 1002 (delta 45), reused 0 (delta 0)
+Receiving objects: 100% (1002/1002), 380.17 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (639/639), done.
+Checking connectivity... done.
+root@em-voip-qa:/usr/local/NTTPC-VOIP# ls -la
+total 12
+drwxr-xr-x  3 jenkins jenkins 4096 Jun 28 06:06 .
+drwxr-xr-x 11 root    root    4096 Jun 28 06:02 ..
+drwxr-xr-x 12 root    root    4096 Jun 28 06:06 NTTPC-VOIP
+root@em-voip-qa:/usr/local/NTTPC-VOIP# rm -rf *
+root@em-voip-qa:/usr/local/NTTPC-VOIP# cd ..
+root@em-voip-qa:/usr/local# ls -la
+total 44
+drwxr-xr-x 11 root    root    4096 Jun 28 06:02 .
+drwxr-xr-x 10 root    root    4096 Jun 26 06:50 ..
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 bin
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 etc
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 games
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 include
+drwxr-xr-x  3 root    root    4096 Jun 26 06:50 lib
+lrwxrwxrwx  1 root    root       9 Jun 26 06:50 man -> share/man
+drwxr-xr-x  2 jenkins jenkins 4096 Jun 28 06:07 NTTPC-VOIP
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 sbin
+drwxr-xr-x  6 root    root    4096 Jun 26 07:22 share
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 src
+root@em-voip-qa:/usr/local# rm NTTPC-VOIP/
+rm: cannot remove 'NTTPC-VOIP/': Is a directory
+root@em-voip-qa:/usr/local# rm -rf NTTPC-VOIP
+root@em-voip-qa:/usr/local# ls -la
+total 40
+drwxr-xr-x 10 root root 4096 Jun 28 06:07 .
+drwxr-xr-x 10 root root 4096 Jun 26 06:50 ..
+drwxr-xr-x  2 root root 4096 Jul 20  2016 bin
+drwxr-xr-x  2 root root 4096 Jul 20  2016 etc
+drwxr-xr-x  2 root root 4096 Jul 20  2016 games
+drwxr-xr-x  2 root root 4096 Jul 20  2016 include
+drwxr-xr-x  3 root root 4096 Jun 26 06:50 lib
+lrwxrwxrwx  1 root root    9 Jun 26 06:50 man -> share/man
+drwxr-xr-x  2 root root 4096 Jul 20  2016 sbin
+drwxr-xr-x  6 root root 4096 Jun 26 07:22 share
+drwxr-xr-x  2 root root 4096 Jul 20  2016 src
+root@em-voip-qa:/usr/local# git clone http://192.168.4.102/nttpc-admin/NTTPC-VOIP.git
+Cloning into 'NTTPC-VOIP'...
+Username for 'http://192.168.4.102': emerio_admin
+Password for 'http://emerio_admin@192.168.4.102':
+remote: Counting objects: 1002, done.
+remote: Compressing objects: 100% (92/92), done.
+remote: Total 1002 (delta 45), reused 0 (delta 0)
+Receiving objects: 100% (1002/1002), 380.17 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (639/639), done.
+Checking connectivity... done.
+root@em-voip-qa:/usr/local# ls -la
+total 44
+drwxr-xr-x 11 root root 4096 Jun 28 06:07 .
+drwxr-xr-x 10 root root 4096 Jun 26 06:50 ..
+drwxr-xr-x  2 root root 4096 Jul 20  2016 bin
+drwxr-xr-x  2 root root 4096 Jul 20  2016 etc
+drwxr-xr-x  2 root root 4096 Jul 20  2016 games
+drwxr-xr-x  2 root root 4096 Jul 20  2016 include
+drwxr-xr-x  3 root root 4096 Jun 26 06:50 lib
+lrwxrwxrwx  1 root root    9 Jun 26 06:50 man -> share/man
+drwxr-xr-x 12 root root 4096 Jun 28 06:07 NTTPC-VOIP
+drwxr-xr-x  2 root root 4096 Jul 20  2016 sbin
+drwxr-xr-x  6 root root 4096 Jun 26 07:22 share
+drwxr-xr-x  2 root root 4096 Jul 20  2016 src
+root@em-voip-qa:/usr/local# chown -R jenkins:jenkins /usr/local/NTTPC-VOIP/
+root@em-voip-qa:/usr/local# ls -la
+total 44
+drwxr-xr-x 11 root    root    4096 Jun 28 06:07 .
+drwxr-xr-x 10 root    root    4096 Jun 26 06:50 ..
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 bin
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 etc
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 games
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 include
+drwxr-xr-x  3 root    root    4096 Jun 26 06:50 lib
+lrwxrwxrwx  1 root    root       9 Jun 26 06:50 man -> share/man
+drwxr-xr-x 12 jenkins jenkins 4096 Jun 28 06:07 NTTPC-VOIP
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 sbin
+drwxr-xr-x  6 root    root    4096 Jun 26 07:22 share
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 src
+root@em-voip-qa:/usr/local# cd NTTPC-VOIP/
+root@em-voip-qa:/usr/local/NTTPC-VOIP# ls -la
+total 472
+drwxr-xr-x 12 jenkins jenkins   4096 Jun 28 06:07 .
+drwxr-xr-x 11 root    root      4096 Jun 28 06:07 ..
+drwxr-xr-x  6 jenkins jenkins   4096 Jun 28 06:07 app
+-rw-r--r--  1 jenkins jenkins   1686 Jun 28 06:07 artisan
+drwxr-xr-x  3 jenkins jenkins   4096 Jun 28 06:07 bootstrap
+-rw-r--r--  1 jenkins jenkins   1454 Jun 28 06:07 composer.json
+-rw-r--r--  1 jenkins jenkins 168420 Jun 28 06:07 composer.lock
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 config
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 database
+-rw-r--r--  1 jenkins jenkins    542 Jun 28 06:07 .env.example
+drwxr-xr-x  8 jenkins jenkins   4096 Jun 28 06:07 .git
+-rw-r--r--  1 jenkins jenkins    111 Jun 28 06:07 .gitattributes
+-rw-r--r--  1 jenkins jenkins    153 Jun 28 06:07 .gitignore
+-rw-r--r--  1 jenkins jenkins    159 Jun 28 06:07 jenkins.sh
+-rw-r--r--  1 jenkins jenkins   1129 Jun 28 06:07 package.json
+-rw-r--r--  1 jenkins jenkins   1040 Jun 28 06:07 phpunit.xml
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 public
+-rw-r--r--  1 jenkins jenkins      0 Jun 28 06:07 README.md
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 resources
+drwxr-xr-x  2 jenkins jenkins   4096 Jun 28 06:07 routes
+-rw-r--r--  1 jenkins jenkins    563 Jun 28 06:07 server.php
+drwxr-xr-x  5 jenkins jenkins   4096 Jun 28 06:07 storage
+drwxr-xr-x  4 jenkins jenkins   4096 Jun 28 06:07 tests
+-rw-r--r--  1 jenkins jenkins    549 Jun 28 06:07 webpack.mix.js
+-rw-r--r--  1 jenkins jenkins 219089 Jun 28 06:07 yarn.lock
+root@em-voip-qa:/usr/local/NTTPC-VOIP# sudo composer install
+sudo: composer: command not found
+root@em-voip-qa:/usr/local/NTTPC-VOIP# sudo composer install
+sudo: composer: command not found
+root@em-voip-qa:/usr/local/NTTPC-VOIP# sudo apt-get install curl php-cli php-mbstring git unzip
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+curl is already the newest version (7.47.0-1ubuntu2.8).
+git is already the newest version (1:2.7.4-0ubuntu1.4).
+The following additional packages will be installed:
+  php7.0-mbstring
+Suggested packages:
+  zip
+The following NEW packages will be installed:
+  php-cli php-mbstring php7.0-mbstring unzip
+0 upgraded, 4 newly installed, 0 to remove and 121 not upgraded.
+Need to get 627 kB of archives.
+After this operation, 2,054 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 php-cli all 1:7.0+35ubuntu6.1 [2,946 B]
+Get:2 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 php7.0-mbstring amd64 7.0.30-0ubuntu0.16.04.1 [464 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 php-mbstring all 1:7.0+35ubuntu6.1 [1,940 B]
+Get:4 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 unzip amd64 6.0-20ubuntu1 [158 kB]
+Fetched 627 kB in 4s (145 kB/s)
+Selecting previously unselected package php-cli.
+(Reading database ... 93872 files and directories currently installed.)
+Preparing to unpack .../php-cli_1%3a7.0+35ubuntu6.1_all.deb ...
+Unpacking php-cli (1:7.0+35ubuntu6.1) ...
+Selecting previously unselected package php7.0-mbstring.
+Preparing to unpack .../php7.0-mbstring_7.0.30-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking php7.0-mbstring (7.0.30-0ubuntu0.16.04.1) ...
+Selecting previously unselected package php-mbstring.
+Preparing to unpack .../php-mbstring_1%3a7.0+35ubuntu6.1_all.deb ...
+Unpacking php-mbstring (1:7.0+35ubuntu6.1) ...
+Selecting previously unselected package unzip.
+Preparing to unpack .../unzip_6.0-20ubuntu1_amd64.deb ...
+Unpacking unzip (6.0-20ubuntu1) ...
+Processing triggers for libapache2-mod-php7.0 (7.0.30-0ubuntu0.16.04.1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up php-cli (1:7.0+35ubuntu6.1) ...
+Setting up php7.0-mbstring (7.0.30-0ubuntu0.16.04.1) ...
+
+Creating config file /etc/php/7.0/mods-available/mbstring.ini with new version
+Setting up php-mbstring (1:7.0+35ubuntu6.1) ...
+Setting up unzip (6.0-20ubuntu1) ...
+Processing triggers for libapache2-mod-php7.0 (7.0.30-0ubuntu0.16.04.1) ...
+root@em-voip-qa:/usr/local/NTTPC-VOIP# cd ~
+root@em-voip-qa:~# curl -sS https://getcomposer.org/installer -o composer-setup.php
+root@em-voip-qa:~# php -r "if (hash_file('SHA384', 'composer-setup.php') === '669656bab3166a7aff8a7506b8cb2d1c292f042046c5a994c43155c0be6190fa0355160742ab2e1c88d40d5be660b410') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+Installer corrupt
+root@em-voip-qa:~# sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+Could not open input file: composer-setup.php
+root@em-voip-qa:~# sudo apt-get update
+Hit:1 http://us.archive.ubuntu.com/ubuntu xenial InRelease
+Get:2 http://us.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [796 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [727 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [637 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages [581 kB]
+Get:8 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]
+Get:9 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [511 kB]
+Get:10 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages [452 kB]
+Get:11 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [355 kB]
+Get:12 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages [303 kB]
+Fetched 4,685 kB in 11s (409 kB/s)
+Reading package lists... Done
+root@em-voip-qa:~# sudo apt-get install curl php-cli php-mbstring git unzip
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+unzip is already the newest version (6.0-20ubuntu1).
+curl is already the newest version (7.47.0-1ubuntu2.8).
+git is already the newest version (1:2.7.4-0ubuntu1.4).
+php-cli is already the newest version (1:7.0+35ubuntu6.1).
+php-mbstring is already the newest version (1:7.0+35ubuntu6.1).
+0 upgraded, 0 newly installed, 0 to remove and 123 not upgraded.
+root@em-voip-qa:~# curl -sS https://getcomposer.org/installer -o composer-setup.php
+root@em-voip-qa:~# sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+All settings correct for using Composer
+Downloading...
+
+Composer (version 1.6.5) successfully installed to: /usr/local/bin/composer
+Use it: php /usr/local/bin/composer
+
+root@em-voip-qa:~# composer
+Do not run Composer as root/super user! See https://getcomposer.org/root for details
+   ______
+  / ____/___  ____ ___  ____  ____  ________  _____
+ / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /
+\____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
+                    /_/
+Composer version 1.6.5 2018-05-04 11:44:59
+
+Usage:
+  command [options] [arguments]
+
+Options:
+  -h, --help                     Display this help message
+  -q, --quiet                    Do not output any message
+  -V, --version                  Display this application version
+      --ansi                     Force ANSI output
+      --no-ansi                  Disable ANSI output
+  -n, --no-interaction           Do not ask any interactive question
+      --profile                  Display timing and memory usage information
+      --no-plugins               Whether to disable plugins.
+  -d, --working-dir=WORKING-DIR  If specified, use the given directory as working directory.
+  -v|vv|vvv, --verbose           Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+
+Available commands:
+  about                Shows the short information about Composer.
+  archive              Creates an archive of this composer package.
+  browse               Opens the package's repository URL or homepage in your browser.
+  check-platform-reqs  Check that platform requirements are satisfied.
+  clear-cache          Clears composer's internal package cache.
+  clearcache           Clears composer's internal package cache.
+  config               Sets config options.
+  create-project       Creates new project from a package into given directory.
+  depends              Shows which packages cause the given package to be installed.
+  diagnose             Diagnoses the system to identify common errors.
+  dump-autoload        Dumps the autoloader.
+  dumpautoload         Dumps the autoloader.
+  exec                 Executes a vendored binary/script.
+  global               Allows running commands in the global composer dir ($COMPOSER_HOME).
+  help                 Displays help for a command
+  home                 Opens the package's repository URL or homepage in your browser.
+  info                 Shows information about packages.
+  init                 Creates a basic composer.json file in current directory.
+  install              Installs the project dependencies from the composer.lock file if present, or falls back on the composer.json.
+  licenses             Shows information about licenses of dependencies.
+  list                 Lists commands
+  outdated             Shows a list of installed packages that have updates available, including their latest version.
+  prohibits            Shows which packages prevent the given package from being installed.
+  remove               Removes a package from the require or require-dev.
+  require              Adds required packages to your composer.json and installs them.
+  run-script           Runs the scripts defined in composer.json.
+  search               Searches for packages.
+  self-update          Updates composer.phar to the latest version.
+  selfupdate           Updates composer.phar to the latest version.
+  show                 Shows information about packages.
+  status               Shows a list of locally modified packages, for packages installed from source.
+  suggests             Shows package suggestions.
+  update               Upgrades your dependencies to the latest version according to composer.json, and updates the composer.lock file.
+  upgrade              Upgrades your dependencies to the latest version according to composer.json, and updates the composer.lock file.
+  validate             Validates a composer.json and composer.lock.
+  why                  Shows which packages cause the given package to be installed.
+  why-not              Shows which packages prevent the given package from being installed.
+root@em-voip-qa:~# php composer-setup.php
+All settings correct for using Composer
+Downloading...
+
+Composer (version 1.6.5) successfully installed to: /home/vinoth/composer.phar
+Use it: php composer.phar
+
+root@em-voip-qa:~# cd /usr/local/NTTPC-VOIP/
+root@em-voip-qa:/usr/local/NTTPC-VOIP# sudo composer update
+Do not run Composer as root/super user! See https://getcomposer.org/root for details
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - phpunit/phpunit 6.5.8 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.7 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.6 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.5 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.4 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.3 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.2 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.4.4 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.4.3 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.4.2 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.4.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.4.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.3.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.3.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.2.4 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.2.3 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.2.2 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.2.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.2.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.1.4 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.1.3 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.1.2 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.1.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.1.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.9 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.8 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.7 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.6 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.5 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.4 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.3 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.2 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.13 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.12 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.11 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.10 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - Installation request for phpunit/phpunit ~6.0 -> satisfiable by phpunit/phpunit[6.0.0, 6.0.1, 6.0.10, 6.0.11, 6.0.12, 6.0.13, 6.0.2, 6.0.3, 6.0.4, 6.0.5, 6.0.6, 6.0.7, 6.0.8, 6.0.9, 6.1.0, 6.1.1, 6.1.2, 6.1.3, 6.1.4, 6.2.0, 6.2.1, 6.2.2, 6.2.3, 6.2.4, 6.3.0, 6.3.1, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.5.5, 6.5.6, 6.5.7, 6.5.8].
+
+  To enable extensions, verify that they are enabled in your .ini files:
+    - /etc/php/7.0/cli/php.ini
+    - /etc/php/7.0/cli/conf.d/10-mysqlnd.ini
+    - /etc/php/7.0/cli/conf.d/10-opcache.ini
+    - /etc/php/7.0/cli/conf.d/10-pdo.ini
+    - /etc/php/7.0/cli/conf.d/20-calendar.ini
+    - /etc/php/7.0/cli/conf.d/20-ctype.ini
+    - /etc/php/7.0/cli/conf.d/20-exif.ini
+    - /etc/php/7.0/cli/conf.d/20-fileinfo.ini
+    - /etc/php/7.0/cli/conf.d/20-ftp.ini
+    - /etc/php/7.0/cli/conf.d/20-gettext.ini
+    - /etc/php/7.0/cli/conf.d/20-iconv.ini
+    - /etc/php/7.0/cli/conf.d/20-json.ini
+    - /etc/php/7.0/cli/conf.d/20-mbstring.ini
+    - /etc/php/7.0/cli/conf.d/20-mcrypt.ini
+    - /etc/php/7.0/cli/conf.d/20-mysqli.ini
+    - /etc/php/7.0/cli/conf.d/20-pdo_mysql.ini
+    - /etc/php/7.0/cli/conf.d/20-phar.ini
+    - /etc/php/7.0/cli/conf.d/20-posix.ini
+    - /etc/php/7.0/cli/conf.d/20-readline.ini
+    - /etc/php/7.0/cli/conf.d/20-shmop.ini
+    - /etc/php/7.0/cli/conf.d/20-sockets.ini
+    - /etc/php/7.0/cli/conf.d/20-sysvmsg.ini
+    - /etc/php/7.0/cli/conf.d/20-sysvsem.ini
+    - /etc/php/7.0/cli/conf.d/20-sysvshm.ini
+    - /etc/php/7.0/cli/conf.d/20-tokenizer.ini
+  You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
+root@em-voip-qa:/usr/local/NTTPC-VOIP#
+root@em-voip-qa:/usr/local/NTTPC-VOIP# sudo apt-get install php7.1-xml
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+E: Unable to locate package php7.1-xml
+E: Couldn't find any package by glob 'php7.1-xml'
+E: Couldn't find any package by regex 'php7.1-xml'
+root@em-voip-qa:/usr/local/NTTPC-VOIP# sudo apt-get install php7.1-xml
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+E: Unable to locate package php7.1-xml
+E: Couldn't find any package by glob 'php7.1-xml'
+E: Couldn't find any package by regex 'php7.1-xml'
+root@em-voip-qa:/usr/local/NTTPC-VOIP# sudo apt-get install php-mbstring
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+php-mbstring is already the newest version (1:7.0+35ubuntu6.1).
+0 upgraded, 0 newly installed, 0 to remove and 123 not upgraded.
+root@em-voip-qa:/usr/local/NTTPC-VOIP# composer update
+Do not run Composer as root/super user! See https://getcomposer.org/root for details
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - phpunit/phpunit 6.5.8 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.7 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.6 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.5 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.4 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.3 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.2 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.5.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.4.4 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.4.3 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.4.2 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.4.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.4.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.3.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.3.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.2.4 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.2.3 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.2.2 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.2.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.2.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.1.4 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.1.3 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.1.2 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.1.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.1.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.9 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.8 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.7 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.6 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.5 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.4 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.3 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.2 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.13 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.12 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.11 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.10 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.1 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - phpunit/phpunit 6.0.0 requires ext-dom * -> the requested PHP extension dom is missing from your system.
+    - Installation request for phpunit/phpunit ~6.0 -> satisfiable by phpunit/phpunit[6.0.0, 6.0.1, 6.0.10, 6.0.11, 6.0.12, 6.0.13, 6.0.2, 6.0.3, 6.0.4, 6.0.5, 6.0.6, 6.0.7, 6.0.8, 6.0.9, 6.1.0, 6.1.1, 6.1.2, 6.1.3, 6.1.4, 6.2.0, 6.2.1, 6.2.2, 6.2.3, 6.2.4, 6.3.0, 6.3.1, 6.4.0, 6.4.1, 6.4.2, 6.4.3, 6.4.4, 6.5.0, 6.5.1, 6.5.2, 6.5.3, 6.5.4, 6.5.5, 6.5.6, 6.5.7, 6.5.8].
+
+  To enable extensions, verify that they are enabled in your .ini files:
+    - /etc/php/7.0/cli/php.ini
+    - /etc/php/7.0/cli/conf.d/10-mysqlnd.ini
+    - /etc/php/7.0/cli/conf.d/10-opcache.ini
+    - /etc/php/7.0/cli/conf.d/10-pdo.ini
+    - /etc/php/7.0/cli/conf.d/20-calendar.ini
+    - /etc/php/7.0/cli/conf.d/20-ctype.ini
+    - /etc/php/7.0/cli/conf.d/20-exif.ini
+    - /etc/php/7.0/cli/conf.d/20-fileinfo.ini
+    - /etc/php/7.0/cli/conf.d/20-ftp.ini
+    - /etc/php/7.0/cli/conf.d/20-gettext.ini
+    - /etc/php/7.0/cli/conf.d/20-iconv.ini
+    - /etc/php/7.0/cli/conf.d/20-json.ini
+    - /etc/php/7.0/cli/conf.d/20-mbstring.ini
+    - /etc/php/7.0/cli/conf.d/20-mcrypt.ini
+    - /etc/php/7.0/cli/conf.d/20-mysqli.ini
+    - /etc/php/7.0/cli/conf.d/20-pdo_mysql.ini
+    - /etc/php/7.0/cli/conf.d/20-phar.ini
+    - /etc/php/7.0/cli/conf.d/20-posix.ini
+    - /etc/php/7.0/cli/conf.d/20-readline.ini
+    - /etc/php/7.0/cli/conf.d/20-shmop.ini
+    - /etc/php/7.0/cli/conf.d/20-sockets.ini
+    - /etc/php/7.0/cli/conf.d/20-sysvmsg.ini
+    - /etc/php/7.0/cli/conf.d/20-sysvsem.ini
+    - /etc/php/7.0/cli/conf.d/20-sysvshm.ini
+    - /etc/php/7.0/cli/conf.d/20-tokenizer.ini
+  You can also run `php --ini` inside terminal to see which files are used by PHP in CLI mode.
+root@em-voip-qa:/usr/local/NTTPC-VOIP# sudo apt-get install php-xml
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  libxslt1.1 php7.0-xml
+The following NEW packages will be installed:
+  libxslt1.1 php-xml php7.0-xml
+0 upgraded, 3 newly installed, 0 to remove and 123 not upgraded.
+Need to get 261 kB of archives.
+After this operation, 969 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxslt1.1 amd64 1.1.28-2.1ubuntu0.1 [145 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 php7.0-xml amd64 7.0.30-0ubuntu0.16.04.1 [113 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 php-xml all 1:7.0+35ubuntu6.1 [1,954 B]
+Fetched 261 kB in 5s (45.8 kB/s)
+Selecting previously unselected package libxslt1.1:amd64.
+(Reading database ... 93905 files and directories currently installed.)
+Preparing to unpack .../libxslt1.1_1.1.28-2.1ubuntu0.1_amd64.deb ...
+Unpacking libxslt1.1:amd64 (1.1.28-2.1ubuntu0.1) ...
+Selecting previously unselected package php7.0-xml.
+Preparing to unpack .../php7.0-xml_7.0.30-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking php7.0-xml (7.0.30-0ubuntu0.16.04.1) ...
+Selecting previously unselected package php-xml.
+Preparing to unpack .../php-xml_1%3a7.0+35ubuntu6.1_all.deb ...
+Unpacking php-xml (1:7.0+35ubuntu6.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for libapache2-mod-php7.0 (7.0.30-0ubuntu0.16.04.1) ...
+Setting up libxslt1.1:amd64 (1.1.28-2.1ubuntu0.1) ...
+Setting up php7.0-xml (7.0.30-0ubuntu0.16.04.1) ...
+
+Creating config file /etc/php/7.0/mods-available/dom.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/simplexml.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/wddx.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/xml.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/xmlreader.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/xmlwriter.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/xsl.ini with new version
+Setting up php-xml (1:7.0+35ubuntu6.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for libapache2-mod-php7.0 (7.0.30-0ubuntu0.16.04.1) ...
+root@em-voip-qa:/usr/local/NTTPC-VOIP# composer update
+Do not run Composer as root/super user! See https://getcomposer.org/root for details
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 84 installs, 0 updates, 0 removals
+  - Installing vlucas/phpdotenv (v2.4.0): Downloading (100%)
+  - Installing symfony/css-selector (v3.4.12): Downloading (100%)
+  - Installing tijsverkoyen/css-to-inline-styles (2.2.1): Downloading (100%)      - Installing symfony/polyfill-mbstring (v1.8.0): Downloading (100%)
+  - Installing symfony/var-dumper (v3.4.12): Downloading (100%)
+  - Installing symfony/routing (v3.4.12): Downloading (100%)
+  - Installing symfony/process (v3.4.12): Downloading (100%)
+  - Installing paragonie/random_compat (v2.0.15): Downloading (100%)
+  - Installing symfony/polyfill-php70 (v1.8.0): Downloading (100%)
+  - Installing symfony/http-foundation (v3.4.12): Downloading (100%)
+  - Installing symfony/event-dispatcher (v3.4.12): Downloading (100%)
+  - Installing psr/log (1.0.2): Downloading (100%)
+  - Installing symfony/debug (v3.4.12): Downloading (100%)
+  - Installing symfony/polyfill-ctype (v1.8.0): Downloading (100%)
+  - Installing symfony/http-kernel (v3.4.12): Downloading (100%)
+  - Installing symfony/finder (v3.4.12): Downloading (100%)
+  - Installing symfony/console (v3.4.12): Downloading (100%)
+  - Installing doctrine/lexer (v1.0.1): Downloading (100%)
+  - Installing egulias/email-validator (2.1.4): Downloading (100%)
+  - Installing swiftmailer/swiftmailer (v6.0.2): Downloading (100%)
+  - Installing ramsey/uuid (3.7.3): Downloading (100%)
+  - Installing psr/simple-cache (1.0.1): Downloading (100%)
+  - Installing psr/container (1.0.0): Downloading (100%)
+  - Installing symfony/translation (v3.4.12): Downloading (100%)
+  - Installing nesbot/carbon (1.31.1): Downloading (100%)
+  - Installing mtdowling/cron-expression (v1.2.1): Downloading (100%)
+  - Installing monolog/monolog (1.23.0): Downloading (100%)
+  - Installing league/flysystem (1.0.45): Downloading (100%)
+  - Installing erusev/parsedown (1.7.1): Downloading (100%)
+  - Installing doctrine/inflector (v1.2.0): Downloading (100%)
+  - Installing laravel/framework (v5.5.40): Downloading (100%)
+  - Installing fideloper/proxy (3.3.4): Downloading (100%)
+  - Installing psr/http-message (1.0.1): Downloading (100%)
+  - Installing zendframework/zend-diactoros (1.8.0): Downloading (100%)
+  - Installing symfony/psr-http-message-bridge (v1.0.2): Downloading (100%)       - Installing phpseclib/phpseclib (2.0.11): Downloading (100%)
+  - Installing defuse/php-encryption (v2.2.0): Downloading (100%)
+  - Installing lcobucci/jwt (3.2.2): Downloading (100%)
+  - Installing league/event (2.1.2): Downloading (100%)
+  - Installing league/oauth2-server (6.1.1): Downloading (100%)
+  - Installing guzzlehttp/promises (v1.3.1): Downloading (100%)
+  - Installing guzzlehttp/psr7 (1.4.2): Downloading (100%)
+  - Installing guzzlehttp/guzzle (6.3.3): Downloading (100%)
+  - Installing firebase/php-jwt (v5.0.0): Downloading (100%)
+  - Installing laravel/passport (v4.0.3): Downloading (100%)
+  - Installing nikic/php-parser (v4.0.2): Downloading (100%)
+  - Installing jakub-onderka/php-console-color (0.1): Downloading (100%)          - Installing jakub-onderka/php-console-highlighter (v0.3.2): Downloading (100%)
+  - Installing dnoegel/php-xdg-base-dir (0.1): Downloading (100%)
+  - Installing psy/psysh (v0.9.6): Downloading (100%)
+  - Installing laravel/tinker (v1.0.7): Downloading (100%)
+  - Installing filp/whoops (2.2.0): Downloading (100%)
+  - Installing fzaninotto/faker (v1.7.1): Downloading (100%)
+  - Installing hamcrest/hamcrest-php (v1.2.2): Downloading (100%)
+  - Installing mockery/mockery (0.9.9): Downloading (100%)
+  - Installing sebastian/version (2.0.1): Downloading (100%)
+  - Installing sebastian/resource-operations (1.0.0): Downloading (100%)          - Installing sebastian/recursion-context (3.0.0): Downloading (100%)
+  - Installing sebastian/object-reflector (1.1.1): Downloading (100%)
+  - Installing sebastian/object-enumerator (3.0.3): Downloading (100%)
+  - Installing sebastian/global-state (2.0.0): Downloading (100%)
+  - Installing sebastian/exporter (3.1.0): Downloading (100%)
+  - Installing sebastian/environment (3.1.0): Downloading (100%)
+  - Installing sebastian/diff (2.0.1): Downloading (100%)
+  - Installing sebastian/comparator (2.1.3): Downloading (100%)
+  - Installing doctrine/instantiator (1.0.5): Downloading (100%)
+  - Installing phpunit/php-text-template (1.2.1): Downloading (100%)
+  - Installing phpunit/phpunit-mock-objects (5.0.7): Downloading (100%)
+  - Installing phpunit/php-timer (1.0.9): Downloading (100%)
+  - Installing phpunit/php-file-iterator (1.4.5): Downloading (100%)
+  - Installing theseer/tokenizer (1.1.0): Downloading (100%)
+  - Installing sebastian/code-unit-reverse-lookup (1.0.1): Downloading (100%)     - Installing phpunit/php-token-stream (2.0.2): Downloading (100%)
+  - Installing phpunit/php-code-coverage (5.3.2): Downloading (100%)
+  - Installing webmozart/assert (1.3.0): Downloading (100%)
+  - Installing phpdocumentor/reflection-common (1.0.1): Downloading (100%)        - Installing phpdocumentor/type-resolver (0.4.0): Downloading (100%)
+  - Installing phpdocumentor/reflection-docblock (4.3.0): Downloading (100%)      - Installing phpspec/prophecy (1.7.6): Downloading (100%)
+  - Installing phar-io/version (1.0.1): Downloading (100%)
+  - Installing phar-io/manifest (1.0.1): Downloading (100%)
+  - Installing myclabs/deep-copy (1.7.0): Downloading (100%)
+  - Installing phpunit/phpunit (6.5.8): Downloading (100%)
+  - Installing squizlabs/php_codesniffer (3.3.0): Downloading (100%)
+symfony/var-dumper suggests installing ext-intl (To show region name in time zone dump)
+symfony/var-dumper suggests installing ext-symfony_debug ()
+symfony/routing suggests installing doctrine/annotations (For using the annotation loader)
+symfony/routing suggests installing symfony/config (For using the all-in-one router or any loader)
+symfony/routing suggests installing symfony/dependency-injection (For loading routes from a service)
+symfony/routing suggests installing symfony/expression-language (For using expression matching)
+symfony/routing suggests installing symfony/yaml (For using the YAML loader)
+paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+symfony/event-dispatcher suggests installing symfony/dependency-injection ()
+symfony/http-kernel suggests installing symfony/browser-kit ()
+symfony/http-kernel suggests installing symfony/config ()
+symfony/http-kernel suggests installing symfony/dependency-injection ()
+symfony/console suggests installing symfony/lock ()
+egulias/email-validator suggests installing ext-intl (PHP Internationalization Libraries are required to use the SpoofChecking validation)
+ramsey/uuid suggests installing ircmaxell/random-lib (Provides RandomLib for use with the RandomLibAdapter)
+ramsey/uuid suggests installing ext-libsodium (Provides the PECL libsodium extension for use with the SodiumRandomGenerator)
+ramsey/uuid suggests installing ext-uuid (Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator)
+ramsey/uuid suggests installing moontoast/math (Provides support for converting UUID to 128-bit integer (in string form).)
+ramsey/uuid suggests installing ramsey/uuid-doctrine (Allows the use of Ramsey\Uuid\Uuid as Doctrine field type.)
+ramsey/uuid suggests installing ramsey/uuid-console (A console application for generating UUIDs with ramsey/uuid)
+symfony/translation suggests installing symfony/config ()
+symfony/translation suggests installing symfony/yaml ()
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server via PHP Driver)
+monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+monolog/monolog suggests installing sentry/sentry (Allow sending log messages to a Sentry server)
+league/flysystem suggests installing league/flysystem-aws-s3-v2 (Allows you to use S3 storage with AWS SDK v2)
+league/flysystem suggests installing league/flysystem-aws-s3-v3 (Allows you to use S3 storage with AWS SDK v3)
+league/flysystem suggests installing league/flysystem-azure (Allows you to use Windows Azure Blob storage)
+league/flysystem suggests installing league/flysystem-cached-adapter (Flysystem adapter decorator for metadata caching)
+league/flysystem suggests installing league/flysystem-eventable-filesystem (Allows you to use EventableFilesystem)
+league/flysystem suggests installing league/flysystem-rackspace (Allows you to use Rackspace Cloud Files)
+league/flysystem suggests installing league/flysystem-sftp (Allows you to use SFTP server storage via phpseclib)
+league/flysystem suggests installing league/flysystem-webdav (Allows you to use WebDAV storage)
+league/flysystem suggests installing league/flysystem-ziparchive (Allows you to use ZipArchive adapter)
+league/flysystem suggests installing spatie/flysystem-dropbox (Allows you to use Dropbox storage)
+league/flysystem suggests installing srmklive/flysystem-dropbox-v2 (Allows you to use Dropbox storage for PHP 5 applications)
+laravel/framework suggests installing aws/aws-sdk-php (Required to use the SQS queue driver and SES mail driver (~3.0).)
+laravel/framework suggests installing doctrine/dbal (Required to rename columns and drop SQLite columns (~2.5).)
+laravel/framework suggests installing league/flysystem-aws-s3-v3 (Required to use the Flysystem S3 driver (~1.0).)
+laravel/framework suggests installing league/flysystem-cached-adapter (Required to use Flysystem caching (~1.0).)
+laravel/framework suggests installing league/flysystem-rackspace (Required to use the Flysystem Rackspace driver (~1.0).)
+laravel/framework suggests installing nexmo/client (Required to use the Nexmo transport (~1.0).)
+laravel/framework suggests installing pda/pheanstalk (Required to use the beanstalk queue driver (~3.0).)
+laravel/framework suggests installing predis/predis (Required to use the redis cache and queue drivers (~1.0).)
+laravel/framework suggests installing pusher/pusher-php-server (Required to use the Pusher broadcast driver (~3.0).)
+laravel/framework suggests installing symfony/dom-crawler (Required to use most of the crawler integration testing tools (~3.3).)
+phpseclib/phpseclib suggests installing ext-libsodium (SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.)
+phpseclib/phpseclib suggests installing ext-gmp (Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.)
+lcobucci/jwt suggests installing mdanter/ecc (Required to use Elliptic Curves based algorithms.)
+psy/psysh suggests installing ext-pdo-sqlite (The doc command requires SQLite to work.)
+psy/psysh suggests installing hoa/console (A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit.)
+filp/whoops suggests installing whoops/soap (Formats errors as SOAP responses)
+sebastian/global-state suggests installing ext-uopz (*)
+phpunit/phpunit-mock-objects suggests installing ext-soap (*)
+phpunit/php-code-coverage suggests installing ext-xdebug (^2.5.5)
+phpunit/phpunit suggests installing phpunit/php-invoker (^1.1)
+phpunit/phpunit suggests installing ext-xdebug (*)
+Writing lock file
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover
+Discovered Package: fideloper/proxy
+Discovered Package: laravel/passport
+Discovered Package: laravel/tinker
+Discovered Package: nesbot/carbon
+Package manifest generated successfully.
+root@em-voip-qa:/usr/local/NTTPC-VOIP#

@@ -1,0 +1,10 @@
+---
+# tasks file for exception
+
+- include: deploy.yml
+
+- name: Stopping "{{ application }}" ...
+  service : name={{ application }} state=stopped
+
+- name: Starting "{{ application }}" ...
+  service: name={{ application }} state=started

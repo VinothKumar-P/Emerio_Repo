@@ -1,0 +1,9 @@
+VM virtual Box : vinothkumar / Vinoth@7
+
+
+From Bash  
+
+ssh -p 2222 root@localhost
+
+
+RAM allocation --> 1 GB 01-06-2018

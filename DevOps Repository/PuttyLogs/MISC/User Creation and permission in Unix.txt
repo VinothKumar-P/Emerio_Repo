@@ -1,0 +1,440 @@
+
+
+user account emerio_admin --> kannan mail id
+
+
+**************
+
+Tar file with folder + timestamp along with .git files
+tar zcvf backup-$(date +%Y-%m-%d__%H-%M-%S).tar.gz devops --exclude /var/lib/jenkins/workspace/devops/.git/ 
+
+
+tar zcvf /usr/local/downloads/devops/devops-$(date +%Y-%m-%d_%H-%M-%S).tar.gz devops/* --exclude /var/lib/jenkins/workspace/devops/.git/;
+scp -pr /usr/local/downloads/devops/devops-$(date +%Y-%m-%d_%H-%M-%S).tar.gz kannan@192.168.4.211:/usr/local/dev;
+ssh kannan@192.168.4.211 "cd /usr/local/dev ; tar -zxvf devops-$(date +%Y-%m-%d__%H-%M-%S).tar.gz";
+ 
+ 
+ rm -rf devops*.tar.gz|tar zcvf devops-$(date +%Y-%m-%d_%H-%M-%S).tar.gz devops/* --exclude /var/lib/jenkins/workspace/devops/.git/;
+cp devops-2018-06-14*.tar.gz /usr/local/downloads/devops/;
+ssh kannan@192.168.4.211 "cd /usr/local/dev ; rm -rf dev*.tar.gz";
+scp -pr de*.tar.gz kannan@192.168.4.211:/usr/local/dev;
+ssh kannan@192.168.4.211 "cd /usr/local/dev ; tar -zxvf dev*.tar.gz";
+
+
+*********old
+rm -rf devops*.tar.gz|tar zcvf devops-$(date +%Y-%m-%d_%H-%M-%S).tar.gz devops --exclude /var/lib/jenkins/workspace/devops/.git/;
+cp devops-2018-06-14*.tar.gz /usr/local/downloads/devops/;
+ssh kannan@192.168.4.211 "cd /usr/local/dev ; rm -rf dev*.tar.gz";
+scp -pr de*.tar.gz kannan@192.168.4.211:/usr/local/dev;
+
+login as: kannan
+kannan@192.168.4.211's password:
+Welcome to Ubuntu 16.04.1 LTS (GNU/Linux 4.4.0-31-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+160 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Thu Jun 14 12:34:39 2018 from 192.168.4.58
+kannan@em-voip-app:~$ sudo bash
+[sudo] password for kannan:
+root@em-voip-app:~# cd /usr/local/dev
+dev/    devops/
+root@em-voip-app:~# cd /usr/local/dev/
+root@em-voip-app:/usr/local/dev# ll
+total 41304
+drwxr-xr-x  3 kannan root       4096 Jun 14 11:44 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+-rw-r--r--  1 kannan kannan 42270489 Jun 14 11:31 backup-2018-06-14__13-15-20.tar.gz
+-rw-r--r--  1 kannan kannan      172 Jun 13 12:23 Jenkinsfile
+-rw-r--r--  1 kannan kannan        0 Jun 13 17:13 new.pdf
+-rw-r--r--  1 kannan kannan      724 Jun 13 12:23 pom.xml
+-rw-r--r--  1 kannan kannan       13 Jun 13 12:23 README.md
+drwxr-xr-x  3 kannan kannan     4096 Jun 13 12:23 src/
+-rw-r--r--  1 kannan kannan        0 Jun 14 09:03 vn.pdf
+root@em-voip-app:/usr/local/dev# cd ..
+root@em-voip-app:/usr/local# ll
+total 60
+drwxr-xr-x 15 root    root    4096 Jun 13 19:12 ./
+drwxr-xr-x 10 root    root    4096 Jun  8 12:49 ../
+drwxr-xr-x  2 root    root    4096 Jun 12 17:17 bin/
+drwxr-xr-x  3 kannan  root    4096 Jun 14 11:44 dev/
+drwxrwxrwx  2 root    root    4096 Jun 13 11:48 devops/
+-rwxr-xr-x  1 root    root       0 Jun 13 11:58 devops.txt*
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 etc/
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 games/
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 include/
+drwxr-xr-x  4 root    root    4096 Jun  8 13:11 lib/
+lrwxrwxrwx  1 root    root       9 Jun  8 12:49 man -> share/man/
+drwxr-xr-x 13 root    root    4096 Jun 13 08:30 NTTPC-VOIP/
+drwxr-xr-x 12 jenkins jenkins 4096 Jun 13 19:46 NTTPC-VOIP-JKNS/
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 sbin/
+drwxr-xr-x  6 root    root    4096 Jun  8 13:21 share/
+drwxr-xr-x  2 root    root    4096 Jul 20  2016 src/
+drwxr-xr-x  2 root    root    4096 Jun 12 17:24 voip/
+root@em-voip-app:/usr/local# cd devops/
+root@em-voip-app:/usr/local/devops# ll
+total 8
+drwxrwxrwx  2 root root 4096 Jun 13 11:48 ./
+drwxr-xr-x 15 root root 4096 Jun 13 19:12 ../
+root@em-voip-app:/usr/local/devops# cd ..
+root@em-voip-app:/usr/local# cd dev
+root@em-voip-app:/usr/local/dev# ll
+total 41304
+drwxr-xr-x  3 kannan root       4096 Jun 14 11:44 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+-rw-r--r--  1 kannan kannan 42270489 Jun 14 11:31 backup-2018-06-14__13-15-20.tar.gz
+-rw-r--r--  1 kannan kannan      172 Jun 13 12:23 Jenkinsfile
+-rw-r--r--  1 kannan kannan        0 Jun 13 17:13 new.pdf
+-rw-r--r--  1 kannan kannan      724 Jun 13 12:23 pom.xml
+-rw-r--r--  1 kannan kannan       13 Jun 13 12:23 README.md
+drwxr-xr-x  3 kannan kannan     4096 Jun 13 12:23 src/
+-rw-r--r--  1 kannan kannan        0 Jun 14 09:03 vn.pdf
+root@em-voip-app:/usr/local/dev# rm -rf*
+rm: invalid option -- '*'
+Try 'rm --help' for more information.
+root@em-voip-app:/usr/local/dev# rm -rf *
+root@em-voip-app:/usr/local/dev# ll
+total 8
+drwxr-xr-x  2 kannan root 4096 Jun 14 14:09 ./
+drwxr-xr-x 15 root   root 4096 Jun 13 19:12 ../
+root@em-voip-app:/usr/local/dev# ll
+total 41288
+drwxr-xr-x  2 kannan root       4096 Jun 14 14:09 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+-rw-r--r--  1 kannan kannan 42270489 Jun 14 11:31 backup-2018-06-14__13-15-20.tar.gz
+root@em-voip-app:/usr/local/dev# ll
+total 41292
+drwxr-xr-x  3 kannan root       4096 Jun 14 14:10 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+-rw-r--r--  1 kannan kannan 42270489 Jun 14 11:31 backup-2018-06-14__13-15-20.tar.gz
+drwxr-xr-x  4 kannan kannan     4096 Jun 14 09:03 devops/
+root@em-voip-app:/usr/local/dev# cd devops/
+root@em-voip-app:/usr/local/dev/devops# ll
+total 32
+drwxr-xr-x 4 kannan kannan 4096 Jun 14 09:03 ./
+drwxr-xr-x 3 kannan root   4096 Jun 14 14:10 ../
+drwxr-xr-x 8 kannan kannan 4096 Jun 14 09:03 .git/
+-rw-r--r-- 1 kannan kannan  172 Jun 13 12:23 Jenkinsfile
+-rw-r--r-- 1 kannan kannan    0 Jun 13 17:13 new.pdf
+-rw-r--r-- 1 kannan kannan  724 Jun 13 12:23 pom.xml
+-rw-r--r-- 1 kannan kannan 1177 Jun 13 12:23 .project
+-rw-r--r-- 1 kannan kannan   13 Jun 13 12:23 README.md
+drwxr-xr-x 3 kannan kannan 4096 Jun 13 12:23 src/
+-rw-r--r-- 1 kannan kannan    0 Jun 14 09:03 vn.pdf
+root@em-voip-app:/usr/local/dev/devops# rm -rf
+root@em-voip-app:/usr/local/dev/devops# ll
+total 32
+drwxr-xr-x 4 kannan kannan 4096 Jun 14 09:03 ./
+drwxr-xr-x 3 kannan root   4096 Jun 14 14:10 ../
+drwxr-xr-x 8 kannan kannan 4096 Jun 14 09:03 .git/
+-rw-r--r-- 1 kannan kannan  172 Jun 13 12:23 Jenkinsfile
+-rw-r--r-- 1 kannan kannan    0 Jun 13 17:13 new.pdf
+-rw-r--r-- 1 kannan kannan  724 Jun 13 12:23 pom.xml
+-rw-r--r-- 1 kannan kannan 1177 Jun 13 12:23 .project
+-rw-r--r-- 1 kannan kannan   13 Jun 13 12:23 README.md
+drwxr-xr-x 3 kannan kannan 4096 Jun 13 12:23 src/
+-rw-r--r-- 1 kannan kannan    0 Jun 14 09:03 vn.pdf
+root@em-voip-app:/usr/local/dev/devops# ll
+total 32
+drwxr-xr-x 4 kannan kannan 4096 Jun 14 09:03 ./
+drwxr-xr-x 3 kannan root   4096 Jun 14 14:10 ../
+drwxr-xr-x 8 kannan kannan 4096 Jun 14 09:03 .git/
+-rw-r--r-- 1 kannan kannan  172 Jun 13 12:23 Jenkinsfile
+-rw-r--r-- 1 kannan kannan    0 Jun 13 17:13 new.pdf
+-rw-r--r-- 1 kannan kannan  724 Jun 13 12:23 pom.xml
+-rw-r--r-- 1 kannan kannan 1177 Jun 13 12:23 .project
+-rw-r--r-- 1 kannan kannan   13 Jun 13 12:23 README.md
+drwxr-xr-x 3 kannan kannan 4096 Jun 13 12:23 src/
+-rw-r--r-- 1 kannan kannan    0 Jun 14 09:03 vn.pdf
+root@em-voip-app:/usr/local/dev/devops# cd ..
+root@em-voip-app:/usr/local/dev# ll
+total 41292
+drwxr-xr-x  3 kannan root       4096 Jun 14 14:10 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+-rw-r--r--  1 kannan kannan 42270489 Jun 14 11:31 backup-2018-06-14__13-15-20.tar.gz
+drwxr-xr-x  4 kannan kannan     4096 Jun 14 09:03 devops/
+root@em-voip-app:/usr/local/dev#
+root@em-voip-app:/usr/local/dev# ll
+total 41292
+drwxr-xr-x  3 kannan root       4096 Jun 14 14:10 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+-rw-r--r--  1 kannan kannan 42270489 Jun 14 11:31 backup-2018-06-14__13-15-20.tar.gz
+drwxr-xr-x  4 kannan kannan     4096 Jun 14 09:03 devops/
+root@em-voip-app:/usr/local/dev# date
+Thu Jun 14 14:19:31 IST 2018
+root@em-voip-app:/usr/local/dev# rm -rf *
+root@em-voip-app:/usr/local/dev# ll
+total 8
+drwxr-xr-x  2 kannan root 4096 Jun 14 14:19 ./
+drwxr-xr-x 15 root   root 4096 Jun 13 19:12 ../
+root@em-voip-app:/usr/local/dev#
+root@em-voip-app:/usr/local/dev# ll
+total 8
+drwxr-xr-x  2 kannan root 4096 Jun 14 14:19 ./
+drwxr-xr-x 15 root   root 4096 Jun 13 19:12 ../
+root@em-voip-app:/usr/local/dev# ll
+total 20624
+drwxr-xr-x  2 kannan root       4096 Jun 14 14:31 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+-rw-r--r--  1 kannan kannan 21109896 Jun 14 14:30 devops-2018-06-14__14-30-25.tar.gz
+root@em-voip-app:/usr/local/dev# ll
+total 20628
+drwxr-xr-x  3 kannan root       4096 Jun 14 14:33 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+-rw-r--r--  1 kannan kannan 21109896 Jun 14 14:30 devops-2018-06-14__14-30-25.tar.gz
+drwxrwxr-x  3 kannan kannan     4096 Jun 14 14:33 var/
+root@em-voip-app:/usr/local/dev# cd var/
+root@em-voip-app:/usr/local/dev/var# ll
+total 12
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:33 ./
+drwxr-xr-x 3 kannan root   4096 Jun 14 14:33 ../
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:33 lib/
+root@em-voip-app:/usr/local/dev/var# cd ll
+bash: cd: ll: No such file or directory
+root@em-voip-app:/usr/local/dev/var# cd ..
+root@em-voip-app:/usr/local/dev# cd var/lib/jenkins/workspace/
+root@em-voip-app:/usr/local/dev/var/lib/jenkins/workspace# ll
+total 12
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:33 ./
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:33 ../
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:33 devops/
+root@em-voip-app:/usr/local/dev/var/lib/jenkins/workspace# ll
+total 12
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:33 ./
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:33 ../
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:33 devops/
+root@em-voip-app:/usr/local/dev/var/lib/jenkins/workspace# cd devops/
+root@em-voip-app:/usr/local/dev/var/lib/jenkins/workspace/devops# ll
+total 24
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:33 ./
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:33 ../
+-rw-r--r-- 1 kannan kannan  172 Jun 14 14:28 Jenkinsfile
+-rw-r--r-- 1 kannan kannan    0 Jun 14 14:28 new.pdf
+-rw-r--r-- 1 kannan kannan  724 Jun 14 14:28 pom.xml
+-rw-r--r-- 1 kannan kannan   13 Jun 14 14:28 README.md
+drwxr-xr-x 3 kannan kannan 4096 Jun 14 14:28 src/
+-rw-r--r-- 1 kannan kannan    0 Jun 14 14:28 vn.pdf
+root@em-voip-app:/usr/local/dev/var/lib/jenkins/workspace/devops# ll
+total 24
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:34 ./
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:33 ../
+-rw-r--r-- 1 kannan kannan  172 Jun 14 14:28 Jenkinsfile
+-rw-r--r-- 1 kannan kannan    0 Jun 14 14:28 new.pdf
+-rw-r--r-- 1 kannan kannan  724 Jun 14 14:28 pom.xml
+-rw-r--r-- 1 kannan kannan   13 Jun 14 14:28 README.md
+drwxr-xr-x 3 kannan kannan 4096 Jun 14 14:28 src/
+-rw-r--r-- 1 kannan kannan    0 Jun 14 14:28 vn.pdf
+root@em-voip-app:/usr/local/dev/var/lib/jenkins/workspace/devops# cd ..
+root@em-voip-app:/usr/local/dev/var/lib/jenkins/workspace# cd ..
+root@em-voip-app:/usr/local/dev/var/lib/jenkins# cd ..\
+> ^C
+root@em-voip-app:/usr/local/dev/var/lib/jenkins# cd .
+root@em-voip-app:/usr/local/dev/var/lib/jenkins# cd ..
+root@em-voip-app:/usr/local/dev/var/lib# cd ..
+root@em-voip-app:/usr/local/dev/var# cd ..
+root@em-voip-app:/usr/local/dev# ll
+total 12
+drwxr-xr-x  3 kannan root   4096 Jun 14 14:43 ./
+drwxr-xr-x 15 root   root   4096 Jun 13 19:12 ../
+drwxrwxr-x  3 kannan kannan 4096 Jun 14 14:33 var/
+root@em-voip-app:/usr/local/dev# rm -rf *
+root@em-voip-app:/usr/local/dev# ll
+total 8
+drwxr-xr-x  2 kannan root 4096 Jun 14 14:44 ./
+drwxr-xr-x 15 root   root 4096 Jun 13 19:12 ../
+root@em-voip-app:/usr/local/dev#
+root@em-voip-app:/usr/local/dev# ll
+total 8
+drwxr-xr-x  2 kannan root 4096 Jun 14 14:44 ./
+drwxr-xr-x 15 root   root 4096 Jun 13 19:12 ../
+root@em-voip-app:/usr/local/dev# ll
+total 20624
+drwxr-xr-x  2 kannan root       4096 Jun 14 14:45 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+-rw-r--r--  1 kannan kannan 21108875 Jun 14 14:43 devops-2018-06-14_14-43-30.tar.gz
+root@em-voip-app:/usr/local/dev# ll
+total 20628
+drwxr-xr-x  3 kannan root       4096 Jun 14 14:45 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+drwxrwxr-x  3 kannan kannan     4096 Jun 14 14:45 devops/
+-rw-r--r--  1 kannan kannan 21108875 Jun 14 14:43 devops-2018-06-14_14-43-30.tar.gz
+root@em-voip-app:/usr/local/dev# cd devops/
+root@em-voip-app:/usr/local/dev/devops# ll
+total 24
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:45 ./
+drwxr-xr-x 3 kannan root   4096 Jun 14 14:45 ../
+-rw-r--r-- 1 kannan kannan  172 Jun 14 14:28 Jenkinsfile
+-rw-r--r-- 1 kannan kannan    0 Jun 14 14:28 new.pdf
+-rw-r--r-- 1 kannan kannan  724 Jun 14 14:28 pom.xml
+-rw-r--r-- 1 kannan kannan   13 Jun 14 14:28 README.md
+drwxr-xr-x 3 kannan kannan 4096 Jun 14 14:28 src/
+-rw-r--r-- 1 kannan kannan    0 Jun 14 14:28 vn.pdf
+root@em-voip-app:/usr/local/dev/devops# ll
+total 24
+drwxrwxr-x 3 kannan kannan 4096 Jun 14 14:45 ./
+drwxr-xr-x 3 kannan root   4096 Jun 14 14:49 ../
+-rw-r--r-- 1 kannan kannan  172 Jun 14 14:28 Jenkinsfile
+-rw-r--r-- 1 kannan kannan    0 Jun 14 14:28 new.pdf
+-rw-r--r-- 1 kannan kannan  724 Jun 14 14:28 pom.xml
+-rw-r--r-- 1 kannan kannan   13 Jun 14 14:28 README.md
+drwxr-xr-x 3 kannan kannan 4096 Jun 14 14:28 src/
+-rw-r--r-- 1 kannan kannan    0 Jun 14 14:28 vn.pdf
+root@em-voip-app:/usr/local/dev/devops# cd ..
+root@em-voip-app:/usr/local/dev# ll
+total 12
+drwxr-xr-x  3 kannan root   4096 Jun 14 14:49 ./
+drwxr-xr-x 15 root   root   4096 Jun 13 19:12 ../
+drwxrwxr-x  3 kannan kannan 4096 Jun 14 14:45 devops/
+root@em-voip-app:/usr/local/dev# ll
+total 20628
+drwxr-xr-x  3 kannan root       4096 Jun 14 14:50 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+drwxrwxr-x  3 kannan kannan     4096 Jun 14 14:45 devops/
+-rw-r--r--  1 kannan kannan 21109041 Jun 14 14:49 devops-2018-06-14_14-49-24.tar.gz
+root@em-voip-app:/usr/local/dev# ll
+total 20628
+drwxr-xr-x  3 kannan root       4096 Jun 14 14:50 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+drwxrwxr-x  3 kannan kannan     4096 Jun 14 14:50 devops/
+-rw-r--r--  1 kannan kannan 21109041 Jun 14 14:49 devops-2018-06-14_14-49-24.tar.gz
+root@em-voip-app:/usr/local/dev# ll
+total 20628
+drwxr-xr-x  3 kannan root       4096 Jun 14 14:50 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+drwxrwxr-x  3 kannan kannan     4096 Jun 14 14:50 devops/
+-rw-r--r--  1 kannan kannan 21109041 Jun 14 14:49 devops-2018-06-14_14-49-24.tar.gz
+root@em-voip-app:/usr/local/dev# ll
+total 12
+drwxr-xr-x  3 kannan root   4096 Jun 14 14:57 ./
+drwxr-xr-x 15 root   root   4096 Jun 13 19:12 ../
+drwxrwxr-x  3 kannan kannan 4096 Jun 14 14:50 devops/
+root@em-voip-app:/usr/local/dev# ll
+total 41292
+drwxr-xr-x  3 kannan root       4096 Jun 14 14:58 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+drwxrwxr-x  3 kannan kannan     4096 Jun 14 14:50 devops/
+-rw-r--r--  1 kannan kannan 42268108 Jun 14 14:56 devops-2018-06-14__14-56-16.tar.gz
+root@em-voip-app:/usr/local/dev# ll
+total 41292
+drwxr-xr-x  3 kannan root       4096 Jun 14 14:58 ./
+drwxr-xr-x 15 root   root       4096 Jun 13 19:12 ../
+drwxr-xr-x  4 kannan kannan     4096 Jun 14 14:53 devops/
+-rw-r--r--  1 kannan kannan 42268108 Jun 14 14:56 devops-2018-06-14__14-56-16.tar.gz
+root@em-voip-app:/usr/local/dev# cd devops/
+root@em-voip-app:/usr/local/dev/devops# ll
+total 40
+drwxr-xr-x 4 kannan kannan 4096 Jun 14 14:53 ./
+drwxr-xr-x 3 kannan root   4096 Jun 14 14:58 ../
+-rw-r--r-- 1 kannan kannan   45 Jun 14 14:45 devops-2018-06-14_14-45-37.tar.gz
+-rw-r--r-- 1 kannan kannan   45 Jun 14 14:53 devops-2018-06-14_14-53-42.tar.gz
+drwxr-xr-x 8 kannan kannan 4096 Jun 14 14:50 .git/
+-rw-r--r-- 1 kannan kannan  172 Jun 14 14:28 Jenkinsfile
+-rw-r--r-- 1 kannan kannan    0 Jun 14 14:28 new.pdf
+-rw-r--r-- 1 kannan kannan  724 Jun 14 14:28 pom.xml
+-rw-r--r-- 1 kannan kannan 1177 Jun 14 14:28 .project
+-rw-r--r-- 1 kannan kannan   13 Jun 14 14:28 README.md
+drwxr-xr-x 3 kannan kannan 4096 Jun 14 14:28 src/
+-rw-r--r-- 1 kannan kannan    0 Jun 14 14:28 vn.pdf
+root@em-voip-app:/usr/local/dev/devops# ll
+total 40
+drwxr-xr-x 4 kannan kannan 4096 Jun 14 14:53 ./
+drwxr-xr-x 3 kannan root   4096 Jun 14 15:02 ../
+-rw-r--r-- 1 kannan kannan   45 Jun 14 14:45 devops-2018-06-14_14-45-37.tar.gz
+-rw-r--r-- 1 kannan kannan   45 Jun 14 14:53 devops-2018-06-14_14-53-42.tar.gz
+drwxr-xr-x 8 kannan kannan 4096 Jun 14 14:50 .git/
+-rw-r--r-- 1 kannan kannan  172 Jun 14 14:28 Jenkinsfile
+-rw-r--r-- 1 kannan kannan    0 Jun 14 14:28 new.pdf
+-rw-r--r-- 1 kannan kannan  724 Jun 14 14:28 pom.xml
+-rw-r--r-- 1 kannan kannan 1177 Jun 14 14:28 .project
+-rw-r--r-- 1 kannan kannan   13 Jun 14 14:28 README.md
+drwxr-xr-x 3 kannan kannan 4096 Jun 14 14:28 src/
+-rw-r--r-- 1 kannan kannan    0 Jun 14 14:28 vn.pdf
+root@em-voip-app:/usr/local/dev/devops#
+root@em-voip-app:/usr/local/dev/devops# l
+devops-2018-06-14_14-45-37.tar.gz  Jenkinsfile  pom.xml    src/
+devops-2018-06-14_14-53-42.tar.gz  new.pdf      README.md  vn.pdf
+root@em-voip-app:/usr/local/dev/devops# rm -rf*
+rm: invalid option -- '*'
+Try 'rm --help' for more information.
+root@em-voip-app:/usr/local/dev/devops# rm -rf *
+root@em-voip-app:/usr/local/dev/devops# ll
+total 16
+drwxr-xr-x 3 kannan kannan 4096 Jun 14 15:15 ./
+drwxr-xr-x 3 kannan root   4096 Jun 14 15:02 ../
+drwxr-xr-x 8 kannan kannan 4096 Jun 14 14:50 .git/
+-rw-r--r-- 1 kannan kannan 1177 Jun 14 14:28 .project
+root@em-voip-app:/usr/local/dev/devops# ll
+total 16
+drwxr-xr-x 3 jenkins jenkins 4096 Jun 14 15:15 ./
+drwxr-xr-x 4 jenkins jenkins 4096 Jun 14 15:30 ../
+drwxr-xr-x 8 jenkins jenkins 4096 Jun 14 14:50 .git/
+-rw-r--r-- 1 jenkins jenkins 1177 Jun 14 14:28 .project
+root@em-voip-app:/usr/local/dev/devops# ll
+total 16
+drwxr-xr-x 3 jenkins jenkins 4096 Jun 14 15:15 ./
+drwxr-xr-x 4 jenkins jenkins 4096 Jun 14 16:18 ../
+drwxr-xr-x 8 jenkins jenkins 4096 Jun 14 14:50 .git/
+-rw-r--r-- 1 jenkins jenkins 1177 Jun 14 14:28 .project
+root@em-voip-app:/usr/local/dev/devops# su - jenkins
+jenkins@em-voip-app:~$ ll
+ll: command not found
+jenkins@em-voip-app:~$ cd /usr/local/dev
+jenkins@em-voip-app:/usr/local/dev$ LL
+LL: command not found
+jenkins@em-voip-app:/usr/local/dev$ ll
+ll: command not found
+jenkins@em-voip-app:/usr/local/dev$ ls -ltr
+total 61904
+drwxr-xr-x 4 jenkins jenkins     4096 Jun 14 14:53 devops
+-rw-r--r-- 1 jenkins jenkins 42268108 Jun 14 14:56 devops-2018-06-14__14-56-16.tar.gz
+drwxr-xr-x 3 jenkins jenkins     4096 Jun 14 15:15 devops_old
+-rw-rw-r-- 1 jenkins jenkins 21108650 Jun 14 16:17 devops-2018-06-14_16-17-03.tar.gz
+jenkins@em-voip-app:/usr/local/dev$ ll
+ll: command not found
+jenkins@em-voip-app:/usr/local/dev$ exit
+logout
+root@em-voip-app:/usr/local/dev/devops# useradd ashwin1v
+root@em-voip-app:/usr/local/dev/devops# useradd kalyan1p
+root@em-voip-app:/usr/local/dev/devops# vi /etc/passwd
+passwd   passwd-
+root@em-voip-app:/usr/local/dev/devops# vi /etc/passwd
+root@em-voip-app:/usr/local/dev/devops# passwd ashwin1v ashwin123
+Usage: passwd [options] [LOGIN]
+
+Options:
+  -a, --all                     report password status on all accounts
+  -d, --delete                  delete the password for the named account
+  -e, --expire                  force expire the password for the named account
+  -h, --help                    display this help message and exit
+  -k, --keep-tokens             change password only if expired
+  -i, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -l, --lock                    lock the password of the named account
+  -n, --mindays MIN_DAYS        set minimum number of days before password
+                                change to MIN_DAYS
+  -q, --quiet                   quiet mode
+  -r, --repository REPOSITORY   change password in REPOSITORY repository
+  -R, --root CHROOT_DIR         directory to chroot into
+  -S, --status                  report password status on the named account
+  -u, --unlock                  unlock the password of the named account
+  -w, --warndays WARN_DAYS      set expiration warning days to WARN_DAYS
+  -x, --maxdays MAX_DAYS        set maximum number of days before password
+                                change to MAX_DAYS
+
+root@em-voip-app:/usr/local/dev/devops# passwd ashwin1v
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+root@em-voip-app:/usr/local/dev/devops# passwd kalyan1p
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+root@em-voip-app:/usr/local/dev/devops# vi /etc/sudoers
+root@em-voip-app:/usr/local/dev/devops#
+

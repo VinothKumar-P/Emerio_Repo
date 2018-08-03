@@ -1,0 +1,60 @@
+[vg4.wsapi]
+wsapitomcat1.vg4.gm.thsglobal.local
+wsapitomcat2.vg4.gm.thsglobal.local
+
+[vg2.wsapi]
+sjc3-vg2-taf1
+
+#[vg4.exception]
+#java1.vg4.gm.thsglobal.local active=true
+#java2.vg4.gm.thsglobal.local active=false
+
+[vg4.exception]
+SJC3-VG4-JAVV01A active=true
+
+[vg4.tomee]
+SJC3-VG4-APRV01
+SJC3-VG4-APRV02
+
+[vg2.tomee]
+SJC3-VG2-APRV01
+SJC3-VG2-APRV02
+
+
+[vg4.quartz]
+SJC3-VG4-QRZV01 active=true
+SJC3-VG4-QRZV02 active=false
+
+[vg2.quartz]
+SJC3-VG2-QRZV01 active=true
+
+[vg4.java1]
+java1.vg4.gm.thsglobal.local
+
+[vg4.upload]
+java2.vg4.gm.thsglobal.local
+java3.vg4.gm.thsglobal.local
+
+[vg4.java4]
+java4.vg4.gm.thsglobal.local
+
+[vg4.fdc]
+sjc3-vg4-fdrv01.thsglobal.local
+sjc3-vg4-fdrv02.thsglobal.local
+
+[vg4.java3]
+java3.vg4.gm.thsglobal.local
+
+[vg4.dc2]
+sjc3-vg4-dccv02.thsglobal.local
+
+[vg4.dc1]
+10.129.66.140
+
+[vg2.javatomcat]
+sjc3-vg2-java6
+sjc3-vg2-java7
+
+[vg1.tomee]
+SJC3-VG1-APRV01
+SJC3-VG1-APRV02

@@ -1,0 +1,22 @@
+---
+# tasks file for exception
+
+- include: deploy.yml
+
+- name: Stopping "{{ application }}" ...
+  supervisorctl: name={{ application }} state=stopped
+  when: active
+
+- name: Stopping "{{ application2 }}" ...
+  supervisorctl: name={{ application2 }} state=stopped
+  when: active
+
+
+- name: Starting "{{ application2 }}" ...
+  supervisorctl: name={{ application2 }} state=started
+  when: active
+
+
+- name: Starting "{{ application }}" ...
+  supervisorctl: name={{ application }} state=started
+  when: active

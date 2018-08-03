@@ -1,0 +1,10 @@
+- hosts: '{{ host }}'
+  become: yes
+
+
+  tasks:
+   - name: Uninstalling {{ pkg_remove }}  package
+     yum: name={{ pkg_remove }} state=absent
+   
+   - name: Installing {{ pkg_install }} package
+     yum: name={{ pkg_install }} state=present update_cache=yes

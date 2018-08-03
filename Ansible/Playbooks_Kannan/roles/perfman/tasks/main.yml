@@ -1,0 +1,5 @@
+---
+# tasks file for perfman
+
+- include: deploy.yml
+- include: supervisorctl.yml

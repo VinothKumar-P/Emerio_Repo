@@ -1,0 +1,20 @@
+[gd1.tomee]
+pdxa-gd1-app01
+#pdxa-gd1-app02
+#
+[all:vars]
+pkgdir=/usr/local/packages
+
+[gd1.wsapi]
+pdxa-gd1-wst01
+
+[gd1.quartz]
+pdxa-gd1-qrz01 active=true
+
+[gd1.upload]
+pdxa-gd1-appj03 active=true
+#pdxa-gd1-appj02 active=true
+#pdxa-gd1-appj01 active=false
+
+[gd1.java3]
+pdxa-gd1-appj01 active=true

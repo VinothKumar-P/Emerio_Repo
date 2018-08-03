@@ -1,0 +1,5 @@
+---
+# tasks file for outbound-server
+#
+- include: deploy.yml
+- include: supervisorctl.yml

@@ -1,0 +1,25 @@
+o access your instance:
+1.	Open an SSH client. (find out how to connect using PuTTY)
+2.	Locate your private key file (emerio.pem). The wizard automatically detects the key you used to launch the instance.
+3.	Your key must not be publicly viewable for SSH to work. Use this command if needed:
+chmod 400 emerio.pem
+4.	Connect to your instance using its Public DNS:
+
+
+
+ec2-34-214-126-112.us-west-2.compute.amazonaws.com
+
+
+
+Example:
+ssh -i "emerio.pem" ec2-user@ec2-34-214-126-112.us-west-2.compute.amazonaws.com
+Please note that in most cases the username above will be correct, however please ensure that you read your AMI usage instructions to ensure that the AMI owner has not changed the default AMI username.
+
+
+*********
+ssh -i "emerio.pem" ec2-user@ec2-34-212-14-161.us-west-2.compute.amazonaws.com
+
+*********3
+
+
+pip install ansible

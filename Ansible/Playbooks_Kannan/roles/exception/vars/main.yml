@@ -1,0 +1,4 @@
+---
+# vars file for exception
+application: exceptionbroker
+application2: exceptioncache

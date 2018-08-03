@@ -1,0 +1,5 @@
+---
+# tasks file for mobile-address-agt
+
+- include: deploy.yml
+- include: supervisorctl.yml

@@ -1,0 +1,10 @@
+#####To restart application##############
+#
+- name: Stopping "{{ application }}" ...
+  supervisorctl: name={{ application }} state=stopped supervisorctl_path=/usr/local/bin/supervisorctl
+
+- name: Wait for the application to stop
+  wait_for: timeout=60
+
+- name: Starting  "{{ application }}" ...
+  supervisorctl: name={{ application }} state=started supervisorctl_path=/usr/local/bin/supervisorctl

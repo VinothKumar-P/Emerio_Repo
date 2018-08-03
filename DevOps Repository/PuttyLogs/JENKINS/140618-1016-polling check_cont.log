@@ -1,0 +1,814 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2018.06.14 10:42:47 =~=~=~=~=~=~=~=~=~=~=~=
+llcd pipeline_master-3OK7KSRW3GMB77L6QQWJ2FKHZ7Q55K2EDFIY3UHZRVVLXMINEVYZQ[A[C[C[C[C[C[C[C[C[C[C[C[C..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pll[K[Kcd /b
+bin/  boot/ 
+[root@localhost ~]# cd /bin/
+Display all 766 possibilities? (y or n)
+[root@localhost ~]# cd /bin/j
+java        jobs        journalctl  jp.py-2     jvmjar      
+jjs         join        jp.py       jp.py-2.7   
+[root@localhost ~]# cd /bin/j
+java        jobs        journalctl  jp.py-2     jvmjar      
+jjs         join        jp.py       jp.py-2.7   
+[root@localhost ~]# cd /bin/j[K[K[K[K[K[K[K[K[Kcd /var/lib/k[Kjenkins/workspace/
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# ll
+total 41288
+-rw-r--r--.  1 root    root    42270489 Jun 14 13:06 [0m[01;31mbackup-2018-06-14.tar.gz[0m
+drwxr-xr-x.  4 jenkins jenkins      125 Jun 14 11:33 [01;34mdevops[0m
+drwxr-xr-x.  2 jenkins jenkins        6 Jun 14 11:33 [01;34mdevops@tmp[0m
+drwxr-xr-x. 12 jenkins jenkins     4096 Jun 13 12:58 [01;34mvoip-dev[0m
+drwxr-xr-x. 12 jenkins jenkins     4096 Jun 13 22:04 [01;34mvoip-dev-ci[0m
+drwxr-xr-x.  4 jenkins jenkins      111 Jun 13 21:49 [01;34mvoip-dev-ci_old[0m
+drwxr-xr-x.  2 jenkins jenkins        6 Jun 14 12:19 [01;34mvoip-dev-ci@tmp[0m
+drwxr-xr-x.  2 jenkins jenkins        6 Jun 13 12:58 [01;34mvoip-dev@tmp[0m
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# rm backup-2018-06-14.tar.gz 
+rm: remove regular file ‘backup-2018-06-14.tar.gz’? y
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# ;[Kll
+total 8
+drwxr-xr-x.  4 jenkins jenkins  125 Jun 14 11:33 [0m[01;34mdevops[0m
+drwxr-xr-x.  2 jenkins jenkins    6 Jun 14 11:33 [01;34mdevops@tmp[0m
+drwxr-xr-x. 12 jenkins jenkins 4096 Jun 13 12:58 [01;34mvoip-dev[0m
+drwxr-xr-x. 12 jenkins jenkins 4096 Jun 13 22:04 [01;34mvoip-dev-ci[0m
+drwxr-xr-x.  4 jenkins jenkins  111 Jun 13 21:49 [01;34mvoip-dev-ci_old[0m
+drwxr-xr-x.  2 jenkins jenkins    6 Jun 14 12:19 [01;34mvoip-dev-ci@tmp[0m
+drwxr-xr-x.  2 jenkins jenkins    6 Jun 13 12:58 [01;34mvoip-dev@tmp[0m
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# tar cfz backup-$(date +%Y-%m-%d).tar.gz_).tar.gz_).tar.gz%).tar.gzH).tar.gz%).tar.gzM).tar.gz%).tar.gzS).tar.gz-%M%S).tar.gz[C[C-%S).tar.gz[C[C[C[C[C[C[C[C[C[C [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[C[1@ [1@z[1@c[1@v[1@f[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd evops--exclude --exclude[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /.
+./  ../ 
+[root@localhost workspace]# tar zcvf backup-$(date +%Y-%m-%d__%H-%M-%S).tar.gz deevops --exclude /.
+./  ../ 
+[root@localhost workspace]# tar zcvf backup-$(date +%Y-%m-%d__%H-%M-%S).tar.gz deevops --exclude /.git[K[K[K[Kvar/lib/jenkins/workspace/devops/.
+./        ../       .git/     .project  
+[root@localhost workspace]# tar zcvf backup-$(date +%Y-%m-%d__%H-%M-%S).tar.gz deevops --exclude /var/lib/jenkins/workspace/devops/.
+./        ../       .git/     .project  
+[root@localhost workspace]# tar zcvf backup-$(date +%Y-%m-%d__%H-%M-%S).tar.gz deevops --exclude /var/lib/jenkins/workspace/devops/.git/
+devops/
+devops/.git/
+devops/.git/refs/
+devops/.git/refs/heads/
+devops/.git/refs/tags/
+devops/.git/refs/remotes/
+devops/.git/refs/remotes/origin/
+devops/.git/refs/remotes/origin/master
+devops/.git/branches/
+devops/.git/description
+devops/.git/hooks/
+devops/.git/hooks/applypatch-msg.sample
+devops/.git/hooks/commit-msg.sample
+devops/.git/hooks/post-update.sample
+devops/.git/hooks/pre-applypatch.sample
+devops/.git/hooks/pre-commit.sample
+devops/.git/hooks/pre-push.sample
+devops/.git/hooks/pre-rebase.sample
+devops/.git/hooks/prepare-commit-msg.sample
+devops/.git/hooks/update.sample
+devops/.git/info/
+devops/.git/info/exclude
+devops/.git/HEAD
+devops/.git/config
+devops/.git/objects/
+devops/.git/objects/pack/
+devops/.git/objects/pack/pack-cc52dac6ff50b75686e7ba73a7c0f504c1752088.pack
+devops/.git/objects/pack/pack-cc52dac6ff50b75686e7ba73a7c0f504c1752088.idx
+devops/.git/objects/info/
+devops/.git/objects/f8/
+devops/.git/objects/f8/61ce59298f79ee809760e0489cc1cd80acaa80
+devops/.git/objects/31/
+devops/.git/objects/31/01e6f158b22ae42164495b1daec57f042ef26a
+devops/.git/objects/e6/
+devops/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+devops/.git/objects/8a/
+devops/.git/objects/8a/c82b6778fa144ba6f5a90c815414fdce2ed33e
+devops/.git/objects/d0/
+devops/.git/objects/d0/321cc814f6f4e9e99473b7731ebee980fd3eec
+devops/.git/FETCH_HEAD
+devops/.git/logs/
+devops/.git/logs/refs/
+devops/.git/logs/refs/remotes/
+devops/.git/logs/refs/remotes/origin/
+devops/.git/logs/refs/remotes/origin/master
+devops/.git/logs/HEAD
+devops/.git/index
+devops/.project
+devops/Jenkinsfile
+devops/README.md
+devops/pom.xml
+devops/src/
+devops/src/main/
+devops/src/main/webapp/
+devops/src/main/webapp/WEB-INF/
+devops/src/main/webapp/WEB-INF/web.xml
+devops/src/main/webapp/assets/
+devops/src/main/webapp/assets/assets-for-demo/
+devops/src/main/webapp/assets/assets-for-demo/demo.css
+devops/src/main/webapp/assets/assets-for-demo/docs.css
+devops/src/main/webapp/assets/assets-for-demo/docs.min.css
+devops/src/main/webapp/assets/assets-for-demo/js/
+devops/src/main/webapp/assets/assets-for-demo/js/docs.min.js
+devops/src/main/webapp/assets/assets-for-demo/js/jquery.sharrre.js
+devops/src/main/webapp/assets/assets-for-demo/js/material-kit-demo.js
+devops/src/main/webapp/assets/assets-for-demo/js/modernizr.js
+devops/src/main/webapp/assets/assets-for-demo/js/src/
+devops/src/main/webapp/assets/assets-for-demo/js/src/application.js
+devops/src/main/webapp/assets/assets-for-demo/js/vendor/
+devops/src/main/webapp/assets/assets-for-demo/js/vendor/anchor.min.js
+devops/src/main/webapp/assets/assets-for-demo/js/vendor/clipboard.min.js
+devops/src/main/webapp/assets/assets-for-demo/js/vendor/holder.min.js
+devops/src/main/webapp/assets/assets-for-demo/js/vendor/split.min.js
+devops/src/main/webapp/assets/assets-for-demo/js/vertical-nav.js
+devops/src/main/webapp/assets/css/
+devops/src/main/webapp/assets/css/material-kit.css
+devops/src/main/webapp/assets/css/material-kit.css.map
+devops/src/main/webapp/assets/css/material-kit.min.css
+devops/src/main/webapp/assets/img/
+devops/src/main/webapp/assets/img/apple-icon.png
+devops/src/main/webapp/assets/img/arrow-left.cur
+devops/src/main/webapp/assets/img/arrow-left.png
+devops/src/main/webapp/assets/img/arrow-right.cur
+devops/src/main/webapp/assets/img/arrow-right.png
+devops/src/main/webapp/assets/img/bg.jpg
+devops/src/main/webapp/assets/img/bg0.jpg
+devops/src/main/webapp/assets/img/bg10.jpg
+devops/src/main/webapp/assets/img/bg11.jpg
+devops/src/main/webapp/assets/img/bg12.jpg
+devops/src/main/webapp/assets/img/bg2.jpg
+devops/src/main/webapp/assets/img/bg3.jpg
+devops/src/main/webapp/assets/img/bg5.jpg
+devops/src/main/webapp/assets/img/bg6.jpg
+devops/src/main/webapp/assets/img/bg7.jpg
+devops/src/main/webapp/assets/img/bg8.jpg
+devops/src/main/webapp/assets/img/bg9.jpg
+devops/src/main/webapp/assets/img/city.jpg
+devops/src/main/webapp/assets/img/clark-street-mercantile.jpg
+devops/src/main/webapp/assets/img/dg1.jpg
+devops/src/main/webapp/assets/img/dg10.jpg
+devops/src/main/webapp/assets/img/dg2.jpg
+devops/src/main/webapp/assets/img/dg3.jpg
+devops/src/main/webapp/assets/img/favicon.png
+devops/src/main/webapp/assets/img/image_placeholder.jpg
+devops/src/main/webapp/assets/img/landing.jpg
+devops/src/main/webapp/assets/img/loading-bubbles.svg
+devops/src/main/webapp/assets/img/office2.jpg
+devops/src/main/webapp/assets/img/placeholder.jpg
+devops/src/main/webapp/assets/img/product1.jpg
+devops/src/main/webapp/assets/img/product2.jpg
+devops/src/main/webapp/assets/img/product3.jpg
+devops/src/main/webapp/assets/img/profile.jpg
+devops/src/main/webapp/assets/js/
+devops/src/main/webapp/assets/js/bootstrap-material-design.js
+devops/src/main/webapp/assets/js/bootstrap-material-design.min.js
+devops/src/main/webapp/assets/js/core/
+devops/src/main/webapp/assets/js/core/jquery.min.js
+devops/src/main/webapp/assets/js/core/popper.min.js
+devops/src/main/webapp/assets/js/material-kit.js
+devops/src/main/webapp/assets/js/material-kit.min.js
+devops/src/main/webapp/assets/js/plugins/
+devops/src/main/webapp/assets/js/plugins/bootstrap-datetimepicker.min.js
+devops/src/main/webapp/assets/js/plugins/jasny-bootstrap.min.js
+devops/src/main/webapp/assets/js/plugins/moment.min.js
+devops/src/main/webapp/assets/js/plugins/nouislider.min.js
+devops/src/main/webapp/assets/scss/
+devops/src/main/webapp/assets/scss/bootstrap/
+devops/src/main/webapp/assets/scss/bootstrap/scss/
+devops/src/main/webapp/assets/scss/bootstrap/scss/_alert.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_badge.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_breadcrumb.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_button-group.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_buttons.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_card.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_carousel.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_close.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_code.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_custom-forms.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_dropdown.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_forms.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_functions.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_grid.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_images.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_input-group.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_jumbotron.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_list-group.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_media.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_mixins.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_modal.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_nav.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_navbar.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_pagination.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_popover.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_print.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_progress.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_reboot.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_tables.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_tooltip.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_transitions.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_type.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_utilities.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_variables.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/bootstrap-grid.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/bootstrap-reboot.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/bootstrap.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_alert.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_background-variant.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_badge.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_border-radius.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_box-shadow.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_breakpoints.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_buttons.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_clearfix.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_float.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_forms.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_gradients.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_grid-framework.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_grid.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_hover.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_image.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_list-group.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_lists.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_nav-divider.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_navbar-align.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_pagination.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_reset-text.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_resize.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_screen-reader.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_size.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_table-row.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_text-emphasis.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_text-hide.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_text-truncate.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_transition.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_visibility.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_align.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_background.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_borders.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_clearfix.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_display.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_embed.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_flex.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_float.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_position.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_screenreaders.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_sizing.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_spacing.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_text.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_visibility.scss
+devops/src/main/webapp/assets/scss/core/
+devops/src/main/webapp/assets/scss/core/_alerts.scss
+devops/src/main/webapp/assets/scss/core/_badges.scss
+devops/src/main/webapp/assets/scss/core/_buttons.scss
+devops/src/main/webapp/assets/scss/core/_cards.scss
+devops/src/main/webapp/assets/scss/core/_carousel.scss
+devops/src/main/webapp/assets/scss/core/_checkboxes.scss
+devops/src/main/webapp/assets/scss/core/_core-bootstrap.scss
+devops/src/main/webapp/assets/scss/core/_custom-forms.scss
+devops/src/main/webapp/assets/scss/core/_drawer.scss
+devops/src/main/webapp/assets/scss/core/_dropdown.scss
+devops/src/main/webapp/assets/scss/core/_example-pages.scss
+devops/src/main/webapp/assets/scss/core/_forms.scss
+devops/src/main/webapp/assets/scss/core/_images.scss
+devops/src/main/webapp/assets/scss/core/_info-areas.scss
+devops/src/main/webapp/assets/scss/core/_input-group.scss
+devops/src/main/webapp/assets/scss/core/_layout.scss
+devops/src/main/webapp/assets/scss/core/_list-group.scss
+devops/src/main/webapp/assets/scss/core/_misc.scss
+devops/src/main/webapp/assets/scss/core/_mixins.scss
+devops/src/main/webapp/assets/scss/core/_modal.scss
+devops/src/main/webapp/assets/scss/core/_nav.scss
+devops/src/main/webapp/assets/scss/core/_navbar.scss
+devops/src/main/webapp/assets/scss/core/_pagination.scss
+devops/src/main/webapp/assets/scss/core/_pills.scss
+devops/src/main/webapp/assets/scss/core/_popover.scss
+devops/src/main/webapp/assets/scss/core/_progress.scss
+devops/src/main/webapp/assets/scss/core/_radios.scss
+devops/src/main/webapp/assets/scss/core/_reboot.scss
+devops/src/main/webapp/assets/scss/core/_responsive.scss
+devops/src/main/webapp/assets/scss/core/_ripples.scss
+devops/src/main/webapp/assets/scss/core/_switches.scss
+devops/src/main/webapp/assets/scss/core/_tabs.scss
+devops/src/main/webapp/assets/scss/core/_togglebutton.scss
+devops/src/main/webapp/assets/scss/core/_tooltip.scss
+devops/src/main/webapp/assets/scss/core/_type.scss
+devops/src/main/webapp/assets/scss/core/_variables.scss
+devops/src/main/webapp/assets/scss/core/mixins/
+devops/src/main/webapp/assets/scss/core/mixins/_alert.scss
+devops/src/main/webapp/assets/scss/core/mixins/_animations.scss
+devops/src/main/webapp/assets/scss/core/mixins/_breakpoints.scss
+devops/src/main/webapp/assets/scss/core/mixins/_buttons.scss
+devops/src/main/webapp/assets/scss/core/mixins/_colored-shadows.scss
+devops/src/main/webapp/assets/scss/core/mixins/_drawer.scss
+devops/src/main/webapp/assets/scss/core/mixins/_forms.scss
+devops/src/main/webapp/assets/scss/core/mixins/_hover.scss
+devops/src/main/webapp/assets/scss/core/mixins/_layout.scss
+devops/src/main/webapp/assets/scss/core/mixins/_navbar-colors.scss
+devops/src/main/webapp/assets/scss/core/mixins/_navs.scss
+devops/src/main/webapp/assets/scss/core/mixins/_type.scss
+devops/src/main/webapp/assets/scss/core/mixins/_utilities.scss
+devops/src/main/webapp/assets/scss/core/variables/
+devops/src/main/webapp/assets/scss/core/variables/_body.scss
+devops/src/main/webapp/assets/scss/core/variables/_bootstrap-material-design-base.scss
+devops/src/main/webapp/assets/scss/core/variables/_bootstrap-material-design.scss
+devops/src/main/webapp/assets/scss/core/variables/_brand.scss
+devops/src/main/webapp/assets/scss/core/variables/_buttons.scss
+devops/src/main/webapp/assets/scss/core/variables/_card.scss
+devops/src/main/webapp/assets/scss/core/variables/_code.scss
+devops/src/main/webapp/assets/scss/core/variables/_colors-map.scss
+devops/src/main/webapp/assets/scss/core/variables/_colors.scss
+devops/src/main/webapp/assets/scss/core/variables/_custom-forms.scss
+devops/src/main/webapp/assets/scss/core/variables/_drawer.scss
+devops/src/main/webapp/assets/scss/core/variables/_dropdown.scss
+devops/src/main/webapp/assets/scss/core/variables/_forms.scss
+devops/src/main/webapp/assets/scss/core/variables/_layout.scss
+devops/src/main/webapp/assets/scss/core/variables/_list-group.scss
+devops/src/main/webapp/assets/scss/core/variables/_menu.scss
+devops/src/main/webapp/assets/scss/core/variables/_modals.scss
+devops/src/main/webapp/assets/scss/core/variables/_nav.scss
+devops/src/main/webapp/assets/scss/core/variables/_pagination.scss
+devops/src/main/webapp/assets/scss/core/variables/_shadow.scss
+devops/src/main/webapp/assets/scss/core/variables/_snackbar.scss
+devops/src/main/webapp/assets/scss/core/variables/_spacing.scss
+devops/src/main/webapp/assets/scss/core/variables/_state.scss
+devops/src/main/webapp/assets/scss/core/variables/_tables.scss
+devops/src/main/webapp/assets/scss/core/variables/_tooltip.scss
+devops/src/main/webapp/assets/scss/core/variables/_type.scss
+devops/src/main/webapp/assets/scss/material-kit.scss
+devops/src/main/webapp/assets/scss/plugins/
+devops/src/main/webapp/assets/scss/plugins/_plugin-datetime-picker.scss
+devops/src/main/webapp/assets/scss/plugins/_plugin-nouislider.scss
+devops/src/main/webapp/index.jsp
+devops/src/main/webapp/index1.jsp
+devops/new.pdf
+devops/vn.pdf
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# ll
+total 41288
+-rw-r--r--.  1 root    root    42270489 Jun 14 13:15 [0m[01;31mbackup-2018-06-14__13-15-20.tar.gz[0m
+drwxr-xr-x.  4 jenkins jenkins      125 Jun 14 11:33 [01;34mdevops[0m
+drwxr-xr-x.  2 jenkins jenkins        6 Jun 14 11:33 [01;34mdevops@tmp[0m
+drwxr-xr-x. 12 jenkins jenkins     4096 Jun 13 12:58 [01;34mvoip-dev[0m
+drwxr-xr-x. 12 jenkins jenkins     4096 Jun 13 22:04 [01;34mvoip-dev-ci[0m
+drwxr-xr-x.  4 jenkins jenkins      111 Jun 13 21:49 [01;34mvoip-dev-ci_old[0m
+drwxr-xr-x.  2 jenkins jenkins        6 Jun 14 12:19 [01;34mvoip-dev-ci@tmp[0m
+drwxr-xr-x.  2 jenkins jenkins        6 Jun 13 12:58 [01;34mvoip-dev@tmp[0m
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# [K[root@localhost workspace]# cp backup-2018-06-14__13-15-20.tar.gz /usr/local/d
+devops/    downloads/ 
+[root@localhost workspace]# cp backup-2018-06-14__13-15-20.tar.gz /usr/local/devops/
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# l[Kcd /usr/;[Klocal/devops/
+]0;root@localhost:/usr/local/devops[root@localhost devops]# ll
+total 41280
+-rw-r--r--. 1 root root 42270489 Jun 14 13:16 [0m[01;31mbackup-2018-06-14__13-15-20.tar.gz[0m
+-rwxrwxrwx. 1 root root        0 Jun 13 14:27 [01;32mdevops.txt[0m
+]0;root@localhost:/usr/local/devops[root@localhost devops]# tar -zxvf backup-2018-06-14__13-15-20.tar.gz 
+devops/
+devops/.git/
+devops/.git/refs/
+devops/.git/refs/heads/
+devops/.git/refs/tags/
+devops/.git/refs/remotes/
+devops/.git/refs/remotes/origin/
+devops/.git/refs/remotes/origin/master
+devops/.git/branches/
+devops/.git/description
+devops/.git/hooks/
+devops/.git/hooks/applypatch-msg.sample
+devops/.git/hooks/commit-msg.sample
+devops/.git/hooks/post-update.sample
+devops/.git/hooks/pre-applypatch.sample
+devops/.git/hooks/pre-commit.sample
+devops/.git/hooks/pre-push.sample
+devops/.git/hooks/pre-rebase.sample
+devops/.git/hooks/prepare-commit-msg.sample
+devops/.git/hooks/update.sample
+devops/.git/info/
+devops/.git/info/exclude
+devops/.git/HEAD
+devops/.git/config
+devops/.git/objects/
+devops/.git/objects/pack/
+devops/.git/objects/pack/pack-cc52dac6ff50b75686e7ba73a7c0f504c1752088.pack
+devops/.git/objects/pack/pack-cc52dac6ff50b75686e7ba73a7c0f504c1752088.idx
+devops/.git/objects/info/
+devops/.git/objects/f8/
+devops/.git/objects/f8/61ce59298f79ee809760e0489cc1cd80acaa80
+devops/.git/objects/31/
+devops/.git/objects/31/01e6f158b22ae42164495b1daec57f042ef26a
+devops/.git/objects/e6/
+devops/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+devops/.git/objects/8a/
+devops/.git/objects/8a/c82b6778fa144ba6f5a90c815414fdce2ed33e
+devops/.git/objects/d0/
+devops/.git/objects/d0/321cc814f6f4e9e99473b7731ebee980fd3eec
+devops/.git/FETCH_HEAD
+devops/.git/logs/
+devops/.git/logs/refs/
+devops/.git/logs/refs/remotes/
+devops/.git/logs/refs/remotes/origin/
+devops/.git/logs/refs/remotes/origin/master
+devops/.git/logs/HEAD
+devops/.git/index
+devops/.project
+devops/Jenkinsfile
+devops/README.md
+devops/pom.xml
+devops/src/
+devops/src/main/
+devops/src/main/webapp/
+devops/src/main/webapp/WEB-INF/
+devops/src/main/webapp/WEB-INF/web.xml
+devops/src/main/webapp/assets/
+devops/src/main/webapp/assets/assets-for-demo/
+devops/src/main/webapp/assets/assets-for-demo/demo.css
+devops/src/main/webapp/assets/assets-for-demo/docs.css
+devops/src/main/webapp/assets/assets-for-demo/docs.min.css
+devops/src/main/webapp/assets/assets-for-demo/js/
+devops/src/main/webapp/assets/assets-for-demo/js/docs.min.js
+devops/src/main/webapp/assets/assets-for-demo/js/jquery.sharrre.js
+devops/src/main/webapp/assets/assets-for-demo/js/material-kit-demo.js
+devops/src/main/webapp/assets/assets-for-demo/js/modernizr.js
+devops/src/main/webapp/assets/assets-for-demo/js/src/
+devops/src/main/webapp/assets/assets-for-demo/js/src/application.js
+devops/src/main/webapp/assets/assets-for-demo/js/vendor/
+devops/src/main/webapp/assets/assets-for-demo/js/vendor/anchor.min.js
+devops/src/main/webapp/assets/assets-for-demo/js/vendor/clipboard.min.js
+devops/src/main/webapp/assets/assets-for-demo/js/vendor/holder.min.js
+devops/src/main/webapp/assets/assets-for-demo/js/vendor/split.min.js
+devops/src/main/webapp/assets/assets-for-demo/js/vertical-nav.js
+devops/src/main/webapp/assets/css/
+devops/src/main/webapp/assets/css/material-kit.css
+devops/src/main/webapp/assets/css/material-kit.css.map
+devops/src/main/webapp/assets/css/material-kit.min.css
+devops/src/main/webapp/assets/img/
+devops/src/main/webapp/assets/img/apple-icon.png
+devops/src/main/webapp/assets/img/arrow-left.cur
+devops/src/main/webapp/assets/img/arrow-left.png
+devops/src/main/webapp/assets/img/arrow-right.cur
+devops/src/main/webapp/assets/img/arrow-right.png
+devops/src/main/webapp/assets/img/bg.jpg
+devops/src/main/webapp/assets/img/bg0.jpg
+devops/src/main/webapp/assets/img/bg10.jpg
+devops/src/main/webapp/assets/img/bg11.jpg
+devops/src/main/webapp/assets/img/bg12.jpg
+devops/src/main/webapp/assets/img/bg2.jpg
+devops/src/main/webapp/assets/img/bg3.jpg
+devops/src/main/webapp/assets/img/bg5.jpg
+devops/src/main/webapp/assets/img/bg6.jpg
+devops/src/main/webapp/assets/img/bg7.jpg
+devops/src/main/webapp/assets/img/bg8.jpg
+devops/src/main/webapp/assets/img/bg9.jpg
+devops/src/main/webapp/assets/img/city.jpg
+devops/src/main/webapp/assets/img/clark-street-mercantile.jpg
+devops/src/main/webapp/assets/img/dg1.jpg
+devops/src/main/webapp/assets/img/dg10.jpg
+devops/src/main/webapp/assets/img/dg2.jpg
+devops/src/main/webapp/assets/img/dg3.jpg
+devops/src/main/webapp/assets/img/favicon.png
+devops/src/main/webapp/assets/img/image_placeholder.jpg
+devops/src/main/webapp/assets/img/landing.jpg
+devops/src/main/webapp/assets/img/loading-bubbles.svg
+devops/src/main/webapp/assets/img/office2.jpg
+devops/src/main/webapp/assets/img/placeholder.jpg
+devops/src/main/webapp/assets/img/product1.jpg
+devops/src/main/webapp/assets/img/product2.jpg
+devops/src/main/webapp/assets/img/product3.jpg
+devops/src/main/webapp/assets/img/profile.jpg
+devops/src/main/webapp/assets/js/
+devops/src/main/webapp/assets/js/bootstrap-material-design.js
+devops/src/main/webapp/assets/js/bootstrap-material-design.min.js
+devops/src/main/webapp/assets/js/core/
+devops/src/main/webapp/assets/js/core/jquery.min.js
+devops/src/main/webapp/assets/js/core/popper.min.js
+devops/src/main/webapp/assets/js/material-kit.js
+devops/src/main/webapp/assets/js/material-kit.min.js
+devops/src/main/webapp/assets/js/plugins/
+devops/src/main/webapp/assets/js/plugins/bootstrap-datetimepicker.min.js
+devops/src/main/webapp/assets/js/plugins/jasny-bootstrap.min.js
+devops/src/main/webapp/assets/js/plugins/moment.min.js
+devops/src/main/webapp/assets/js/plugins/nouislider.min.js
+devops/src/main/webapp/assets/scss/
+devops/src/main/webapp/assets/scss/bootstrap/
+devops/src/main/webapp/assets/scss/bootstrap/scss/
+devops/src/main/webapp/assets/scss/bootstrap/scss/_alert.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_badge.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_breadcrumb.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_button-group.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_buttons.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_card.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_carousel.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_close.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_code.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_custom-forms.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_dropdown.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_forms.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_functions.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_grid.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_images.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_input-group.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_jumbotron.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_list-group.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_media.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_mixins.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_modal.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_nav.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_navbar.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_pagination.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_popover.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_print.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_progress.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_reboot.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_tables.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_tooltip.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_transitions.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_type.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_utilities.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/_variables.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/bootstrap-grid.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/bootstrap-reboot.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/bootstrap.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_alert.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_background-variant.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_badge.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_border-radius.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_box-shadow.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_breakpoints.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_buttons.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_clearfix.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_float.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_forms.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_gradients.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_grid-framework.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_grid.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_hover.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_image.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_list-group.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_lists.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_nav-divider.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_navbar-align.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_pagination.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_reset-text.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_resize.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_screen-reader.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_size.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_table-row.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_text-emphasis.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_text-hide.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_text-truncate.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_transition.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/mixins/_visibility.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_align.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_background.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_borders.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_clearfix.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_display.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_embed.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_flex.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_float.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_position.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_screenreaders.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_sizing.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_spacing.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_text.scss
+devops/src/main/webapp/assets/scss/bootstrap/scss/utilities/_visibility.scss
+devops/src/main/webapp/assets/scss/core/
+devops/src/main/webapp/assets/scss/core/_alerts.scss
+devops/src/main/webapp/assets/scss/core/_badges.scss
+devops/src/main/webapp/assets/scss/core/_buttons.scss
+devops/src/main/webapp/assets/scss/core/_cards.scss
+devops/src/main/webapp/assets/scss/core/_carousel.scss
+devops/src/main/webapp/assets/scss/core/_checkboxes.scss
+devops/src/main/webapp/assets/scss/core/_core-bootstrap.scss
+devops/src/main/webapp/assets/scss/core/_custom-forms.scss
+devops/src/main/webapp/assets/scss/core/_drawer.scss
+devops/src/main/webapp/assets/scss/core/_dropdown.scss
+devops/src/main/webapp/assets/scss/core/_example-pages.scss
+devops/src/main/webapp/assets/scss/core/_forms.scss
+devops/src/main/webapp/assets/scss/core/_images.scss
+devops/src/main/webapp/assets/scss/core/_info-areas.scss
+devops/src/main/webapp/assets/scss/core/_input-group.scss
+devops/src/main/webapp/assets/scss/core/_layout.scss
+devops/src/main/webapp/assets/scss/core/_list-group.scss
+devops/src/main/webapp/assets/scss/core/_misc.scss
+devops/src/main/webapp/assets/scss/core/_mixins.scss
+devops/src/main/webapp/assets/scss/core/_modal.scss
+devops/src/main/webapp/assets/scss/core/_nav.scss
+devops/src/main/webapp/assets/scss/core/_navbar.scss
+devops/src/main/webapp/assets/scss/core/_pagination.scss
+devops/src/main/webapp/assets/scss/core/_pills.scss
+devops/src/main/webapp/assets/scss/core/_popover.scss
+devops/src/main/webapp/assets/scss/core/_progress.scss
+devops/src/main/webapp/assets/scss/core/_radios.scss
+devops/src/main/webapp/assets/scss/core/_reboot.scss
+devops/src/main/webapp/assets/scss/core/_responsive.scss
+devops/src/main/webapp/assets/scss/core/_ripples.scss
+devops/src/main/webapp/assets/scss/core/_switches.scss
+devops/src/main/webapp/assets/scss/core/_tabs.scss
+devops/src/main/webapp/assets/scss/core/_togglebutton.scss
+devops/src/main/webapp/assets/scss/core/_tooltip.scss
+devops/src/main/webapp/assets/scss/core/_type.scss
+devops/src/main/webapp/assets/scss/core/_variables.scss
+devops/src/main/webapp/assets/scss/core/mixins/
+devops/src/main/webapp/assets/scss/core/mixins/_alert.scss
+devops/src/main/webapp/assets/scss/core/mixins/_animations.scss
+devops/src/main/webapp/assets/scss/core/mixins/_breakpoints.scss
+devops/src/main/webapp/assets/scss/core/mixins/_buttons.scss
+devops/src/main/webapp/assets/scss/core/mixins/_colored-shadows.scss
+devops/src/main/webapp/assets/scss/core/mixins/_drawer.scss
+devops/src/main/webapp/assets/scss/core/mixins/_forms.scss
+devops/src/main/webapp/assets/scss/core/mixins/_hover.scss
+devops/src/main/webapp/assets/scss/core/mixins/_layout.scss
+devops/src/main/webapp/assets/scss/core/mixins/_navbar-colors.scss
+devops/src/main/webapp/assets/scss/core/mixins/_navs.scss
+devops/src/main/webapp/assets/scss/core/mixins/_type.scss
+devops/src/main/webapp/assets/scss/core/mixins/_utilities.scss
+devops/src/main/webapp/assets/scss/core/variables/
+devops/src/main/webapp/assets/scss/core/variables/_body.scss
+devops/src/main/webapp/assets/scss/core/variables/_bootstrap-material-design-base.scss
+devops/src/main/webapp/assets/scss/core/variables/_bootstrap-material-design.scss
+devops/src/main/webapp/assets/scss/core/variables/_brand.scss
+devops/src/main/webapp/assets/scss/core/variables/_buttons.scss
+devops/src/main/webapp/assets/scss/core/variables/_card.scss
+devops/src/main/webapp/assets/scss/core/variables/_code.scss
+devops/src/main/webapp/assets/scss/core/variables/_colors-map.scss
+devops/src/main/webapp/assets/scss/core/variables/_colors.scss
+devops/src/main/webapp/assets/scss/core/variables/_custom-forms.scss
+devops/src/main/webapp/assets/scss/core/variables/_drawer.scss
+devops/src/main/webapp/assets/scss/core/variables/_dropdown.scss
+devops/src/main/webapp/assets/scss/core/variables/_forms.scss
+devops/src/main/webapp/assets/scss/core/variables/_layout.scss
+devops/src/main/webapp/assets/scss/core/variables/_list-group.scss
+devops/src/main/webapp/assets/scss/core/variables/_menu.scss
+devops/src/main/webapp/assets/scss/core/variables/_modals.scss
+devops/src/main/webapp/assets/scss/core/variables/_nav.scss
+devops/src/main/webapp/assets/scss/core/variables/_pagination.scss
+devops/src/main/webapp/assets/scss/core/variables/_shadow.scss
+devops/src/main/webapp/assets/scss/core/variables/_snackbar.scss
+devops/src/main/webapp/assets/scss/core/variables/_spacing.scss
+devops/src/main/webapp/assets/scss/core/variables/_state.scss
+devops/src/main/webapp/assets/scss/core/variables/_tables.scss
+devops/src/main/webapp/assets/scss/core/variables/_tooltip.scss
+devops/src/main/webapp/assets/scss/core/variables/_type.scss
+devops/src/main/webapp/assets/scss/material-kit.scss
+devops/src/main/webapp/assets/scss/plugins/
+devops/src/main/webapp/assets/scss/plugins/_plugin-datetime-picker.scss
+devops/src/main/webapp/assets/scss/plugins/_plugin-nouislider.scss
+devops/src/main/webapp/index.jsp
+devops/src/main/webapp/index1.jsp
+devops/new.pdf
+devops/vn.pdf
+]0;root@localhost:/usr/local/devops[root@localhost devops]# cd .[Kdevops
+]0;root@localhost:/usr/local/devops/devops[root@localhost devops]# ll
+total 12
+-rw-r--r--. 1 jenkins jenkins 172 Jun 13 14:53 Jenkinsfile
+-rw-r--r--. 1 jenkins jenkins   0 Jun 13 19:43 new.pdf
+-rw-r--r--. 1 jenkins jenkins 724 Jun 13 14:53 pom.xml
+-rw-r--r--. 1 jenkins jenkins  13 Jun 13 14:53 README.md
+drwxr-xr-x. 3 jenkins jenkins  18 Jun 13 14:53 [0m[01;34msrc[0m
+-rw-r--r--. 1 jenkins jenkins   0 Jun 14 11:33 vn.pdf
+]0;root@localhost:/usr/local/devops/devops[root@localhost devops]# llcd devopstar -zxvf backup-2018-06-14__13-15-20.tar.gz [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[Kcd /usr/local/devops/[35@p backup-2018-06-14__13-15-20.tar.gz[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[Ktar zcvf backup-$(date +%Y-%m-%d__%H-%M-%S).tar.gz devops --exclude /var//lib/jenkins/workspace/devops/.git/^C
+]0;root@localhost:/usr/local/devops/devops[root@localhost devops]# cd ..
+]0;root@localhost:/usr/local/devops[root@localhost devops]# ll
+total 41280
+-rw-r--r--. 1 root    root    42270489 Jun 14 13:16 [0m[01;31mbackup-2018-06-14__13-15-20.tar.gz[0m
+drwxr-xr-x. 4 jenkins jenkins      125 Jun 14 11:33 [01;34mdevops[0m
+-rwxrwxrwx. 1 root    root           0 Jun 13 14:27 [01;32mdevops.txt[0m
+]0;root@localhost:/usr/local/devops[root@localhost devops]#  scp -pr /var/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/l ocal/dev^C
+]0;root@localhost:/usr/local/devops[root@localhost devops]# cd /usr/local/downloads/devops/
+]0;root@localhost:/usr/local/downloads/devops[root@localhost devops]# ll
+total 0
+]0;root@localhost:/usr/local/downloads/devops[root@localhost devops]# pc[K[Kcp [K[K[Kllcd /usr/local/downloads/devops/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcp backu[K[K[K[K[K[K[K[Kll
+total 0
+]0;root@localhost:/usr/local/downloads/devops[root@localhost devops]# cd ..
+]0;root@localhost:/usr/local/downloads[root@localhost downloads]# ll
+total 0
+drwxrwxr-x. 2 jenkins jenkins 6 Jun 14 12:22 [0m[01;34mdevops[0m
+drwxrwxr-x. 2 jenkins jenkins 6 Jun 14 12:22 [01;34mvoip[0m
+]0;root@localhost:/usr/local/downloads[root@localhost downloads]# cd ..
+]0;root@localhost:/usr/local[root@localhost local]# ll
+total 0
+drwxr-xr-x. 3 jenkins jenkins 39 Jun 14 10:19 [0m[01;34mansible[0m
+drwxr-xr-x. 2 root    root     6 Apr 11 12:59 [01;34mbin[0m
+drwxr-xr-x. 3 root    root    80 Jun 14 13:16 [01;34mdevops[0m
+drwxr-xr-x. 4 jenkins jenkins 32 Jun 14 12:22 [01;34mdownloads[0m
+drwxr-xr-x. 2 root    root     6 Apr 11 12:59 [01;34metc[0m
+drwxr-xr-x. 2 root    root     6 Apr 11 12:59 [01;34mgames[0m
+drwxr-xr-x. 2 root    root     6 Apr 11 12:59 [01;34minclude[0m
+drwxr-xr-x. 2 root    root     6 Apr 11 12:59 [01;34mlib[0m
+drwxr-xr-x. 2 root    root     6 Apr 11 12:59 [01;34mlib64[0m
+drwxr-xr-x. 2 root    root     6 Apr 11 12:59 [01;34mlibexec[0m
+drwxr-xr-x. 2 root    root     6 Apr 11 12:59 [01;34msbin[0m
+drwxr-xr-x. 5 root    root    49 Jun  6 12:38 [01;34mshare[0m
+drwxr-xr-x. 2 root    root     6 Apr 11 12:59 [01;34msrc[0m
+]0;root@localhost:/usr/local[root@localhost local]# cd /bin/[K/libl[K[K[K[K[K[K[K[Kvar/lib/jenkins/
+]0;root@localhost:/var/lib/jenkins[root@localhost jenkins]# cd o[Ke[Kworkspace/
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# ll
+total 41288
+-rw-r--r--.  1 root    root    42270489 Jun 14 13:15 [0m[01;31mbackup-2018-06-14__13-15-20.tar.gz[0m
+drwxr-xr-x.  4 jenkins jenkins      125 Jun 14 11:33 [01;34mdevops[0m
+drwxr-xr-x.  2 jenkins jenkins        6 Jun 14 11:33 [01;34mdevops@tmp[0m
+drwxr-xr-x. 12 jenkins jenkins     4096 Jun 13 12:58 [01;34mvoip-dev[0m
+drwxr-xr-x. 12 jenkins jenkins     4096 Jun 13 22:04 [01;34mvoip-dev-ci[0m
+drwxr-xr-x.  4 jenkins jenkins      111 Jun 13 21:49 [01;34mvoip-dev-ci_old[0m
+drwxr-xr-x.  2 jenkins jenkins        6 Jun 14 12:19 [01;34mvoip-dev-ci@tmp[0m
+drwxr-xr-x.  2 jenkins jenkins        6 Jun 13 12:58 [01;34mvoip-dev@tmp[0m
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# cp backup-2018-06-14__13-15-20.tar.gz [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K*[K*.tar.gz /usr/local/d
+devops/    downloads/ 
+[root@localhost workspace]# cp backup-2018-06-14*.tar.gz /usr/local/d
+devops/    downloads/ 
+[root@localhost workspace]# cp backup-2018-06-14*.tar.gz /usr/local/downloads/devops/
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# cd /usr/local/downloads/devops/
+]0;root@localhost:/usr/local/downloads/devops[root@localhost devops]# ll
+total 41280
+-rw-r--r--. 1 root root 42270489 Jun 14 14:01 [0m[01;31mbackup-2018-06-14__13-15-20.tar.gz[0m
+]0;root@localhost:/usr/local/downloads/devops[root@localhost devops]# scp scp -pr /var/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/us r/local/dev^C
+]0;root@localhost:/usr/local/downloads/devops[root@localhost devops]#  scp -pr /var/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/l ocal/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvar/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/loc[1Pal/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Car/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/loca[1Pl/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/local[1P/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/local/[1Pdev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/local/d[1Pev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/local/de[1Pv[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/local/dev[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/local/dev [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P kannan@192.168.4.211:/usr/local/dev[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ kannan@192.168.4.211:/usr/local/devu kannan@192.168.4.211:/usr/local/devsr/ kannan@192.168.4.211:/usr/local/devl kannan@192.168.4.211:/usr/local/devo kannan@192.168.4.211:/usr/local/devv kannan@192.168.4.211:/usr/local/dev[1P kannan@192.168.4.211:/usr/local/devc kannan@192.168.4.211:/usr/local/deva kannan@192.168.4.211:/usr/local/devl/ kannan@192.168.4.211:/usr/local/devd kannan@192.168.4.211:/usr/local/devp kannan@192.168.4.211:/usr/local/dev[1P kannan@192.168.4.211:/usr/local/devo kannan@192.168.4.211:/usr/local/devwnloads/ kannan@192.168.4.211:/usr/local/devd kannan@192.168.4.211:/usr/local/deve kannan@192.168.4.211:/usr/local/devv kannan@192.168.4.211:/usr/local/devops/ kannan@192.168.4.211:/usr/local/devv[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C* kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C
+backup-2018-06-14__13-15-20.tar.gz                               0%    0     0.0KB/s   --:-- ETAbackup-2018-06-14__13-15-20.tar.gz                              61%   25MB  24.9MB/s   00:00 ETAbackup-2018-06-14__13-15-20.tar.gz                             100%   40MB  24.2MB/s   00:01    
+]0;root@localhost:/usr/local/downloads/devops[root@localhost devops]# [K[root@localhost devops]#  scp -pr /usr/local/downloads/devops/ba* kannan@1992.168.4.211:/usr/local/dev[All[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd /usr/local/downloads/devops/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp backup-2018-06-14*.tar.gz /usr/local/downloads//devops/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp backup-2018-06-14*.tar.gz /usr/local/downloads//devops/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd workspace//var/lib/jenkins/ll[Kcd ..[3Pllcd ..[3Pllcd /usr/local/downloads/devops/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[Kcd ..[3Pllcd devopstar -zxvf backup-2018-06-14__13-15-20.tar.gz [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[Kcd /usr/local/devops/p backup-2018-06-14__13-15-20.tar.gz /usr/local/ddevops/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar zcvf backup-$(date +%Y-%m-%d__%H-%M-%S).tar.gzz devops --exclude /var/lib/jenkins/workspace/devops/.git/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar zcvf backup-$(date +%Y-%m-%d__%H-%M-%S).tar.gzz devops --exclude /var/lib/jenkins/workspace/devops/.git/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar zcvf backup-$(date +%Y-%m-%d__%H-%M-%S).tar.gzz devops --exclude /var/lib/jenkins/workspace/devops/.git/[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C
+]0;root@localhost:/usr/local/downloads/devops[root@localhost devops]#  scp -pr /usr/local/downloads/devops/ba* kannan@1992.168.4.211:/usr/local/dev[All[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd /usr/local/downloads/devops/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp backup-2018-06-14*.tar.gz /usr/local/downloads//devops/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd workspace//var/lib/jenkins/ll[Kcd ..[3Pllcd ..[3Pllcd /usr/local/downloads/devops/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[Kcd ..[3Pllcd devopstar -zxvf backup-2018-06-14__13-15-20.tar.gz [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[Kcd /usr/local/devops/p backup-2018-06-14__13-15-20.tar.gz /usr/local/ddevops/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar zcvf backup-$(date +%Y-%m-%d__%H-%M-%S).tar.gzz devops --exclude /var/lib/jenkins/workspace/devops/.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar zcvf backup-$(date +%Y-%m-%d__%H-%M-%S).tar.gzz devops --exclude /var/lib/jenkins/workspace/devops/.git^C
+]0;root@localhost:/usr/local/downloads/devops[root@localhost devops]#  scp -pr /usr/local/downloads/devops/ba* kannan@1992.168.4.211:/usr/local/dev[All[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C scp -pr /usr/local/downloads/devops/ba* kannan@1992.168.4.211:/usr/local/dev^C
+]0;root@localhost:/usr/local/downloads/devops[root@localhost devops]# cd /var/lib/jenkins/
+]0;root@localhost:/var/lib/jenkins[root@localhost jenkins]# ll
+total 196
+-rw-r--r--.  1 jenkins jenkins  854 Jun 14 10:53 com.dabsquared.gitlabjenkins.connection.GitLabConnectionConfig.xml
+-rw-r--r--.  1 jenkins jenkins  365 Jun 13 00:06 com.dabsquared.gitlabjenkins.GitLabPushTrigger.xml
+-rw-r--r--.  1 jenkins jenkins 1766 Jun 14 10:53 config.xml
+-rw-r--r--.  1 jenkins jenkins 2816 Jun 14 10:50 credentials.xml
+drwxr-xr-x.  5 jenkins jenkins   36 Jun 14 10:53 [0m[01;34mfingerprints[0m
+-rw-r--r--.  1 jenkins jenkins  214 Jun 14 10:53 github-plugin-configuration.xml
+-rw-r--r--.  1 jenkins jenkins  242 Jun 14 10:53 gitlab-hook-GitlabNotifier.xml
+-rw-r--r--.  1 jenkins jenkins  535 Jun 14 10:53 gitlab-hook-GitlabWebHookRootAction.xml
+-rw-r--r--.  1 jenkins jenkins  156 Jun 14 10:51 hudson.model.UpdateCenter.xml
+-rw-r--r--.  1 jenkins jenkins  250 Jun 14 10:53 hudson.plugins.build_timeout.operations.BuildStepOperation.xml
+-rw-r--r--.  1 jenkins jenkins 1280 Jun 14 10:53 hudson.plugins.emailext.ExtendedEmailPublisher.xml
+-rw-r--r--.  1 jenkins jenkins  320 Jun 14 10:53 hudson.plugins.git.GitSCM.xml
+-rw-r--r--.  1 jenkins jenkins  370 Jun 13 12:46 hudson.plugins.git.GitTool.xml
+-rw-r--r--.  1 jenkins jenkins  173 Jun 13 12:46 hudson.plugins.gradle.Gradle.xml
+-rw-r--r--.  1 jenkins jenkins  347 Jun 14 10:53 hudson.plugins.timestamper.TimestamperConfig.xml
+-rw-r--r--.  1 jenkins jenkins  391 Jun 14 10:53 hudson.scm.SubversionSCM.xml
+-rw-r--r--.  1 jenkins jenkins  145 Jun 13 12:46 hudson.tasks.Ant.xml
+-rw-r--r--.  1 jenkins jenkins  188 Jun 14 10:53 hudson.tasks.Mailer.xml
+-rw-r--r--.  1 jenkins jenkins  132 Jun 13 12:46 hudson.tasks.Maven.xml
+-rw-r--r--.  1 jenkins jenkins   76 Jun 14 10:53 hudson.tasks.Shell.xml
+-rw-r--r--.  1 jenkins jenkins  216 Jun 14 10:53 hudson.triggers.SCMTrigger.xml
+-rw-------.  1 jenkins jenkins 1712 Jun 12 23:46 identity.key.enc
+-rw-r--r--.  1 jenkins jenkins   94 Jun 14 08:44 jenkins.CLI.xml
+-rw-r--r--.  1 jenkins jenkins    7 Jun 12 23:59 jenkins.install.InstallUtil.lastExecVersion
+-rw-r--r--.  1 jenkins jenkins    7 Jun 12 23:59 jenkins.install.UpgradeWizard.state
+-rw-r--r--.  1 jenkins jenkins  159 Jun 14 10:53 jenkins.model.ArtifactManagerConfiguration.xml
+-rw-r--r--.  1 jenkins jenkins  138 Jun 14 08:44 jenkins.model.DownloadSettings.xml
+-rw-r--r--.  1 jenkins jenkins  242 Jun 14 10:53 jenkins.model.JenkinsLocationConfiguration.xml
+-rw-r--r--.  1 jenkins jenkins  247 Jun 13 12:46 jenkins.mvn.GlobalMavenConfig.xml
+-rw-r--r--.  1 jenkins jenkins  169 Jun 14 08:44 jenkins.security.QueueItemAuthenticatorConfiguration.xml
+-rw-r--r--.  1 jenkins jenkins  162 Jun 14 08:44 jenkins.security.UpdateSiteWarningsConfiguration.xml
+drwxr-xr-x.  6 jenkins jenkins   71 Jun 14 12:43 [01;34mjobs[0m
+drwxr-xr-x.  3 jenkins jenkins   19 Jun 12 23:46 [01;34mlogs[0m
+-rw-r--r--.  1 jenkins jenkins  907 Jun 14 10:51 nodeMonitors.xml
+drwxr-xr-x.  2 jenkins jenkins    6 Jun 12 23:46 [01;34mnodes[0m
+-rw-r--r--.  1 jenkins jenkins  299 Jun 13 12:46 org.jenkinsci.plugins.docker.commons.tools.DockerTool.xml
+-rw-r--r--.  1 jenkins jenkins  255 Jun 13 12:46 org.jenkinsci.plugins.gitclient.JGitApacheTool.xml
+-rw-r--r--.  1 jenkins jenkins  243 Jun 13 12:46 org.jenkinsci.plugins.gitclient.JGitTool.xml
+-rw-r--r--.  1 jenkins jenkins  870 Jun 14 10:53 org.jenkinsci.plugins.gitlab.GitlabBuildTrigger.xml
+-rw-r--r--.  1 jenkins jenkins  268 Jun 14 10:53 org.jenkinsci.plugins.gitlablogo.GitlabLogoProperty.xml
+-rw-r--r--.  1 jenkins jenkins  291 Jun 14 10:53 org.jenkinsci.plugins.pipeline.modeldefinition.config.GlobalConfig.xml
+-rw-r--r--.  1 jenkins jenkins  322 Jun 14 10:53 org.jenkinsci.plugins.schedulebuild.ScheduleBuildGlobalConfiguration.xml
+-rw-r--r--.  1 jenkins jenkins   46 Jun 14 12:43 org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml
+-rw-r--r--.  1 jenkins jenkins  153 Jun 14 10:53 org.jenkinsci.plugins.workflow.flow.GlobalDefaultFlowDurabilityLevel.xml
+-rw-r--r--.  1 jenkins jenkins  218 Jun 14 10:53 org.jenkinsci.plugins.workflow.libs.GlobalLibraries.xml
+drwxr-xr-x. 84 jenkins jenkins 8192 Jun 14 13:00 [01;34mplugins[0m
+-rw-r--r--.  1 jenkins jenkins  131 Jun 14 14:10 queue.xml
+-rw-r--r--.  1 jenkins jenkins  130 Jun 14 10:51 queue.xml.bak
+-rw-r--r--.  1 jenkins jenkins  369 Jun 13 09:12 scriptApproval.xml
+-rw-r--r--.  1 jenkins jenkins   64 Jun 12 23:46 secret.key
+-rw-r--r--.  1 jenkins jenkins    0 Jun 12 23:46 secret.key.not-so-secret
+drwx------.  4 jenkins jenkins 4096 Jun 13 09:17 [01;34msecrets[0m
+drwxr-xr-x.  2 jenkins jenkins  182 Jun 14 10:34 [01;34mupdates[0m
+drwxr-xr-x.  2 jenkins jenkins   24 Jun 12 23:46 [01;34muserContent[0m
+drwxr-xr-x.  6 jenkins jenkins   95 Jun 14 12:19 [01;34musers[0m
+drwxr-xr-x.  2 jenkins jenkins    6 Jun 12 23:54 [01;34mworkflow-libs[0m
+drwxr-xr-x.  9 jenkins jenkins  181 Jun 14 13:15 [01;34mworkspace[0m
+]0;root@localhost:/var/lib/jenkins[root@localhost jenkins]# work
+-bash: work: command not found
+]0;root@localhost:/var/lib/jenkins[root@localhost jenkins]# cd workspace/
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# ll
+total 41288
+-rw-r--r--.  1 root    root    42270489 Jun 14 13:15 [0m[01;31mbackup-2018-06-14__13-15-20.tar.gz[0m
+drwxr-xr-x.  4 jenkins jenkins      167 Jun 14 14:09 [01;34mdevops[0m
+drwxr-xr-x.  2 jenkins jenkins        6 Jun 14 14:09 [01;34mdevops@tmp[0m
+drwxr-xr-x. 12 jenkins jenkins     4096 Jun 13 12:58 [01;34mvoip-dev[0m
+drwxr-xr-x. 12 jenkins jenkins     4096 Jun 13 22:04 [01;34mvoip-dev-ci[0m
+drwxr-xr-x.  4 jenkins jenkins      111 Jun 13 21:49 [01;34mvoip-dev-ci_old[0m
+drwxr-xr-x.  2 jenkins jenkins        6 Jun 14 12:19 [01;34mvoip-dev-ci@tmp[0m
+drwxr-xr-x.  2 jenkins jenkins        6 Jun 13 12:58 [01;34mvoip-dev@tmp[0m
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# [K[root@localhost workspace]# 

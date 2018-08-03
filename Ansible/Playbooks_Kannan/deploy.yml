@@ -1,0 +1,36 @@
+
+#- include: temp.yml
+#
+- name : Check rpm exists
+  yum: list={{ pkg_install }}
+  register: is_present
+
+- fail: msg="{{ pkg_install }} rpm is not available"
+  when: is_present.results|selectattr("yumstate", "match", "available")|list|length == 0
+
+- name: Existing {{ pkg_remove }}  package
+  shell: /bin/rpm -qa {{ pkg_remove }} warn=no
+  register: pkgs
+  check_mode: no
+- debug: var=pkgs.stdout_lines
+
+- name: create directory {{ pkgdir }} if not present
+  file: path={{ pkgdir }} owner=dashboard group=dashboard state=directory mode=0755
+  
+- name: Current {{ pkg_remove }} rpms
+  shell: /bin/rpm -qa {{ pkg_remove }} | tr "\n" " " > /{{ pkgdir }}/{{ releasename }} warn=no
+
+- name: Fetch the {{ pkg_remove }} rpms
+  fetch: src=/{{ pkgdir }}/{{ releasename }} dest=/{{ pkgdir }}/{{ releasename }}.{{ role }} flat=yes
+  become_user: root
+
+  #debug: msg={{ pkgs.stdout_lines }}
+  #with_items: "{{ pkgs.stdout }}"
+
+- name: Uninstalling {{ pkg_remove }}  package
+  yum: name={{ item }} state=absent
+  with_items: "{{ pkg_remove }}"
+
+- name: Installing {{ pkg_install }} package
+  yum: name={{ item }} state=present update_cache=yes
+  with_items: "{{ pkg_install }}"

@@ -1,0 +1,487 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2018.06.13 12:00:20 =~=~=~=~=~=~=~=~=~=~=~=
+ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 52:54:00:95:24:75 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.4.210/24 brd 192.168.4.255 scope global ens3
+       valid_lft forever preferred_lft forever
+    inet6 fe80::5054:ff:fe95:2475/64 scope link 
+       valid_lft forever preferred_lft forever
+]0;root@localhost:/usr/local/devops[root@localhost devops]# su -kannan
+su: invalid option -- 'k'
+
+Usage:
+ su [options] [-] [USER [arg]...]
+
+Change the effective user id and group id to that of USER.
+A mere - implies -l.   If USER not given, assume root.
+
+Options:
+ -m, -p, --preserve-environment  do not reset environment variables
+ -g, --group <group>             specify the primary group
+ -G, --supp-group <group>        specify a supplemental group
+
+ -, -l, --login                  make the shell a login shell
+ -c, --command <command>         pass a single command to the shell with -c
+ --session-command <command>     pass a single command to the shell with -c
+                                 and do not create a new session
+ -f, --fast                      pass -f to the shell (for csh or tcsh)
+ -s, --shell <shell>             run shell if /etc/shells allows it
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see su(1).
+]0;root@localhost:/usr/local/devops[root@localhost devops]# su -kannan kannan[C[C[C[C[C[C
+su: user kannan does not exist
+]0;root@localhost:/usr/local/devops[root@localhost devops]# ^C
+]0;root@localhost:/usr/local/devops[root@localhost devops]# cd /r
+root/ run/  
+[root@localhost devops]# cd /r
+root/ run/  
+[root@localhost devops]# cd /root/[K[K[K[K[K[K~
+]0;root@localhost:~[root@localhost ~]# cd /[K.ssh/
+]0;root@localhost:~/.ssh[root@localhost .ssh]# ll
+total 12
+drw-------. 2 root root    6 Jun 13 02:13 [0m[01;34mauthorized_keys[0m
+-rw-------. 1 root root 1679 Jun 13 01:48 id_rsa
+-rw-r--r--. 1 root root  408 Jun 13 01:48 id_rsa.pub
+-rw-r--r--. 1 root root  175 Jun 13 02:14 known_hosts
+]0;root@localhost:~/.ssh[root@localhost .ssh]# cat id_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZgo1cqonZIibUnrmLAnul1NYRPWSshbdGUWHRY0XnGGd0+w0XgTkpXge+Lg+AA2rG2i1qKr2cTeGwVs5uhl7hhSGEHMh+ZiFXkmPdgBx9IlfophekOUUEvwlWiblKbqMfeEHmZmmD3F/em/sDErVM4yww2QbG8a+WrRXx4/xrbcI6ffyBJMNPzLkh8eXe48Cmarbvccbg8tMM91+yr9LNhtC1G2mYTtSs8oOmzEEOy/d/IynHNNZxV8yM8KtA6UXeIyfP3rh8zLaNc3RXa+OusLgzJAdTBZFQl0mNXkpM9rApAig+/9EBvPu0Ai+yuNFjM+XZkM5h/LWC9Qx0I8VF root@localhost.localdomain
+]0;root@localhost:~/.ssh[root@localhost .ssh]# cat id_rsa.pub ll[Kcd .ssh/~[Ksu - kannan[1Pkannan[6Pip ascp /usr/local/devops/devops.txt root@192.168.4.211:/usr/llocal/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ckannan@192.168.4.211:/usr/local/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Croot@192.168.4.211:/usr/l[2Pocal/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ckannan@192.168.4.211:/usr/local/
+scp: /usr/local//devops.txt: Permission denied
+]0;root@localhost:~/.ssh[root@localhost .ssh]# scp /usr/local/devops/devops.txt kannan@192.168.4.211:/usrr/local/[K[K[K[K[Kocal/dev
+devops.txt                                    100%    0     0.0KB/s   00:00    
+]0;root@localhost:~/.ssh[root@localhost .ssh]# scp /usr/local/devops/devops.txt kannan@192.168.4.211:/usrr/local/dev^C
+]0;root@localhost:~/.ssh[root@localhost .ssh]# cd /var/lib/b[Kw[Kjenkins/workspace/
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# ll
+total 4
+drwxr-xr-x.  4 jenkins jenkins   96 Jun 13 02:53 [0m[01;34mdevops[0m
+drwxr-xr-x.  2 jenkins jenkins    6 Jun 13 02:53 [01;34mdevops@tmp[0m
+drwxr-xr-x. 12 jenkins jenkins 4096 Jun 13 00:58 [01;34mvoip-dev[0m
+drwxr-xr-x.  2 jenkins jenkins    6 Jun 13 00:58 [01;34mvoip-dev@tmp[0m
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# cd devops
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# ll
+total 12
+-rw-r--r--. 1 jenkins jenkins 172 Jun 13 02:53 Jenkinsfile
+-rw-r--r--. 1 jenkins jenkins 724 Jun 13 02:53 pom.xml
+-rw-r--r--. 1 jenkins jenkins  13 Jun 13 02:53 README.md
+drwxr-xr-x. 3 jenkins jenkins  18 Jun 13 02:53 [0m[01;34msrc[0m
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# [K[root@localhost devops]# llcd devops[K[root@localhost devops]# cd devops[K[K[K[K[K[K[K[K[Kip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 52:54:00:95:24:75 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.4.210/24 brd 192.168.4.255 scope global ens3
+       valid_lft forever preferred_lft forever
+    inet6 fe80::5054:ff:fe95:2475/64 scope link 
+       valid_lft forever preferred_lft forever
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# scp /var/lib/jenkins/workspace/devops kannan@192.168.4. 211:/usr/local/dev
+/var/lib/jenkins/workspace/devops: not a regular file
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# scp /var/lib/jenkins/workspace/devops kannan@192.168.4.2211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C kannan@192.168.4.21[C[1P:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C kannan@192.168.4.211[1P:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C kannan@192.168.4.211:[1P/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C kannan@192.168.4.211:/[1Pusr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C kannan@192.168.4.211:/u[1Psr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C kannan@192.168.4.211:/us[1Pr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C
+/var/lib/jenkins/workspace: not a regular file
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# cd /var/lib/jenkins/work
+workflow-libs/ workspace/     
+[root@localhost devops]# cd /var/lib/jenkins/workspace/s[Kdevops/
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# ll
+total 12
+-rw-r--r--. 1 jenkins jenkins 172 Jun 13 02:53 Jenkinsfile
+-rw-r--r--. 1 jenkins jenkins 724 Jun 13 02:53 pom.xml
+-rw-r--r--. 1 jenkins jenkins  13 Jun 13 02:53 README.md
+drwxr-xr-x. 3 jenkins jenkins  18 Jun 13 02:53 [0m[01;34msrc[0m
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# llcd /var/lib/jenkins/workspace/devops/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscp /var/lib/jenkins/workspace/ kannan@192.168.4.211:/ussr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvops kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C* kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ckannan@192.168.4[1P.211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Jenkinsfile                                     0%    0     0.0KB/s   --:-- ETAJenkinsfile                                   100%  172   270.1KB/s   00:00    
+pom.xml                                         0%    0     0.0KB/s   --:-- ETApom.xml                                       100%  724     1.4MB/s   00:00    
+README.md                                       0%    0     0.0KB/s   --:-- ETAREADME.md                                     100%   13    40.1KB/s   00:00    
+/var/lib/jenkins/workspace/devops/src: not a regular file
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# scp /var/lib/jenkins/workspace/devops/* kannan@192.168.44.211:/usr/local/dev
+Jenkinsfile                                     0%    0     0.0KB/s   --:-- ETAJenkinsfile                                   100%  172   415.9KB/s   00:00    
+pom.xml                                         0%    0     0.0KB/s   --:-- ETApom.xml                                       100%  724     1.4MB/s   00:00    
+README.md                                       0%    0     0.0KB/s   --:-- ETAREADME.md                                     100%   13    28.7KB/s   00:00    
+/var/lib/jenkins/workspace/devops/src: not a regular file
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# scp /var/lib/jenkins/workspace/devops/* kannan@192.168.44.211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C kannan@192.168.4.[1P211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+/var/lib/jenkins/workspace/devops: not a regular file
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# scp /var/lib/jenkins/workspace/devops/ kannan@192.168.4..211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C* kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Jenkinsfile                                     0%    0     0.0KB/s   --:-- ETAJenkinsfile                                   100%  172   301.1KB/s   00:00    
+pom.xml                                         0%    0     0.0KB/s   --:-- ETApom.xml                                       100%  724     1.7MB/s   00:00    
+README.md                                       0%    0     0.0KB/s   --:-- ETAREADME.md                                     100%   13    33.5KB/s   00:00    
+/var/lib/jenkins/workspace/devops/src: not a regular file
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# scp /var/lib/jenkins/workspace/devops/* kannan@192.168.44.211:/usr/local/dev
+Jenkinsfile                                     0%    0     0.0KB/s   --:-- ETAJenkinsfile                                   100%  172   374.6KB/s   00:00    
+pom.xml                                         0%    0     0.0KB/s   --:-- ETApom.xml                                       100%  724     1.7MB/s   00:00    
+README.md                                       0%    0     0.0KB/s   --:-- ETAREADME.md                                     100%   13    27.4KB/s   00:00    
+/var/lib/jenkins/workspace/devops/src: not a regular file
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# scp /var/lib/jenkins/workspace/devops/* kannan@192.168.44.211:/usr/local/dev^C
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# ls -ltr
+total 12
+drwxr-xr-x. 3 jenkins jenkins  18 Jun 13 02:53 [0m[01;34msrc[0m
+-rw-r--r--. 1 jenkins jenkins  13 Jun 13 02:53 README.md
+-rw-r--r--. 1 jenkins jenkins 724 Jun 13 02:53 pom.xml
+-rw-r--r--. 1 jenkins jenkins 172 Jun 13 02:53 Jenkinsfile
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# su - jenkins
+Last login: Tue Jun 12 23:55:33 EDT 2018 on pts/0
+]0;root@localhost:/var/lib/jenkins/workspace/devops[root@localhost devops]# cd ..
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# ll
+total 4
+drwxr-xr-x.  4 jenkins jenkins   96 Jun 13 02:53 [0m[01;34mdevops[0m
+drwxr-xr-x.  2 jenkins jenkins    6 Jun 13 02:59 [01;34mdevops@tmp[0m
+drwxr-xr-x. 12 jenkins jenkins 4096 Jun 13 00:58 [01;34mvoip-dev[0m
+drwxr-xr-x.  2 jenkins jenkins    6 Jun 13 00:58 [01;34mvoip-dev@tmp[0m
+]0;root@localhost:/var/lib/jenkins/workspace[root@localhost workspace]# cd ..
+]0;root@localhost:/var/lib/jenkins[root@localhost jenkins]# ll
+total 192
+-rw-r--r--.  1 jenkins jenkins  854 Jun 12 22:34 com.dabsquared.gitlabjenkins.connection.GitLabConnectionConfig.xml
+-rw-r--r--.  1 jenkins jenkins  365 Jun 12 12:06 com.dabsquared.gitlabjenkins.GitLabPushTrigger.xml
+-rw-r--r--.  1 jenkins jenkins 1766 Jun 13 00:46 config.xml
+-rw-r--r--.  1 jenkins jenkins 2403 Jun 13 00:57 credentials.xml
+drwxr-xr-x.  4 jenkins jenkins   26 Jun 12 21:18 [0m[01;34mfingerprints[0m
+-rw-r--r--.  1 jenkins jenkins  214 Jun 12 21:31 github-plugin-configuration.xml
+-rw-r--r--.  1 jenkins jenkins  242 Jun 12 21:31 gitlab-hook-GitlabNotifier.xml
+-rw-r--r--.  1 jenkins jenkins  535 Jun 12 21:31 gitlab-hook-GitlabWebHookRootAction.xml
+-rw-r--r--.  1 jenkins jenkins  156 Jun 12 22:34 hudson.model.UpdateCenter.xml
+-rw-r--r--.  1 jenkins jenkins  250 Jun 12 21:31 hudson.plugins.build_timeout.operations.BuildStepOperation.xml
+-rw-r--r--.  1 jenkins jenkins 1280 Jun 12 21:31 hudson.plugins.emailext.ExtendedEmailPublisher.xml
+-rw-r--r--.  1 jenkins jenkins  320 Jun 12 21:31 hudson.plugins.git.GitSCM.xml
+-rw-r--r--.  1 jenkins jenkins  370 Jun 13 00:46 hudson.plugins.git.GitTool.xml
+-rw-r--r--.  1 jenkins jenkins  173 Jun 13 00:46 hudson.plugins.gradle.Gradle.xml
+-rw-r--r--.  1 jenkins jenkins  347 Jun 12 21:31 hudson.plugins.timestamper.TimestamperConfig.xml
+-rw-r--r--.  1 jenkins jenkins  391 Jun 12 21:31 hudson.scm.SubversionSCM.xml
+-rw-r--r--.  1 jenkins jenkins  145 Jun 13 00:46 hudson.tasks.Ant.xml
+-rw-r--r--.  1 jenkins jenkins  188 Jun 12 21:31 hudson.tasks.Mailer.xml
+-rw-r--r--.  1 jenkins jenkins  132 Jun 13 00:46 hudson.tasks.Maven.xml
+-rw-r--r--.  1 jenkins jenkins   76 Jun 12 21:31 hudson.tasks.Shell.xml
+-rw-r--r--.  1 jenkins jenkins  216 Jun 12 21:31 hudson.triggers.SCMTrigger.xml
+-rw-------.  1 jenkins jenkins 1712 Jun 12 11:46 identity.key.enc
+-rw-r--r--.  1 jenkins jenkins   94 Jun 12 20:57 jenkins.CLI.xml
+-rw-r--r--.  1 jenkins jenkins    7 Jun 12 11:59 jenkins.install.InstallUtil.lastExecVersion
+-rw-r--r--.  1 jenkins jenkins    7 Jun 12 11:59 jenkins.install.UpgradeWizard.state
+-rw-r--r--.  1 jenkins jenkins  159 Jun 12 21:31 jenkins.model.ArtifactManagerConfiguration.xml
+-rw-r--r--.  1 jenkins jenkins  138 Jun 12 20:57 jenkins.model.DownloadSettings.xml
+-rw-r--r--.  1 jenkins jenkins  242 Jun 12 21:31 jenkins.model.JenkinsLocationConfiguration.xml
+-rw-r--r--.  1 jenkins jenkins  247 Jun 13 00:46 jenkins.mvn.GlobalMavenConfig.xml
+-rw-r--r--.  1 jenkins jenkins  169 Jun 12 20:57 jenkins.security.QueueItemAuthenticatorConfiguration.xml
+-rw-r--r--.  1 jenkins jenkins  162 Jun 12 20:57 jenkins.security.UpdateSiteWarningsConfiguration.xml
+drwxr-xr-x.  5 jenkins jenkins   59 Jun 13 02:38 [01;34mjobs[0m
+drwxr-xr-x.  3 jenkins jenkins   19 Jun 12 11:46 [01;34mlogs[0m
+-rw-r--r--.  1 jenkins jenkins  907 Jun 12 22:34 nodeMonitors.xml
+drwxr-xr-x.  2 jenkins jenkins    6 Jun 12 11:46 [01;34mnodes[0m
+-rw-r--r--.  1 jenkins jenkins  299 Jun 13 00:46 org.jenkinsci.plugins.docker.commons.tools.DockerTool.xml
+-rw-r--r--.  1 jenkins jenkins  255 Jun 13 00:46 org.jenkinsci.plugins.gitclient.JGitApacheTool.xml
+-rw-r--r--.  1 jenkins jenkins  243 Jun 13 00:46 org.jenkinsci.plugins.gitclient.JGitTool.xml
+-rw-r--r--.  1 jenkins jenkins  870 Jun 12 21:31 org.jenkinsci.plugins.gitlab.GitlabBuildTrigger.xml
+-rw-r--r--.  1 jenkins jenkins  268 Jun 12 21:31 org.jenkinsci.plugins.gitlablogo.GitlabLogoProperty.xml
+-rw-r--r--.  1 jenkins jenkins  291 Jun 12 21:31 org.jenkinsci.plugins.pipeline.modeldefinition.config.GlobalConfig.xml
+-rw-r--r--.  1 jenkins jenkins   46 Jun 13 02:35 org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml
+-rw-r--r--.  1 jenkins jenkins  153 Jun 12 21:31 org.jenkinsci.plugins.workflow.flow.GlobalDefaultFlowDurabilityLevel.xml
+-rw-r--r--.  1 jenkins jenkins  218 Jun 12 21:31 org.jenkinsci.plugins.workflow.libs.GlobalLibraries.xml
+drwxr-xr-x. 81 jenkins jenkins 8192 Jun 12 22:32 [01;34mplugins[0m
+-rw-r--r--.  1 jenkins jenkins  130 Jun 13 03:00 queue.xml
+-rw-r--r--.  1 jenkins jenkins  129 Jun 12 22:34 queue.xml.bak
+-rw-r--r--.  1 jenkins jenkins  369 Jun 12 21:12 scriptApproval.xml
+-rw-r--r--.  1 jenkins jenkins   64 Jun 12 11:46 secret.key
+-rw-r--r--.  1 jenkins jenkins    0 Jun 12 11:46 secret.key.not-so-secret
+drwx------.  4 jenkins jenkins 4096 Jun 12 21:17 [01;34msecrets[0m
+drwxr-xr-x.  2 jenkins jenkins  182 Jun 12 21:10 [01;34mupdates[0m
+drwxr-xr-x.  2 jenkins jenkins   24 Jun 12 11:46 [01;34muserContent[0m
+drwxr-xr-x.  4 jenkins jenkins   42 Jun 12 23:48 [01;34musers[0m
+drwxr-xr-x.  2 jenkins jenkins    6 Jun 12 11:54 [01;34mworkflow-libs[0m
+drwxr-xr-x.  6 jenkins jenkins   74 Jun 13 02:52 [01;34mworkspace[0m
+]0;root@localhost:/var/lib/jenkins[root@localhost jenkins]# e[Kcat /etc/p
+pam.d/          plymouth/       ppp/            protocols
+passwd          pm/             prelink.conf.d/ python/
+passwd-         polkit-1/       printcap        
+pkcs11/         popt.d/         profile         
+pki/            postfix/        profile.d/      
+[root@localhost jenkins]# cat /etc/p[Kass[K[K[Kpasswd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:999:998:User for polkitd:/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+chrony:x:998:996::/var/lib/chrony:/sbin/nologin
+kvairam:x:1000:1000:Kannan:/home/kvairam:/bin/bash
+vinoth:x:0:0::/home/vinoth:/bin/bash
+devops:x:1001:1001::/home/devops:/bin/bash
+jenkins:x:997:995:Jenkins Automation Server:/var/lib/jenkins:/bin/false
+]0;root@localhost:/var/lib/jenkins[root@localhost jenkins]# cat /etc/passwd[Kd[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpassword jen[K[K[K[K[K[K[Kd jenkins
+Changing password for user jenkins.
+New password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+]0;root@localhost:/var/lib/jenkins[root@localhost jenkins]# su - jenkins
+Last login: Wed Jun 13 03:01:56 EDT 2018 on pts/2
+]0;root@localhost:/var/lib/jenkins[root@localhost jenkins]# cd /usr/[K[K[K[K[K[K[K[Ksu - jenkins[2@passwd[C[C[C[C[C[C[C[Ccat /etc/passwdll[Kcd ..[K[K[K[K[Ksu - jenkins
+Last login: Wed Jun 13 03:06:01 EDT 2018 on pts/1
+[?1034h-bash-4.2$ cd /[K[K[K[K scp /var/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/lo cal/dev
+The authenticity of host '192.168.4.211 (192.168.4.211)' can't be established.
+ECDSA key fingerprint is SHA256:1HRPF5Xn5PWATako6QIncmbZV+LBFmVKmebW38soFp8.
+ECDSA key fingerprint is MD5:84:6f:d1:31:5c:bb:ce:0f:ec:23:c4:6a:74:02:16:e5.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.4.211' (ECDSA) to the list of known hosts.
+Jenkinsfile                                     0%    0     0.0KB/s   --:-- ETAJenkinsfile                                   100%  172   386.3KB/s   00:00    
+pom.xml                                         0%    0     0.0KB/s   --:-- ETApom.xml                                       100%  724     2.0MB/s   00:00    
+README.md                                       0%    0     0.0KB/s   --:-- ETAREADME.md                                     100%   13    35.4KB/s   00:00    
+/var/lib/jenkins/workspace/devops/src: not a regular file
+-bash-4.2$  scp /var/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/loccal/dev
+Jenkinsfile                                     0%    0     0.0KB/s   --:-- ETAJenkinsfile                                   100%  172   380.1KB/s   00:00    
+pom.xml                                         0%    0     0.0KB/s   --:-- ETApom.xml                                       100%  724     1.7MB/s   00:00    
+README.md                                       0%    0     0.0KB/s   --:-- ETAREADME.md                                     100%   13    32.4KB/s   00:00    
+/var/lib/jenkins/workspace/devops/src: not a regular file
+-bash-4.2$  scp /var/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/loccal/dev[A[C[C[C[C[C[C[C[C[C /var/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[C- /var/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[Cp /var/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[Cr /var/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usr/local/dev[A[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C scp -pr /var/lib/jenkins/workspace/devops/* kannan@192.168.4.211:/usrr/local/dev
+Jenkinsfile                                     0%    0     0.0KB/s   --:-- ETAJenkinsfile                                   100%  172   341.4KB/s   00:00    
+pom.xml                                         0%    0     0.0KB/s   --:-- ETApom.xml                                       100%  724     1.8MB/s   00:00    
+README.md                                       0%    0     0.0KB/s   --:-- ETAREADME.md                                     100%   13    34.4KB/s   00:00    
+web.xml                                         0%    0     0.0KB/s   --:-- ETAweb.xml                                       100%  215   573.4KB/s   00:00    
+demo.css                                        0%    0     0.0KB/s   --:-- ETAdemo.css                                      100%   14KB  13.3MB/s   00:00    
+docs.css                                        0%    0     0.0KB/s   --:-- ETAdocs.css                                      100%   29KB  19.8MB/s   00:00    
+docs.min.css                                    0%    0     0.0KB/s   --:-- ETAdocs.min.css                                  100%   22KB  18.0MB/s   00:00    
+docs.min.js                                     0%    0     0.0KB/s   --:-- ETAdocs.min.js                                   100%   48KB  19.8MB/s   00:00    
+jquery.sharrre.js                               0%    0     0.0KB/s   --:-- ETAjquery.sharrre.js                             100%   25KB  16.1MB/s   00:00    
+material-kit-demo.js                            0%    0     0.0KB/s   --:-- ETAmaterial-kit-demo.js                          100% 8203    11.3MB/s   00:00    
+modernizr.js                                    0%    0     0.0KB/s   --:-- ETAmodernizr.js                                  100%   50KB  21.3MB/s   00:00    
+application.js                                  0%    0     0.0KB/s   --:-- ETAapplication.js                                100% 3780     7.4MB/s   00:00    
+anchor.min.js                                   0%    0     0.0KB/s   --:-- ETAanchor.min.js                                 100% 5332     9.7MB/s   00:00    
+clipboard.min.js                                0%    0     0.0KB/s   --:-- ETAclipboard.min.js                              100%   11KB  13.5MB/s   00:00    
+holder.min.js                                   0%    0     0.0KB/s   --:-- ETAholder.min.js                                 100%   32KB  20.5MB/s   00:00    
+split.min.js                                    0%    0     0.0KB/s   --:-- ETAsplit.min.js                                  100% 1407     3.3MB/s   00:00    
+vertical-nav.js                                 0%    0     0.0KB/s   --:-- ETAvertical-nav.js                               100% 1771     3.7MB/s   00:00    
+material-kit.css                                0%    0     0.0KB/s   --:-- ETAmaterial-kit.css                              100%  382KB  23.8MB/s   00:00    
+material-kit.css.map                            0%    0     0.0KB/s   --:-- ETAmaterial-kit.css.map                          100%  962KB  25.7MB/s   00:00    
+material-kit.min.css                            0%    0     0.0KB/s   --:-- ETAmaterial-kit.min.css                          100%  295KB  22.7MB/s   00:00    
+apple-icon.png                                  0%    0     0.0KB/s   --:-- ETAapple-icon.png                                100% 4821     9.8MB/s   00:00    
+arrow-left.cur                                  0%    0     0.0KB/s   --:-- ETAarrow-left.cur                                100% 1790     4.1MB/s   00:00    
+arrow-left.png                                  0%    0     0.0KB/s   --:-- ETAarrow-left.png                                100% 2895     7.2MB/s   00:00    
+arrow-right.cur                                 0%    0     0.0KB/s   --:-- ETAarrow-right.cur                               100% 1790     3.1MB/s   00:00    
+arrow-right.png                                 0%    0     0.0KB/s   --:-- ETAarrow-right.png                               100% 2923     6.0MB/s   00:00    
+bg.jpg                                          0%    0     0.0KB/s   --:-- ETAbg.jpg                                        100%  122KB  23.1MB/s   00:00    
+bg0.jpg                                         0%    0     0.0KB/s   --:-- ETAbg0.jpg                                       100%  550KB  21.7MB/s   00:00    
+bg10.jpg                                        0%    0     0.0KB/s   --:-- ETAbg10.jpg                                      100%  535KB  24.4MB/s   00:00    
+bg11.jpg                                        0%    0     0.0KB/s   --:-- ETAbg11.jpg                                      100%  199KB  22.1MB/s   00:00    
+bg12.jpg                                        0%    0     0.0KB/s   --:-- ETAbg12.jpg                                      100%  271KB  22.0MB/s   00:00    
+bg2.jpg                                         0%    0     0.0KB/s   --:-- ETAbg2.jpg                                       100%  273KB  21.7MB/s   00:00    
+bg3.jpg                                         0%    0     0.0KB/s   --:-- ETAbg3.jpg                                       100%  267KB  16.8MB/s   00:00    
+bg5.jpg                                         0%    0     0.0KB/s   --:-- ETAbg5.jpg                                       100%  940KB  28.3MB/s   00:00    
+bg6.jpg                                         0%    0     0.0KB/s   --:-- ETAbg6.jpg                                       100% 4644KB  26.0MB/s   00:00    
+bg7.jpg                                         0%    0     0.0KB/s   --:-- ETAbg7.jpg                                       100%  520KB  24.1MB/s   00:00    
+bg8.jpg                                         0%    0     0.0KB/s   --:-- ETAbg8.jpg                                       100%  640KB  24.4MB/s   00:00    
+bg9.jpg                                         0%    0     0.0KB/s   --:-- ETAbg9.jpg                                       100%  171KB  23.1MB/s   00:00    
+city.jpg                                        0%    0     0.0KB/s   --:-- ETAcity.jpg                                      100%  208KB  20.0MB/s   00:00    
+clark-street-mercantile.jpg                     0%    0     0.0KB/s   --:-- ETAclark-street-mercantile.jpg                   100% 3985KB  32.5MB/s   00:00    
+dg1.jpg                                         0%    0     0.0KB/s   --:-- ETAdg1.jpg                                       100% 1796KB  24.3MB/s   00:00    
+dg10.jpg                                        0%    0     0.0KB/s   --:-- ETAdg10.jpg                                      100%  240KB  23.0MB/s   00:00    
+dg2.jpg                                         0%    0     0.0KB/s   --:-- ETAdg2.jpg                                       100% 2438KB  24.3MB/s   00:00    
+dg3.jpg                                         0%    0     0.0KB/s   --:-- ETAdg3.jpg                                       100% 1900KB  23.2MB/s   00:00    
+favicon.png                                     0%    0     0.0KB/s   --:-- ETAfavicon.png                                   100% 4821     8.6MB/s   00:00    
+image_placeholder.jpg                           0%    0     0.0KB/s   --:-- ETAimage_placeholder.jpg                         100%   43KB  20.3MB/s   00:00    
+landing.jpg                                     0%    0     0.0KB/s   --:-- ETAlanding.jpg                                   100%  203KB  21.4MB/s   00:00    
+loading-bubbles.svg                             0%    0     0.0KB/s   --:-- ETAloading-bubbles.svg                           100%  950     2.7MB/s   00:00    
+office2.jpg                                     0%    0     0.0KB/s   --:-- ETAoffice2.jpg                                   100%  424KB  22.8MB/s   00:00    
+placeholder.jpg                                 0%    0     0.0KB/s   --:-- ETAplaceholder.jpg                               100%   18KB  14.9MB/s   00:00    
+product1.jpg                                    0%    0     0.0KB/s   --:-- ETAproduct1.jpg                                  100%   12KB  13.6MB/s   00:00    
+product2.jpg                                    0%    0     0.0KB/s   --:-- ETAproduct2.jpg                                  100% 9677    13.0MB/s   00:00    
+product3.jpg                                    0%    0     0.0KB/s   --:-- ETAproduct3.jpg                                  100%   21KB  15.9MB/s   00:00    
+profile.jpg                                     0%    0     0.0KB/s   --:-- ETAprofile.jpg                                   100%  156KB  22.2MB/s   00:00    
+bootstrap-material-design.js                    0%    0     0.0KB/s   --:-- ETAbootstrap-material-design.js                  100%  266KB  22.2MB/s   00:00    
+bootstrap-material-design.min.js                0%    0     0.0KB/s   --:-- ETAbootstrap-material-design.min.js              100%  171KB  23.8MB/s   00:00    
+jquery.min.js                                   0%    0     0.0KB/s   --:-- ETAjquery.min.js                                 100%  142KB  22.9MB/s   00:00    
+popper.min.js                                   0%    0     0.0KB/s   --:-- ETApopper.min.js                                 100%   33KB  16.6MB/s   00:00    
+material-kit.js                                 0%    0     0.0KB/s   --:-- ETAmaterial-kit.js                               100%   12KB  10.9MB/s   00:00    
+material-kit.min.js                             0%    0     0.0KB/s   --:-- ETAmaterial-kit.min.js                           100% 8576    13.3MB/s   00:00    
+bootstrap-datetimepicker.min.js                 0%    0     0.0KB/s   --:-- ETAbootstrap-datetimepicker.min.js               100%   59KB  19.3MB/s   00:00    
+jasny-bootstrap.min.js                          0%    0     0.0KB/s   --:-- ETAjasny-bootstrap.min.js                        100%   16KB  15.1MB/s   00:00    
+moment.min.js                                   0%    0     0.0KB/s   --:-- ETAmoment.min.js                                 100%   80KB  20.2MB/s   00:00    
+nouislider.min.js                               0%    0     0.0KB/s   --:-- ETAnouislider.min.js                             100%   35KB  19.5MB/s   00:00    
+_alert.scss                                     0%    0     0.0KB/s   --:-- ETA_alert.scss                                   100% 1053     3.3MB/s   00:00    
+_badge.scss                                     0%    0     0.0KB/s   --:-- ETA_badge.scss                                   100%  985     2.7MB/s   00:00    
+_breadcrumb.scss                                0%    0     0.0KB/s   --:-- ETA_breadcrumb.scss                              100% 1194     3.1MB/s   00:00    
+_button-group.scss                              0%    0     0.0KB/s   --:-- ETA_button-group.scss                            100% 4816     9.3MB/s   00:00    
+_buttons.scss                                   0%    0     0.0KB/s   --:-- ETA_buttons.scss                                 100% 2574     6.2MB/s   00:00    
+_card.scss                                      0%    0     0.0KB/s   --:-- ETA_card.scss                                    100% 4346    10.6MB/s   00:00    
+_carousel.scss                                  0%    0     0.0KB/s   --:-- ETA_carousel.scss                                100% 3998    10.0MB/s   00:00    
+_close.scss                                     0%    0     0.0KB/s   --:-- ETA_close.scss                                   100%  705     2.2MB/s   00:00    
+_code.scss                                      0%    0     0.0KB/s   --:-- ETA_code.scss                                    100% 1294     3.1MB/s   00:00    
+_custom-forms.scss                              0%    0     0.0KB/s   --:-- ETA_custom-forms.scss                            100% 6708    11.2MB/s   00:00    
+_dropdown.scss                                  0%    0     0.0KB/s   --:-- ETA_dropdown.scss                                100% 3184     6.6MB/s   00:00    
+_forms.scss                                     0%    0     0.0KB/s   --:-- ETA_forms.scss                                   100%   10KB  12.5MB/s   00:00    
+_functions.scss                                 0%    0     0.0KB/s   --:-- ETA_functions.scss                               100% 2780     6.5MB/s   00:00    
+_grid.scss                                      0%    0     0.0KB/s   --:-- ETA_grid.scss                                    100% 1033     3.1MB/s   00:00    
+_images.scss                                    0%    0     0.0KB/s   --:-- ETA_images.scss                                  100% 1192     3.6MB/s   00:00    
+_input-group.scss                               0%    0     0.0KB/s   --:-- ETA_input-group.scss                             100% 4634     7.9MB/s   00:00    
+_jumbotron.scss                                 0%    0     0.0KB/s   --:-- ETA_jumbotron.scss                               100%  378     1.2MB/s   00:00    
+_list-group.scss                                0%    0     0.0KB/s   --:-- ETA_list-group.scss                              100% 2787     5.8MB/s   00:00    
+_media.scss                                     0%    0     0.0KB/s   --:-- ETA_media.scss                                   100%   83   254.6KB/s   00:00    
+_mixins.scss                                    0%    0     0.0KB/s   --:-- ETA_mixins.scss                                  100%  994     3.0MB/s   00:00    
+_modal.scss                                     0%    0     0.0KB/s   --:-- ETA_modal.scss                                   100% 3903     8.0MB/s   00:00    
+_nav.scss                                       0%    0     0.0KB/s   --:-- ETA_nav.scss                                     100% 2133     4.1MB/s   00:00    
+_navbar.scss                                    0%    0     0.0KB/s   --:-- ETA_navbar.scss                                  100% 6157     9.4MB/s   00:00    
+_pagination.scss                                0%    0     0.0KB/s   --:-- ETA_pagination.scss                              100% 1571     3.8MB/s   00:00    
+_popover.scss                                   0%    0     0.0KB/s   --:-- ETA_popover.scss                                 100% 4472     6.4MB/s   00:00    
+_print.scss                                     0%    0     0.0KB/s   --:-- ETA_print.scss                                   100% 2346     4.7MB/s   00:00    
+_progress.scss                                  0%    0     0.0KB/s   --:-- ETA_progress.scss                                100%  722     1.9MB/s   00:00    
+_reboot.scss                                    0%    0     0.0KB/s   --:-- ETA_reboot.scss                                  100%   11KB  10.8MB/s   00:00    
+_tables.scss                                    0%    0     0.0KB/s   --:-- ETA_tables.scss                                  100% 3052     5.3MB/s   00:00    
+_tooltip.scss                                   0%    0     0.0KB/s   --:-- ETA_tooltip.scss                                 100% 2599     5.1MB/s   00:00    
+_transitions.scss                               0%    0     0.0KB/s   --:-- ETA_transitions.scss                             100%  402   930.9KB/s   00:00    
+_type.scss                                      0%    0     0.0KB/s   --:-- ETA_type.scss                                    100% 2017     4.0MB/s   00:00    
+_utilities.scss                                 0%    0     0.0KB/s   --:-- ETA_utilities.scss                               100%  407   814.5KB/s   00:00    
+_variables.scss                                 0%    0     0.0KB/s   --:-- ETA_variables.scss                               100%   30KB  13.6MB/s   00:00    
+bootstrap-grid.scss                             0%    0     0.0KB/s   --:-- ETAbootstrap-grid.scss                           100%  578     1.3MB/s   00:00    
+bootstrap-reboot.scss                           0%    0     0.0KB/s   --:-- ETAbootstrap-reboot.scss                         100%  164   335.7KB/s   00:00    
+bootstrap.scss                                  0%    0     0.0KB/s   --:-- ETAbootstrap.scss                                100%  870     2.1MB/s   00:00    
+_alert.scss                                     0%    0     0.0KB/s   --:-- ETA_alert.scss                                   100%  238   484.0KB/s   00:00    
+_background-variant.scss                        0%    0     0.0KB/s   --:-- ETA_background-variant.scss                      100%  235   425.7KB/s   00:00    
+_badge.scss                                     0%    0     0.0KB/s   --:-- ETA_badge.scss                                   100%  234   496.3KB/s   00:00    
+_border-radius.scss                             0%    0     0.0KB/s   --:-- ETA_border-radius.scss                           100%  722     1.5MB/s   00:00    
+_box-shadow.scss                                0%    0     0.0KB/s   --:-- ETA_box-shadow.scss                              100%   87   164.1KB/s   00:00    
+_breakpoints.scss                               0%    0     0.0KB/s   --:-- ETA_breakpoints.scss                             100% 3826     5.9MB/s   00:00    
+_buttons.scss                                   0%    0     0.0KB/s   --:-- ETA_buttons.scss                                 100% 2005     3.5MB/s   00:00    
+_clearfix.scss                                  0%    0     0.0KB/s   --:-- ETA_clearfix.scss                                100%   93   218.6KB/s   00:00    
+_float.scss                                     0%    0     0.0KB/s   --:-- ETA_float.scss                                   100%  146   357.1KB/s   00:00    
+_forms.scss                                     0%    0     0.0KB/s   --:-- ETA_forms.scss                                   100% 1947     4.1MB/s   00:00    
+_gradients.scss                                 0%    0     0.0KB/s   --:-- ETA_gradients.scss                               100% 1827     3.6MB/s   00:00    
+_grid-framework.scss                            0%    0     0.0KB/s   --:-- ETA_grid-framework.scss                          100% 1488     3.1MB/s   00:00    
+_grid.scss                                      0%    0     0.0KB/s   --:-- ETA_grid.scss                                    100% 1472     3.4MB/s   00:00    
+_hover.scss                                     0%    0     0.0KB/s   --:-- ETA_hover.scss                                   100% 1044     2.5MB/s   00:00    
+_image.scss                                     0%    0     0.0KB/s   --:-- ETA_image.scss                                   100% 1102     2.7MB/s   00:00    
+_list-group.scss                                0%    0     0.0KB/s   --:-- ETA_list-group.scss                              100%  546     1.3MB/s   00:00    
+_lists.scss                                     0%    0     0.0KB/s   --:-- ETA_lists.scss                                   100%  168   420.0KB/s   00:00    
+_nav-divider.scss                               0%    0     0.0KB/s   --:-- ETA_nav-divider.scss                             100%  220   489.6KB/s   00:00    
+_navbar-align.scss                              0%    0     0.0KB/s   --:-- ETA_navbar-align.scss                            100%  382   876.1KB/s   00:00    
+_pagination.scss                                0%    0     0.0KB/s   --:-- ETA_pagination.scss                              100%  453   947.6KB/s   00:00    
+_reset-text.scss                                0%    0     0.0KB/s   --:-- ETA_reset-text.scss                              100%  518     1.1MB/s   00:00    
+_resize.scss                                    0%    0     0.0KB/s   --:-- ETA_resize.scss                                  100%  202   478.4KB/s   00:00    
+_screen-reader.scss                             0%    0     0.0KB/s   --:-- ETA_screen-reader.scss                           100%  773     1.6MB/s   00:00    
+_size.scss                                      0%    0     0.0KB/s   --:-- ETA_size.scss                                    100%   98   235.0KB/s   00:00    
+_table-row.scss                                 0%    0     0.0KB/s   --:-- ETA_table-row.scss                               100%  647     1.3MB/s   00:00    
+_text-emphasis.scss                             0%    0     0.0KB/s   --:-- ETA_text-emphasis.scss                           100%  212   551.2KB/s   00:00    
+_text-hide.scss                                 0%    0     0.0KB/s   --:-- ETA_text-hide.scss                               100%  152   393.1KB/s   00:00    
+_text-truncate.scss                             0%    0     0.0KB/s   --:-- ETA_text-truncate.scss                           100%  168   448.6KB/s   00:00    
+_transition.scss                                0%    0     0.0KB/s   --:-- ETA_transition.scss                              100%  192   505.1KB/s   00:00    
+_visibility.scss                                0%    0     0.0KB/s   --:-- ETA_visibility.scss                              100%   87   236.8KB/s   00:00    
+_align.scss                                     0%    0     0.0KB/s   --:-- ETA_align.scss                                   100%  373   867.5KB/s   00:00    
+_background.scss                                0%    0     0.0KB/s   --:-- ETA_background.scss                              100%  204   528.3KB/s   00:00    
+_borders.scss                                   0%    0     0.0KB/s   --:-- ETA_borders.scss                                 100% 1164     3.2MB/s   00:00    
+_clearfix.scss                                  0%    0     0.0KB/s   --:-- ETA_clearfix.scss                                100%   37    90.6KB/s   00:00    
+_display.scss                                   0%    0     0.0KB/s   --:-- ETA_display.scss                                 100% 1153     2.7MB/s   00:00    
+_embed.scss                                     0%    0     0.0KB/s   --:-- ETA_embed.scss                                   100%  727     1.7MB/s   00:00    
+_flex.scss                                      0%    0     0.0KB/s   --:-- ETA_flex.scss                                    100% 2411     5.0MB/s   00:00    
+_float.scss                                     0%    0     0.0KB/s   --:-- ETA_float.scss                                   100%  320   763.9KB/s   00:00    
+_position.scss                                  0%    0     0.0KB/s   --:-- ETA_position.scss                                100%  567     1.5MB/s   00:00    
+_screenreaders.scss                             0%    0     0.0KB/s   --:-- ETA_screenreaders.scss                           100%  115   263.6KB/s   00:00    
+_sizing.scss                                    0%    0     0.0KB/s   --:-- ETA_sizing.scss                                  100%  251   714.3KB/s   00:00    
+_spacing.scss                                   0%    0     0.0KB/s   --:-- ETA_spacing.scss                                 100% 1375     3.5MB/s   00:00    
+_text.scss                                      0%    0     0.0KB/s   --:-- ETA_text.scss                                    100% 1291     3.4MB/s   00:00    
+_visibility.scss                                0%    0     0.0KB/s   --:-- ETA_visibility.scss                              100%  121   343.2KB/s   00:00    
+_alerts.scss                                    0%    0     0.0KB/s   --:-- ETA_alerts.scss                                  100% 1066     2.5MB/s   00:00    
+_badges.scss                                    0%    0     0.0KB/s   --:-- ETA_badges.scss                                  100%  181   490.9KB/s   00:00    
+_buttons.scss                                   0%    0     0.0KB/s   --:-- ETA_buttons.scss                                 100% 4866     7.6MB/s   00:00    
+_cards.scss                                     0%    0     0.0KB/s   --:-- ETA_cards.scss                                   100% 7539    11.1MB/s   00:00    
+_carousel.scss                                  0%    0     0.0KB/s   --:-- ETA_carousel.scss                                100% 2078     4.6MB/s   00:00    
+_checkboxes.scss                                0%    0     0.0KB/s   --:-- ETA_checkboxes.scss                              100% 4825     8.5MB/s   00:00    
+_core-bootstrap.scss                            0%    0     0.0KB/s   --:-- ETA_core-bootstrap.scss                          100% 1963     3.9MB/s   00:00    
+_custom-forms.scss                              0%    0     0.0KB/s   --:-- ETA_custom-forms.scss                            100%  256   676.1KB/s   00:00    
+_drawer.scss                                    0%    0     0.0KB/s   --:-- ETA_drawer.scss                                  100% 4161     7.1MB/s   00:00    
+_dropdown.scss                                  0%    0     0.0KB/s   --:-- ETA_dropdown.scss                                100% 4793     7.4MB/s   00:00    
+_example-pages.scss                             0%    0     0.0KB/s   --:-- ETA_example-pages.scss                           100% 3889     7.1MB/s   00:00    
+_forms.scss                                     0%    0     0.0KB/s   --:-- ETA_forms.scss                                   100% 9074    10.0MB/s   00:00    
+_images.scss                                    0%    0     0.0KB/s   --:-- ETA_images.scss                                  100%  156   445.6KB/s   00:00    
+_info-areas.scss                                0%    0     0.0KB/s   --:-- ETA_info-areas.scss                              100%  835     2.2MB/s   00:00    
+_input-group.scss                               0%    0     0.0KB/s   --:-- ETA_input-group.scss                             100%  800     1.8MB/s   00:00    
+_layout.scss                                    0%    0     0.0KB/s   --:-- ETA_layout.scss                                  100% 2410     5.6MB/s   00:00    
+_list-group.scss                                0%    0     0.0KB/s   --:-- ETA_list-group.scss                              100% 2748     6.1MB/s   00:00    
+_misc.scss                                      0%    0     0.0KB/s   --:-- ETA_misc.scss                                    100% 1892     4.0MB/s   00:00    
+_mixins.scss                                    0%    0     0.0KB/s   --:-- ETA_mixins.scss                                  100%  347   950.1KB/s   00:00    
+_modal.scss                                     0%    0     0.0KB/s   --:-- ETA_modal.scss                                   100% 3114     5.6MB/s   00:00    
+_nav.scss                                       0%    0     0.0KB/s   --:-- ETA_nav.scss                                     100%  753     1.9MB/s   00:00    
+_navbar.scss                                    0%    0     0.0KB/s   --:-- ETA_navbar.scss                                  100% 3595     6.3MB/s   00:00    
+_pagination.scss                                0%    0     0.0KB/s   --:-- ETA_pagination.scss                              100% 3339     6.0MB/s   00:00    
+_pills.scss                                     0%    0     0.0KB/s   --:-- ETA_pills.scss                                   100% 2936     5.7MB/s   00:00    
+_popover.scss                                   0%    0     0.0KB/s   --:-- ETA_popover.scss                                 100%  974     2.3MB/s   00:00    
+_progress.scss                                  0%    0     0.0KB/s   --:-- ETA_progress.scss                                100% 1085     2.7MB/s   00:00    
+_radios.scss                                    0%    0     0.0KB/s   --:-- ETA_radios.scss                                  100% 1881     3.9MB/s   00:00    
+_reboot.scss                                    0%    0     0.0KB/s   --:-- ETA_reboot.scss                                  100%  411     1.1MB/s   00:00    
+_responsive.scss                                0%    0     0.0KB/s   --:-- ETA_responsive.scss                              100% 4164     7.6MB/s   00:00    
+_ripples.scss                                   0%    0     0.0KB/s   --:-- ETA_ripples.scss                                 100%  823     2.1MB/s   00:00    
+_switches.scss                                  0%    0     0.0KB/s   --:-- ETA_switches.scss                                100% 2449     5.3MB/s   00:00    
+_tabs.scss                                      0%    0     0.0KB/s   --:-- ETA_tabs.scss                                    100% 2044     4.4MB/s   00:00    
+_togglebutton.scss                              0%    0     0.0KB/s   --:-- ETA_togglebutton.scss                            100% 2087     4.4MB/s   00:00    
+_tooltip.scss                                   0%    0     0.0KB/s   --:-- ETA_tooltip.scss                                 100% 1041     2.1MB/s   00:00    
+_type.scss                                      0%    0     0.0KB/s   --:-- ETA_type.scss                                    100% 2231     4.9MB/s   00:00    
+_variables.scss                                 0%    0     0.0KB/s   --:-- ETA_variables.scss                               100% 1068     2.6MB/s   00:00    
+_alert.scss                                     0%    0     0.0KB/s   --:-- ETA_alert.scss                                   100% 4572     8.8MB/s   00:00    
+_animations.scss                                0%    0     0.0KB/s   --:-- ETA_animations.scss                              100% 3012     5.3MB/s   00:00    
+_breakpoints.scss                               0%    0     0.0KB/s   --:-- ETA_breakpoints.scss                             100%  885     2.3MB/s   00:00    
+_buttons.scss                                   0%    0     0.0KB/s   --:-- ETA_buttons.scss                                 100% 7960     8.7MB/s   00:00    
+_colored-shadows.scss                           0%    0     0.0KB/s   --:-- ETA_colored-shadows.scss                         100% 4364     7.9MB/s   00:00    
+_drawer.scss                                    0%    0     0.0KB/s   --:-- ETA_drawer.scss                                  100% 6624    10.9MB/s   00:00    
+_forms.scss                                     0%    0     0.0KB/s   --:-- ETA_forms.scss                                   100%   11KB  15.3MB/s   00:00    
+_hover.scss                                     0%    0     0.0KB/s   --:-- ETA_hover.scss                                   100%  177   450.2KB/s   00:00    
+_layout.scss                                    0%    0     0.0KB/s   --:-- ETA_layout.scss                                  100%  376     1.0MB/s   00:00    
+_navbar-colors.scss                             0%    0     0.0KB/s   --:-- ETA_navbar-colors.scss                           100%  424     1.1MB/s   00:00    
+_navs.scss                                      0%    0     0.0KB/s   --:-- ETA_navs.scss                                    100%  525     1.4MB/s   00:00    
+_type.scss                                      0%    0     0.0KB/s   --:-- ETA_type.scss                                    100%  127   324.5KB/s   00:00    
+_utilities.scss                                 0%    0     0.0KB/s   --:-- ETA_utilities.scss                               100% 3944     7.7MB/s   00:00    
+_body.scss                                      0%    0     0.0KB/s   --:-- ETA_body.scss                                    100%  130   309.8KB/s   00:00    
+_bootstrap-material-design-base.scss            0%    0     0.0KB/s   --:-- ETA_bootstrap-material-design-base.scss          100% 1438     3.0MB/s   00:00    
+_bootstrap-material-design.scss                 0%    0     0.0KB/s   --:-- ETA_bootstrap-material-design.scss               100% 7722    10.0MB/s   00:00    
+_brand.scss                                     0%    0     0.0KB/s   --:-- ETA_brand.scss                                   100%  228   566.3KB/s   00:00    
+_buttons.scss                                   0%    0     0.0KB/s   --:-- ETA_buttons.scss                                 100% 3854     6.0MB/s   00:00    
+_card.scss                                      0%    0     0.0KB/s   --:-- ETA_card.scss                                    100%  479   985.4KB/s   00:00    
+_code.scss                                      0%    0     0.0KB/s   --:-- ETA_code.scss                                    100%   60   141.5KB/s   00:00    
+_colors-map.scss                                0%    0     0.0KB/s   --:-- ETA_colors-map.scss                              100%   22KB  11.1MB/s   00:00    
+_colors.scss                                    0%    0     0.0KB/s   --:-- ETA_colors.scss                                  100% 9162     8.6MB/s   00:00    
+_custom-forms.scss                              0%    0     0.0KB/s   --:-- ETA_custom-forms.scss                            100%  198   420.1KB/s   00:00    
+_drawer.scss                                    0%    0     0.0KB/s   --:-- ETA_drawer.scss                                  100%   93   250.0KB/s   00:00    
+_dropdown.scss                                  0%    0     0.0KB/s   --:-- ETA_dropdown.scss                                100%  807     1.8MB/s   00:00    
+_forms.scss                                     0%    0     0.0KB/s   --:-- ETA_forms.scss                                   100% 2808     5.6MB/s   00:00    
+_layout.scss                                    0%    0     0.0KB/s   --:-- ETA_layout.scss                                  100%   66   178.9KB/s   00:00    
+_list-group.scss                                0%    0     0.0KB/s   --:-- ETA_list-group.scss                              100%  911     2.2MB/s   00:00    
+_menu.scss                                      0%    0     0.0KB/s   --:-- ETA_menu.scss                                    100%  727     2.0MB/s   00:00    
+_modals.scss                                    0%    0     0.0KB/s   --:-- ETA_modals.scss                                  100%  764     2.0MB/s   00:00    
+_nav.scss                                       0%    0     0.0KB/s   --:-- ETA_nav.scss                                     100% 2728     5.1MB/s   00:00    
+_pagination.scss                                0%    0     0.0KB/s   --:-- ETA_pagination.scss                              100%  155   418.4KB/s   00:00    
+_shadow.scss                                    0%    0     0.0KB/s   --:-- ETA_shadow.scss                                  100% 1693     3.5MB/s   00:00    
+_snackbar.scss                                  0%    0     0.0KB/s   --:-- ETA_snackbar.scss                                100%  203   465.8KB/s   00:00    
+_spacing.scss                                   0%    0     0.0KB/s   --:-- ETA_spacing.scss                                 100%  635     1.6MB/s   00:00    
+_state.scss                                     0%    0     0.0KB/s   --:-- ETA_state.scss                                   100%  478     1.1MB/s   00:00    
+_tables.scss                                    0%    0     0.0KB/s   --:-- ETA_tables.scss                                  100%  229   621.5KB/s   00:00    
+_tooltip.scss                                   0%    0     0.0KB/s   --:-- ETA_tooltip.scss                                 100%   34    88.0KB/s   00:00    
+_type.scss                                      0%    0     0.0KB/s   --:-- ETA_type.scss                                    100% 2839     6.5MB/s   00:00    
+material-kit.scss                               0%    0     0.0KB/s   --:-- ETAmaterial-kit.scss                             100% 1640     3.8MB/s   00:00    
+_plugin-datetime-picker.scss                    0%    0     0.0KB/s   --:-- ETA_plugin-datetime-picker.scss                  100%   10KB  12.2MB/s   00:00    
+_plugin-nouislider.scss                         0%    0     0.0KB/s   --:-- ETA_plugin-nouislider.scss                       100% 3752     7.1MB/s   00:00    
+index.jsp                                       0%    0     0.0KB/s   --:-- ETAindex.jsp                                     100% 1723     4.0MB/s   00:00    
+index1.jsp                                      0%    0     0.0KB/s   --:-- ETAindex1.jsp                                    100%   88   251.7KB/s   00:00    
+-bash-4.2$ exit[K[K[K[Kexit
+logout
+]0;root@localhost:/var/lib/jenkins[root@localhost jenkins]# exit
+logout

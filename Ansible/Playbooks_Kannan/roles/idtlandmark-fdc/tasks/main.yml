@@ -1,0 +1,5 @@
+---
+# tasks file for idtlandmark-fdc
+
+- include: deploy.yml
+- include: supervisorctl.yml

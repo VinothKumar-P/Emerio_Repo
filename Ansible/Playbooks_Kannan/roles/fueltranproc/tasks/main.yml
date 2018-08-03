@@ -1,0 +1,4 @@
+---
+# tasks file for fueltranproc
+
+- include: deploy.yml

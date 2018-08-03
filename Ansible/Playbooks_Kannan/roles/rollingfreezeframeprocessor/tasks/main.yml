@@ -1,0 +1,13 @@
+---
+# tasks file for pktprocessor
+
+- include: deploy.yml
+
+- name: Stopping "{{ application }}" ...
+  supervisorctl: name={{ application }} state=stopped
+  when: active
+  
+- name: Starting "{{ application }}" ...
+  supervisorctl: name={{ application }} state=started
+  when: active
+  

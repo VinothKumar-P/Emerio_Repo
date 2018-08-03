@@ -1,0 +1,382 @@
+
+login as: vinoth
+vinoth@192.168.4.210's password:
+Last login: Wed Jul 11 14:12:43 2018 from 192.168.4.102
+[vinoth@localhost ~]$ sudo bash
+[sudo] password for vinoth:
+[root@localhost vinoth]# monit
+Monit daemon with PID 11553 awakened
+[root@localhost vinoth]# curl http://localhost:3812
+curl: (7) Failed connect to localhost:3812; Connection refused
+[root@localhost vinoth]# curl http://localhost:2812
+<html><head><title>401 Unauthorized</title></head><body bgcolor=#FFFFFF><h2>Unau                                                                                        thorized</h2>You are not authorized to access monit. Either you supplied the wro                                                                                        ng credentials (e.g. bad password), or your browser doesn't understand how to su                                                                                        pply the credentials required<hr><a href='http://mmonit.com/monit/'><font size=-                                                                                        1>monit 5.25.1</font></a></body></html>
+[root@localhost vinoth]# curl http://admin:monit@localhost:2812
+<!DOCTYPE html><html><head><title>Monit: localhost.localdomain</title> <style type="text/css">  html, body {height: 100%;margin: 0;}  body {background-color: white;font: normal normal normal 16px/20px 'HelveticaNeue', Helvetica, Arial, sans-serif; color:#222;}  h1 {padding:30px 0 10px 0; text-align:center;color:#222;font-size:28px;}  h2 {padding:20px 0 10px 0; text-align:center;color:#555;font-size:22px;}  a:hover {text-decoration: none;}  a {text-decoration: underline;color:#222}  table {border-collapse:collapse; border:0;}  .stripe {background:#EDF5FF}  .rule {background:#ddd}  .red-text {color:#ff0000;}  .green-text {color:#00ff00;}  .gray-text {color:#999999;}  .blue-text {color:#0000ff;}  .yellow-text {color:#ffff00;}  .orange-text {color:#ff8800;}  .short {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 350px;} .column {min-width: 80px;}  .left {text-align:left}  .right {text-align:right}  .center {text-align:center}  #wrap {min-height: 100%;}  #main {overflow:auto; padding-bottom:50px;}  /*Opera Fix*/body:before {content:"";height:100%;float:left;width:0;margin-top:-32767px;}  #footer {position: relative;margin-top: -50px; height: 50px; clear:both; font-size:11px;color:#777;text-align:center;}  #footer a {color:#333;} #footer a:hover {text-decoration: none;}  #nav {background:#ddd;font:normal normal normal 14px/0px 'HelveticaNeue', Helvetica;}  #nav td {padding:5px 10px;}  #header {margin-bottom:30px;background:#EFF7FF}  #nav, #header {border-bottom:1px solid #ccc;}  #header-row {width:95%;}  #header-row th {padding:30px 10px 10px 10px;font-size:120%;}  #header-row td {padding:3px 10px;}  #header-row .first {min-width:200px;width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}  #status-table {width:95%;}  #status-table th {text-align:left;background:#edf5ff;font-weight:normal;}  #status-table th, #status-table td, #status-table tr {border:1px solid #ccc;padding:5px;}  #buttons {font-size:20px; margin:40px 0 20px 0;}  #buttons td {padding-right:50px;}  #buttons input {font-size:18px;padding:5px;} </style><meta HTTP-EQUIV='REFRESH' CONTENT=30> <meta HTTP-EQUIV='Expires' Content=0> <meta HTTP-EQUIV='Pragma' CONTENT='no-cache'> <meta charset='UTF-8'><link rel='shortcut icon' href='favicon.ico'></head><body><div id='wrap'><div id='main'><table id='nav' width='100%'>  <tr>    <td width='20%'><a href='.'>Home</a>&nbsp;&gt;&nbsp;<a href=''></a></td>    <td width='60%' style='text-align:center;'>Use <a href='https://mmonit.com/'>M/Monit</a> to manage all your Monit instances</td>    <td width='20%'><p class='right'><a href='_about'>Monit 5.25.1</a></td>  </tr></table><center><table id='header' width='100%'> <tr>  <td colspan=2 valign='top' class='left' width='100%'>  <h1>Monit Service Manager</h1>  <p class='center'>Monit is <a href='_runtime'>running</a> on localhost.localdomain and monitoring:</p><br>  </td> </tr></table><table id='header-row'><tr><th class='left first'>System</th><th class='left'>Status</th><th class='right column'>Load</th><th class='right column'>CPU</th><th class='right column'>Memory</th><th class='right column'>Swap</th></tr><tr class='stripe'><td class='left'><a href='localhost.localdomain'>localhost.localdomain</a></td><td class='left'><span class='green-text'>OK</span></td><td class='right column'>[0.00]&nbsp;[0.01]&nbsp;[0.05]</td><td class='right column'>0.1%us,&nbsp;0.1%sy,&nbsp;0.1%wa</td><td class='right column'>51.4% [945.5 MB]</td><td class='right column'>1.4% [27.9 MB]</td></tr></table></center></div></div><div id='footer'>Copyright &copy; 2001-2017 <a href="http://tildeslash.com/">Tildeslash</a>. All rights reserved. <span style='margin-left:5px;'></span><a href="http://mmonit.com/monit/">Monit web site</a> | <a href="http://mmonit.com/wiki/">Monit Wiki</a> | <a href="http://mmonit.com/">M/Monit</a></div></body></h[root@localhost vinoth]# docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES
+b3767a17e76d        php-test            "docker-php-entrypoi…"   8 days ago          Up 8 days           0.0.0.0:9090->80/tcp   myphptest-1
+[root@localhost vinoth]# docker images
+REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
+wa-php                       latest              d4e47831c536        2 days ago          367MB
+emeriochennai/wa-php-ver1    latest              d4e47831c536        2 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              297216f5f50f        2 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              e5cbd406df8c        2 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              1cf66eab393d        2 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              e2e4bd5d08bd        2 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              e777078e1463        2 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              5f7d7b0737ca        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              b700050ccd3d        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              a735d576b191        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              23620eac1c22        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              f47fddc6fbea        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              70d761af3d74        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              c946a8619a53        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              746c33de8f3e        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              7b88ad5faef6        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              2d4ad4d375b3        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              bc9835fc2d3d        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              b1c5266857f4        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              7e41d1f3c938        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              95a4badb08e2        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              0525a5074fa1        8 days ago          367MB
+myphp-test                   latest              9ad4fc28750a        8 days ago          367MB
+test2                        latest              9ad4fc28750a        8 days ago          367MB
+<none>                       <none>              bd6d7034139c        8 days ago          367MB
+<none>                       <none>              268fa9bab679        9 days ago          367MB
+test1                        latest              dbe03b981379        9 days ago          367MB
+test                         latest              8f20b411642a        9 days ago          367MB
+myapp-kannan                 latest              0fd175d98309        9 days ago          367MB
+<none>                       <none>              9591a0c026fe        9 days ago          367MB
+myphp-test1                  latest              eff4a8061214        9 days ago          367MB
+<none>                       <none>              978ee37e5c32        9 days ago          367MB
+myphp-test2                  latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myphp-test1    latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myphp-test2    latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myphp-test     latest              0931db8d9e1e        9 days ago          367MB
+emerionchennai/myphp-test1   latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myapp-test     latest              59ca81360a73        10 days ago         367MB
+myapp-test                   latest              59ca81360a73        10 days ago         367MB
+emeriochennai/myphp-test     <none>              9fa29d936768        11 days ago         367MB
+php-test                     latest              225f388d4b38        11 days ago         367MB
+php                          7.0-apache          7011510f1ff8        2 weeks ago         367MB
+<none>                       <none>              fd6af1e4b9ac        3 weeks ago         456MB
+ubuntu                       14.04               578c3e61a98c        5 weeks ago         223MB
+busybox                      latest              8c811b4aec35        7 weeks ago         1.15MB
+hello-world                  latest              e38bc07ac18e        3 months ago        1.85kB
+[root@localhost vinoth]# df -Th
+Filesystem              Type      Size  Used Avail Use% Mounted on
+/dev/mapper/centos-root xfs        17G  4.3G   13G  26% /
+devtmpfs                devtmpfs  908M     0  908M   0% /dev
+tmpfs                   tmpfs     920M     0  920M   0% /dev/shm
+tmpfs                   tmpfs     920M   41M  879M   5% /run
+tmpfs                   tmpfs     920M     0  920M   0% /sys/fs/cgroup
+/dev/sda1               xfs      1014M  171M  844M  17% /boot
+tmpfs                   tmpfs     184M     0  184M   0% /run/user/0
+overlay                 overlay    17G  4.3G   13G  26% /var/lib/docker/overlay2/2ac9205a64f7d154c7c67cb532189f7a2f3a3e60d2cd9e33db0ef40a082865da/merged
+shm                     tmpfs      64M     0   64M   0% /var/lib/docker/containers/b3767a17e76d4ef2a93f43da2ab99bf2ca2e9ef56514ece5ed8516e280cd9ddd/mounts/shm
+tmpfs                   tmpfs     184M     0  184M   0% /run/user/1004
+[root@localhost vinoth]# docker rmi 0525a5074fa1 95a4badb08e2 7e41d1f3c938^C
+[root@localhost vinoth]# docker images grep emeriochennai/wa-php-ver1
+"docker images" requires at most 1 argument.
+See 'docker images --help'.
+
+Usage:  docker images [OPTIONS] [REPOSITORY[:TAG]]
+
+List images
+[root@localhost vinoth]# docker images | grep emeriochennai/wa-php-ver1
+emeriochennai/wa-php-ver1    latest              d4e47831c536        2 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              297216f5f50f        2 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              e5cbd406df8c        2 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              1cf66eab393d        2 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              e2e4bd5d08bd        2 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              e777078e1463        2 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              5f7d7b0737ca        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              b700050ccd3d        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              a735d576b191        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              23620eac1c22        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              f47fddc6fbea        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              70d761af3d74        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              c946a8619a53        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              746c33de8f3e        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              7b88ad5faef6        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              2d4ad4d375b3        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              bc9835fc2d3d        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              b1c5266857f4        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              7e41d1f3c938        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              95a4badb08e2        8 days ago          367MB
+emeriochennai/wa-php-ver1    <none>              0525a5074fa1        8 days ago          367MB
+[root@localhost vinoth]# docker images | grep emeriochennai/wa-php-ver1 | awk '{print $3}'
+d4e47831c536
+297216f5f50f
+e5cbd406df8c
+1cf66eab393d
+e2e4bd5d08bd
+e777078e1463
+5f7d7b0737ca
+b700050ccd3d
+a735d576b191
+23620eac1c22
+f47fddc6fbea
+70d761af3d74
+c946a8619a53
+746c33de8f3e
+7b88ad5faef6
+2d4ad4d375b3
+bc9835fc2d3d
+b1c5266857f4
+7e41d1f3c938
+95a4badb08e2
+0525a5074fa1
+[root@localhost vinoth]# docker rmi `docker images | grep emeriochennai/wa-php-ver1 | awk '{print $3}'`
+Untagged: emeriochennai/wa-php-ver1@sha256:dba674229a0475a516acb1061f7e939969b7eee33898bc27061df0c92004836e
+Deleted: sha256:297216f5f50fe2503e6d4fe440769be40516e67ffccbcd9f28aa7a8832a03c05
+Deleted: sha256:d1675606ae96a897973e08e0dcdf578ceaa0a51ff24a2cc95918eae3fbbcdc34
+Untagged: emeriochennai/wa-php-ver1@sha256:8e9063ae6c5c47f75ed05bf16248d7645c052d214d505be81023a45b4c1b1f03
+Deleted: sha256:e5cbd406df8cc4a828cf53ee487c5496b0a24462ef5fc81b76bca5441347776e
+Deleted: sha256:39112f823b057ddc42fca12e96817fd902b2ec3b74d1db51f53d5d79c4f198ef
+Untagged: emeriochennai/wa-php-ver1@sha256:be42aacddcc98e42cb11896ac5797e93ba1afc252e826c8e5ef1376f071ff9cc
+Deleted: sha256:1cf66eab393da39b7253d33158e1ca36bb9a89c827d66596c7150603dda9bfa8
+Deleted: sha256:40ed31b2fcb1e5dbec3eded7febd2f31553ab0faf1e77601ec2a49a3d23ee1dc
+Untagged: emeriochennai/wa-php-ver1@sha256:d9886f42c45ba72377ff521656129c6a350062e7e840963851b663d2ed3fead5
+Deleted: sha256:e2e4bd5d08bdd6385ca1b1591c301ba9c173c493b5cfc94cd122b554691f8b52
+Deleted: sha256:da3af4cd8796bd4bec1f46b83796cdc0c196dbeb1c6bd4f41215a110b326b4e3
+Untagged: emeriochennai/wa-php-ver1@sha256:f9d13192273b4783f7684c9646a2be74872484b90aceed0115ecd41a86970be2
+Deleted: sha256:e777078e146364703802d6c40683c7793c3774290a99c70d9d08bca5b2543ec2
+Deleted: sha256:3b67f1eb1bcd1615be57a939eab1e370fd3050e818e36d4084b90b61a84ac1ba
+Untagged: emeriochennai/wa-php-ver1@sha256:4b6ec15ea0779d0ec82f13ef63c198b7b73758309c837f9bfc924ca3c54c82cc
+Deleted: sha256:5f7d7b0737caf6ee6ca3fb321815a600a605604aa48d5e30d814d02810ed3e2d
+Deleted: sha256:7b7a8976b8e3e720f2dc9d0d7c937d8357563b3ab77b768445214f90bed2c970
+Untagged: emeriochennai/wa-php-ver1@sha256:4d820a7ab3ab02e6c96115e311e9ea37eb0250f5d6169cc6e352584562e5dd6a
+Deleted: sha256:b700050ccd3d0f86bb00b00cd1628d9c5a0855a7a00e166164e857720aa89504
+Deleted: sha256:758b38dde3c12bad5a36e6e31d912b186375938b6c7af1c9efcc951586622078
+Untagged: emeriochennai/wa-php-ver1@sha256:b51274d508b2f2cf69cbc3e2569fa2f9590686e9ee8d8d01ef40a4532583f374
+Deleted: sha256:a735d576b191fd1fe85153a834077da56da4ac7ef63d61f33ba00d127b1a4ce0
+Deleted: sha256:148387e8888f7f511e3ddadf4481668e75a6b25a25c0e349b87d1272aff8dee4
+Untagged: emeriochennai/wa-php-ver1@sha256:8dcc384143d5e5c0f6eabfcb120f3c629b71a65a1641dd8d179aa446dfbfcbd2
+Deleted: sha256:23620eac1c225875a63def4a2e13742b1814dbd7d5542887fa47fa21ddd80ba4
+Deleted: sha256:fcff0fe08c6c60a2cb8ca2e06eb96dc3881434a35ab05d8d6f5111db96608250
+Untagged: emeriochennai/wa-php-ver1@sha256:fa243740493d963bdf226c7276a2eb8d211170fb044a83886a6111d47970366f
+Deleted: sha256:f47fddc6fbea949ffc03eafd6cc236c3726351aa69f51c5ece441131adbc8dac
+Deleted: sha256:a3edbb38c8d69922d6fde6601e618b249411354948301f6e68cc6d7c06ecc731
+Untagged: emeriochennai/wa-php-ver1@sha256:529231ee33f4d04ad9425acfde690b6f8bc2806fdf3ee31963e792299a169efc
+Deleted: sha256:70d761af3d74bce580ed663e96571283eeafa2d2c25c9d3fd42296d50ce73a1c
+Deleted: sha256:7a71f6737cd70acfef80dba381f564c90b1d61d3b213bbe613841bda4d623c04
+Untagged: emeriochennai/wa-php-ver1@sha256:6efad512d02617e6314b53cfcbc8f021bfc8aa694cfb30805e7954fe91d1b4ea
+Deleted: sha256:c946a8619a535dbf815c785bd475db4aac05f32535fe82122bfc08a8c4014233
+Deleted: sha256:6d107c0ece9ca0ab9add27bc376f11e19ce231706e757c7b58d845163e81f346
+Untagged: emeriochennai/wa-php-ver1@sha256:4e692cf3500611c4935cc2b13cce66e29fc9eaff758d58aeab031bf8b961a3fc
+Deleted: sha256:746c33de8f3e77815f8dc211ebc5a04584353545d0d92d06c201f610dd6b78a3
+Deleted: sha256:d3aff12c8f6554796fca2bdd1e097a69625b867871bc51a827edead18319ab6b
+Untagged: emeriochennai/wa-php-ver1@sha256:6b280c325e5be716818e1f8f1957788f3aad2b9b957452117b35d6f513f59b4c
+Deleted: sha256:7b88ad5faef62150a0945d671f79386ce5f57a788d2fd78e12d1807d74f25df9
+Deleted: sha256:e0deb3720a48a6113b9e1277a0c7eda9db3496d97c98ec8f5a82155db7825009
+Untagged: emeriochennai/wa-php-ver1@sha256:826beea488645a197bf86c1b4496bf36e3a7e9e437f155bb3ed0c9c1ea35e62b
+Deleted: sha256:2d4ad4d375b3720bf8d9cc9651270567f056bb2c39e45ca1b66adc1e4008c164
+Deleted: sha256:e78161bcd916c33369a7c74068aa1a8e1adf030a1cb9ea42e9dbbbf0e58b7819
+Untagged: emeriochennai/wa-php-ver1@sha256:85713edf4de44c9ec30d3da2417a15ea9aff660b61af58bb6177f680acca96a7
+Deleted: sha256:bc9835fc2d3d9d8d083ea0f85d6f69fb3c2eda2f5f65834e778f1e53cf4924f9
+Deleted: sha256:c5ea3a2e4ea9a7cd0fcf87bfef38a6e3900c2f9120c03d878ccb514a1b17f853
+Untagged: emeriochennai/wa-php-ver1@sha256:f0c1cde0d643f2d69f384ec1c2898c37a67d93dfc7884f2296c5bbe34b32096b
+Deleted: sha256:b1c5266857f4af1aea9725939b19e29ca90528aaeaf1e6f6e2401011caa77503
+Deleted: sha256:9ea24d04bd89ceddd1455b8c28b86ae33bddf07e7d4ea6ce8a3387088274e0ad
+Untagged: emeriochennai/wa-php-ver1@sha256:51992dfe2e0a45fb028926a9768f437bd4fc6fa336ee92dd194bec7484dbb4be
+Deleted: sha256:7e41d1f3c9381604b6aadfee4cf6ab9699583ec6f27708e8fefb47424b4d4418
+Deleted: sha256:2f97a3ecf15259a198873d6c38cd76a59d083af664bc20f9f8fb368a90d90d34
+Untagged: emeriochennai/wa-php-ver1@sha256:9c4da2197b0cd51d5db633edd6668bc970a36ff4facdc7b8b16a7ecde2e554e5
+Deleted: sha256:95a4badb08e239f648b9dd6b720d9c550050f0010b3086be452247e4feec7f32
+Deleted: sha256:98a2fdb69d794d6c34eb1b2649273fdd501f0f42d494de877bb22e526eef830e
+Untagged: emeriochennai/wa-php-ver1@sha256:998c24e73b4703f400bfbafee1bc1de4279ee60f585a51d30b10b82f93e600b4
+Deleted: sha256:0525a5074fa1244acc4632f746e57838ab0b757e800e6cffa31a6c31956e878d
+Deleted: sha256:03d4e5413218410c82a3ce4813a12a3b6e9c03433570204df28a0ddca9555c57
+Error response from daemon: conflict: unable to delete d4e47831c536 (must be forced) - image is referenced in multiple repositories
+[root@localhost vinoth]# docker images | grep emeriochennai/wa-php-ver1^C
+[root@localhost vinoth]# docker images
+REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
+emeriochennai/wa-php-ver1    latest              d4e47831c536        2 days ago          367MB
+wa-php                       latest              d4e47831c536        2 days ago          367MB
+myphp-test                   latest              9ad4fc28750a        8 days ago          367MB
+test2                        latest              9ad4fc28750a        8 days ago          367MB
+<none>                       <none>              bd6d7034139c        8 days ago          367MB
+<none>                       <none>              268fa9bab679        9 days ago          367MB
+test1                        latest              dbe03b981379        9 days ago          367MB
+test                         latest              8f20b411642a        9 days ago          367MB
+myapp-kannan                 latest              0fd175d98309        9 days ago          367MB
+<none>                       <none>              9591a0c026fe        9 days ago          367MB
+myphp-test1                  latest              eff4a8061214        9 days ago          367MB
+<none>                       <none>              978ee37e5c32        9 days ago          367MB
+emeriochennai/myphp-test1    latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myphp-test2    latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myphp-test     latest              0931db8d9e1e        9 days ago          367MB
+emerionchennai/myphp-test1   latest              0931db8d9e1e        9 days ago          367MB
+myphp-test2                  latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myapp-test     latest              59ca81360a73        10 days ago         367MB
+myapp-test                   latest              59ca81360a73        10 days ago         367MB
+emeriochennai/myphp-test     <none>              9fa29d936768        11 days ago         367MB
+php-test                     latest              225f388d4b38        11 days ago         367MB
+php                          7.0-apache          7011510f1ff8        2 weeks ago         367MB
+<none>                       <none>              fd6af1e4b9ac        3 weeks ago         456MB
+ubuntu                       14.04               578c3e61a98c        5 weeks ago         223MB
+busybox                      latest              8c811b4aec35        7 weeks ago         1.15MB
+hello-world                  latest              e38bc07ac18e        3 months ago        1.85kB
+[root@localhost vinoth]# df -Th
+Filesystem              Type      Size  Used Avail Use% Mounted on
+/dev/mapper/centos-root xfs        17G  4.3G   13G  26% /
+devtmpfs                devtmpfs  908M     0  908M   0% /dev
+tmpfs                   tmpfs     920M     0  920M   0% /dev/shm
+tmpfs                   tmpfs     920M   41M  879M   5% /run
+tmpfs                   tmpfs     920M     0  920M   0% /sys/fs/cgroup
+/dev/sda1               xfs      1014M  171M  844M  17% /boot
+tmpfs                   tmpfs     184M     0  184M   0% /run/user/0
+overlay                 overlay    17G  4.3G   13G  26% /var/lib/docker/overlay2/2ac9205a64f7d154c7c67cb532189f7a2f3a3e60d2cd9e33db0ef40a082865da/merged
+shm                     tmpfs      64M     0   64M   0% /var/lib/docker/containers/b3767a17e76d4ef2a93f43da2ab99bf2ca2e9ef56514ece5ed8516e280cd9ddd/mounts/shm
+tmpfs                   tmpfs     184M     0  184M   0% /run/user/1004
+[root@localhost vinoth]# docker rmi `docker images | grep emeriochennai/wa-php-ver1 | awk '{print $3}'`docker df -^C
+[root@localhost vinoth]# df -k
+Filesystem              1K-blocks    Used Available Use% Mounted on
+/dev/mapper/centos-root  17811456 4470512  13340944  26% /
+devtmpfs                   929192       0    929192   0% /dev
+tmpfs                      941376       0    941376   0% /dev/shm
+tmpfs                      941376   41660    899716   5% /run
+tmpfs                      941376       0    941376   0% /sys/fs/cgroup
+/dev/sda1                 1038336  175080    863256  17% /boot
+tmpfs                      188276       0    188276   0% /run/user/0
+overlay                  17811456 4470512  13340944  26% /var/lib/docker/overlay2/2ac9205a64f7d154c7c67cb532189f7a2f3a3e60d2cd9e33db0ef40a082865da/merged
+shm                         65536       0     65536   0% /var/lib/docker/containers/b3767a17e76d4ef2a93f43da2ab99bf2ca2e9ef56514ece5ed8516e280cd9ddd/mounts/shm
+tmpfs                      188276       0    188276   0% /run/user/1004
+[root@localhost vinoth]# docker rmi fd6af1e4b9ac 978ee37e5c32
+Deleted: sha256:fd6af1e4b9ac399474f456eb6dc63c363b33613f9b2a26918eb9ecacdf4cab9d
+Deleted: sha256:b6783207dce741513d47c113de82294b905a8936f2e088a4135fdb030d16441e
+Deleted: sha256:a19a97ea488bedfa50919963129160047c9f4f00474f5c2256e8a550e67e1f73
+Deleted: sha256:8c133fbe2c4cf398099d236ec83e7801ff6fe630b6d2fb907c72acb41df4c4e6
+Deleted: sha256:69e8e192a846b897d5fc257ea7a9acf0343405b86430ca2cc03f3952014b1d6f
+Deleted: sha256:978ee37e5c322421e23db25f5cf53af0291da160e6d5383edab598a66b3047a6
+Deleted: sha256:03a0fa66ae7dc965278a88eca2f58d5a543c2c257aa23483023b871c0e26d32b
+[root@localhost vinoth]# df -k
+Filesystem              1K-blocks    Used Available Use% Mounted on
+/dev/mapper/centos-root  17811456 4212944  13598512  24% /
+devtmpfs                   929192       0    929192   0% /dev
+tmpfs                      941376       0    941376   0% /dev/shm
+tmpfs                      941376   41660    899716   5% /run
+tmpfs                      941376       0    941376   0% /sys/fs/cgroup
+/dev/sda1                 1038336  175080    863256  17% /boot
+tmpfs                      188276       0    188276   0% /run/user/0
+overlay                  17811456 4212944  13598512  24% /var/lib/docker/overlay2/2ac9205a64f7d154c7c67cb532189f7a2f3a3e60d2cd9e33db0ef40a082865da/merged
+shm                         65536       0     65536   0% /var/lib/docker/containers/b3767a17e76d4ef2a93f43da2ab99bf2ca2e9ef56514ece5ed8516e280cd9ddd/mounts/shm
+tmpfs                      188276       0    188276   0% /run/user/1004
+[root@localhost vinoth]# docker images
+REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
+emeriochennai/wa-php-ver1    latest              d4e47831c536        2 days ago          367MB
+wa-php                       latest              d4e47831c536        2 days ago          367MB
+myphp-test                   latest              9ad4fc28750a        8 days ago          367MB
+test2                        latest              9ad4fc28750a        8 days ago          367MB
+<none>                       <none>              bd6d7034139c        8 days ago          367MB
+<none>                       <none>              268fa9bab679        9 days ago          367MB
+test1                        latest              dbe03b981379        9 days ago          367MB
+test                         latest              8f20b411642a        9 days ago          367MB
+myapp-kannan                 latest              0fd175d98309        9 days ago          367MB
+<none>                       <none>              9591a0c026fe        9 days ago          367MB
+myphp-test1                  latest              eff4a8061214        9 days ago          367MB
+emerionchennai/myphp-test1   latest              0931db8d9e1e        9 days ago          367MB
+myphp-test2                  latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myphp-test1    latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myphp-test2    latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myphp-test     latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myapp-test     latest              59ca81360a73        10 days ago         367MB
+myapp-test                   latest              59ca81360a73        10 days ago         367MB
+emeriochennai/myphp-test     <none>              9fa29d936768        11 days ago         367MB
+php-test                     latest              225f388d4b38        11 days ago         367MB
+php                          7.0-apache          7011510f1ff8        2 weeks ago         367MB
+ubuntu                       14.04               578c3e61a98c        5 weeks ago         223MB
+busybox                      latest              8c811b4aec35        7 weeks ago         1.15MB
+hello-world                  latest              e38bc07ac18e        3 months ago        1.85kB
+[root@localhost vinoth]# docker rmi 0931db8d9e1e
+Error response from daemon: conflict: unable to delete 0931db8d9e1e (must be forced) - image is referenced in multiple repositories
+[root@localhost vinoth]# docker rmi emeriochennai/myphp-test1
+Untagged: emeriochennai/myphp-test1:latest
+Untagged: emeriochennai/myphp-test1@sha256:92f88e96eec783e3bfb2c6ff91851d2bb8300ac629ea4825f322d9cf3bca4dbe
+[root@localhost vinoth]# docker images
+REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
+emeriochennai/wa-php-ver1    latest              d4e47831c536        2 days ago          367MB
+wa-php                       latest              d4e47831c536        2 days ago          367MB
+myphp-test                   latest              9ad4fc28750a        8 days ago          367MB
+test2                        latest              9ad4fc28750a        8 days ago          367MB
+<none>                       <none>              bd6d7034139c        8 days ago          367MB
+<none>                       <none>              268fa9bab679        9 days ago          367MB
+test1                        latest              dbe03b981379        9 days ago          367MB
+test                         latest              8f20b411642a        9 days ago          367MB
+myapp-kannan                 latest              0fd175d98309        9 days ago          367MB
+<none>                       <none>              9591a0c026fe        9 days ago          367MB
+myphp-test1                  latest              eff4a8061214        9 days ago          367MB
+emerionchennai/myphp-test1   latest              0931db8d9e1e        9 days ago          367MB
+myphp-test2                  latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myphp-test2    latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myphp-test     latest              0931db8d9e1e        9 days ago          367MB
+emeriochennai/myapp-test     latest              59ca81360a73        10 days ago         367MB
+myapp-test                   latest              59ca81360a73        10 days ago         367MB
+emeriochennai/myphp-test     <none>              9fa29d936768        11 days ago         367MB
+php-test                     latest              225f388d4b38        11 days ago         367MB
+php                          7.0-apache          7011510f1ff8        2 weeks ago         367MB
+ubuntu                       14.04               578c3e61a98c        5 weeks ago         223MB
+busybox                      latest              8c811b4aec35        7 weeks ago         1.15MB
+hello-world                  latest              e38bc07ac18e        3 months ago        1.85kB
+[root@localhost vinoth]# df -k
+Filesystem              1K-blocks    Used Available Use% Mounted on
+/dev/mapper/centos-root  17811456 4212944  13598512  24% /
+devtmpfs                   929192       0    929192   0% /dev
+tmpfs                      941376       0    941376   0% /dev/shm
+tmpfs                      941376   41660    899716   5% /run
+tmpfs                      941376       0    941376   0% /sys/fs/cgroup
+/dev/sda1                 1038336  175080    863256  17% /boot
+tmpfs                      188276       0    188276   0% /run/user/0
+overlay                  17811456 4212944  13598512  24% /var/lib/docker/overlay2/2ac9205a64f7d154c7c67cb532189f7a2f3a3e60d2cd9e33db0ef40a082865da/merged
+shm                         65536       0     65536   0% /var/lib/docker/containers/b3767a17e76d4ef2a93f43da2ab99bf2ca2e9ef56514ece5ed8516e280cd9ddd/mounts/shm
+tmpfs                      188276       0    188276   0% /run/user/1004
+[root@localhost vinoth]# cd /var/lib/docker/
+[root@localhost docker]# ls -ltr
+total 12
+drwx--x--x.  3 root root   20 Jun 16 10:31 containerd
+drwx------.  4 root root   32 Jun 16 10:31 plugins
+drwx------.  2 root root   25 Jun 16 10:31 volumes
+drwx------.  3 root root   22 Jun 16 10:31 image
+drwx------.  2 root root    6 Jun 16 10:31 trust
+drwxr-x---.  3 root root   19 Jun 16 10:31 network
+drwx------.  2 root root    6 Jun 16 10:31 swarm
+drwx------.  2 root root   24 Jun 16 10:31 builder
+drwx------.  2 root root    6 Jun 29 06:56 runtimes
+drwx------.  4 root root   92 Jun 29 06:56 buildkit
+drwx------.  5 root root  222 Jul  3 15:55 containers
+drwx------.  2 root root    6 Jul 10 15:24 tmp
+drwx------. 43 root root 8192 Jul 12 11:01 overlay2
+[root@localhost docker]# cd image/
+[root@localhost image]# ll
+total 0
+drwx------. 5 root root 81 Jul 12 11:02 overlay2
+[root@localhost image]# cd overlay2/
+[root@localhost overlay2]# ll
+total 4
+drwx------. 4 root root   58 Jun 16 10:36 distribution
+drwx------. 4 root root   37 Jun 16 10:31 imagedb
+drwx------. 5 root root   45 Jun 16 10:36 layerdb
+-rw-------. 1 root root 3494 Jul 12 11:02 repositories.json
+[root@localhost overlay2]# cd imagedb/
+[root@localhost imagedb]# ll
+total 0
+drwx------. 3 root root 20 Jun 16 10:31 content
+drwx------. 3 root root 20 Jun 16 10:31 metadata
+[root@localhost imagedb]# cd ..
+[root@localhost overlay2]# cd ..
+[root@localhost image]# cd ..
+[root@localhost docker]# du -sh *
+16K     builder
+56K     buildkit
+212K    containerd
+80K     containers
+2.8M    image
+60K     network
+977M    overlay2
+0       plugins
+0       runtimes
+0       swarm
+0       tmp
+0       trust
+24K     volumes
+[root@localhost docker]#

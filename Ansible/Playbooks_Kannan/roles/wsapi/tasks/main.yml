@@ -1,0 +1,24 @@
+---
+# tasks file for wsapi
+
+#- include: deploy.yml
+
+#- name: Restart {{ application }}
+#  service: name={{ application }} state=restarted
+#
+#
+- name: Stop {{ application }}
+  service: name={{ application }} state=stopped
+
+- include: deploy_multiple.yml
+  become: yes
+
+#- name: Stop {{ application }}
+#  service: name={{ application }} state=stopped
+
+- name: Start {{ application }}
+  service: name={{ application }} state=started
+
+- name: Wait for the {{ application }} to start
+  wait_for:
+    timeout=30

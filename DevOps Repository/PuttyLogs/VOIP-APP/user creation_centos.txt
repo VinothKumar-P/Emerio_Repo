@@ -1,0 +1,335 @@
+login as: root
+root@192.168.4.102's password:
+Last login: Tue Jun  5 20:24:29 2018 from 192.168.4.39
+[root@localhost ~]# ll
+total 4
+-rw-------. 1 root root 1233 Jun  5 05:59 anaconda-ks.cfg
+[root@localhost ~]# useradd -m -d /home/dev_atul dev_atul
+useradd -m -d /home/dev_atul dev_atul
+
+
+^C
+^C^C^C
+[root@localhost ~]#
+[root@localhost ~]# useradd -m -d /home/dev_atul dev_atul                   ^C^C                                                                                        ^C^C^C
+^L
+
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]#
+[root@localhost ~]# useradd -m -d /home/dev_atul dev_atul                   ^C
+[root@localhost ~]# useradd -m -d /home/emerio_admin emerio_admin
+[root@localhost ~]# cd /home/
+[root@localhost home]# ll
+total 0
+drwx------. 2 emerio_admin emerio_admin 62 Jun  6 05:10 emerio_admin
+[root@localhost home]# cd /etc/su
+subgid          sudo.conf       sudoers.d/
+subuid          sudoers         sudo-ldap.conf
+[root@localhost home]# cd /etc/su
+subgid          sudo.conf       sudoers.d/
+subuid          sudoers         sudo-ldap.conf
+[root@localhost home]# cd /etc/sudoers
+sudoers    sudoers.d/
+[root@localhost home]# cd /etc/sudoers
+sudoers    sudoers.d/
+[root@localhost home]# cat /etc/sudoers
+## Sudoers allows particular users to run various commands as
+## the root user, without needing the root password.
+##
+## Examples are provided at the bottom of the file for collections
+## of related commands, which can then be delegated out to particular
+## users or groups.
+##
+## This file must be edited with the 'visudo' command.
+
+## Host Aliases
+## Groups of machines. You may prefer to use hostnames (perhaps using
+## wildcards for entire domains) or IP addresses instead.
+# Host_Alias     FILESERVERS = fs1, fs2
+# Host_Alias     MAILSERVERS = smtp, smtp2
+
+## User Aliases
+## These aren't often necessary, as you can use regular groups
+## (ie, from files, LDAP, NIS, etc) in this file - just use %groupname
+## rather than USERALIAS
+# User_Alias ADMINS = jsmith, mikem
+
+
+## Command Aliases
+## These are groups of related commands...
+
+## Networking
+# Cmnd_Alias NETWORKING = /sbin/route, /sbin/ifconfig, /bin/ping, /sbin/dhclient                                                                                        , /usr/bin/net, /sbin/iptables, /usr/bin/rfcomm, /usr/bin/wvdial, /sbin/iwconfig                                                                                        , /sbin/mii-tool
+
+## Installation and management of software
+# Cmnd_Alias SOFTWARE = /bin/rpm, /usr/bin/up2date, /usr/bin/yum
+
+## Services
+# Cmnd_Alias SERVICES = /sbin/service, /sbin/chkconfig, /usr/bin/systemctl start                                                                                        , /usr/bin/systemctl stop, /usr/bin/systemctl reload, /usr/bin/systemctl restart                                                                                        , /usr/bin/systemctl status, /usr/bin/systemctl enable, /usr/bin/systemctl disab                                                                                        le
+
+## Updating the locate database
+# Cmnd_Alias LOCATE = /usr/bin/updatedb
+
+## Storage
+# Cmnd_Alias STORAGE = /sbin/fdisk, /sbin/sfdisk, /sbin/parted, /sbin/partprobe,                                                                                         /bin/mount, /bin/umount
+
+## Delegating permissions
+# Cmnd_Alias DELEGATING = /usr/sbin/visudo, /bin/chown, /bin/chmod, /bin/chgrp
+
+## Processes
+# Cmnd_Alias PROCESSES = /bin/nice, /bin/kill, /usr/bin/kill, /usr/bin/killall
+
+## Drivers
+# Cmnd_Alias DRIVERS = /sbin/modprobe
+
+# Defaults specification
+
+#
+# Refuse to run if unable to disable echo on the tty.
+#
+Defaults   !visiblepw
+
+#
+# Preserving HOME has security implications since many programs
+# use it when searching for configuration files. Note that HOME
+# is already set when the the env_reset option is enabled, so
+# this option is only effective for configurations where either
+# env_reset is disabled or HOME is present in the env_keep list.
+#
+Defaults    always_set_home
+Defaults    match_group_by_gid
+
+Defaults    env_reset
+Defaults    env_keep =  "COLORS DISPLAY HOSTNAME HISTSIZE KDEDIR LS_COLORS"
+Defaults    env_keep += "MAIL PS1 PS2 QTDIR USERNAME LANG LC_ADDRESS LC_CTYPE"
+Defaults    env_keep += "LC_COLLATE LC_IDENTIFICATION LC_MEASUREMENT LC_MESSAGES                                                                                        "
+Defaults    env_keep += "LC_MONETARY LC_NAME LC_NUMERIC LC_PAPER LC_TELEPHONE"
+Defaults    env_keep += "LC_TIME LC_ALL LANGUAGE LINGUAS _XKB_CHARSET XAUTHORITY                                                                                        "
+
+#
+# Adding HOME to env_keep may enable a user to run unrestricted
+# commands via sudo.
+#
+# Defaults   env_keep += "HOME"
+
+Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin
+
+## Next comes the main part: which users can run what software on
+## which machines (the sudoers file can be shared between multiple
+## systems).
+## Syntax:
+##
+##      user    MACHINE=COMMANDS
+##
+## The COMMANDS section may have other options added to it.
+##
+## Allow root to run any commands anywhere
+root    ALL=(ALL)       ALL
+
+## Allows members of the 'sys' group to run networking, software,
+## service management apps and more.
+# %sys ALL = NETWORKING, SOFTWARE, SERVICES, STORAGE, DELEGATING, PROCESSES, LOC                                                                                        ATE, DRIVERS
+
+## Allows people in group wheel to run all commands
+%wheel  ALL=(ALL)       ALL
+
+## Same thing without a password
+# %wheel        ALL=(ALL)       NOPASSWD: ALL
+
+## Allows members of the users group to mount and unmount the
+## cdrom as root
+# %users  ALL=/sbin/mount /mnt/cdrom, /sbin/umount /mnt/cdrom
+
+## Allows members of the users group to shutdown this system
+# %users  localhost=/sbin/shutdown -h now
+
+## Read drop-in files from /etc/sudoers.d (the # here does not mean a comment)
+#includedir /etc/sudoers.d
+[root@localhost home]# su emerio_admin
+[emerio_admin@localhost home]$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/emerio_admin/.ssh/id_rsa):
+Created directory '/home/emerio_admin/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/emerio_admin/.ssh/id_rsa.
+Your public key has been saved in /home/emerio_admin/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:TxhfRAu1EwKZVFjwm4EJLNC2ENZL7yRTIuTekMX+ytg emerio_admin@localhost.locald
+The key's randomart image is:
++---[RSA 2048]----+
+| .=*....+O=o=    |
+| oooO o.++ + +   |
+|  +* B  + o =    |
+| . o* o  + = .   |
+|  . .*  S =      |
+|      o  o       |
+|   + .    .      |
+|  . E            |
+|                 |
++----[SHA256]-----+
+[emerio_admin@localhost home]$ cd /.ss
+bash: cd: /.ss: No such file or directory
+[emerio_admin@localhost home]$ cd ./ssh
+bash: cd: ./ssh: No such file or directory
+[emerio_admin@localhost home]$
+[emerio_admin@localhost home]$
+[emerio_admin@localhost home]$ ls
+emerio_admin
+[emerio_admin@localhost home]$ whoami
+emerio_admin
+[emerio_admin@localhost home]$ cd ~
+[emerio_admin@localhost ~]$ pwd
+/home/emerio_admin
+[emerio_admin@localhost ~]$ ls -ls
+total 0
+[emerio_admin@localhost ~]$ ls -la
+total 12
+drwx------. 3 emerio_admin emerio_admin  74 Jun  6 05:13 .
+drwxr-xr-x. 3 root         root          26 Jun  6 05:10 ..
+-rw-r--r--. 1 emerio_admin emerio_admin  18 Apr 10 20:53 .bash_logout
+-rw-r--r--. 1 emerio_admin emerio_admin 193 Apr 10 20:53 .bash_profile
+-rw-r--r--. 1 emerio_admin emerio_admin 231 Apr 10 20:53 .bashrc
+drwx------. 2 emerio_admin emerio_admin  38 Jun  6 05:13 .ssh
+[emerio_admin@localhost ~]$ cd .ssh/
+[emerio_admin@localhost .ssh]$ ls
+id_rsa  id_rsa.pub
+[emerio_admin@localhost .ssh]$
+[emerio_admin@localhost .ssh]$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCv3eRongxl1DUMd+XUGzy56oMkrShr2Q7QHjP/sPB7mK1fCS5SkhsgVomrpKbhcRj9x1vzPZO+KZCPLd46HrWT88FoSaFQ/Cr898W5d+BDZyfxkkhJyonv3w9zm5WzYZSqBmthTr7rPwRzKnyZdMj8gKVimGyzUn0q6byWHWrswZrOeoIKn8F/tl5GPhFfT6xC8vBkB93fVJNtalCyzSUUFBZuS0WLLR6qDLuOOoLoS/Xiw5rYwp+Hmjj5JW2R12Sx58G0XYbr+K0QkMV7NR3JviDayL3zUGv3a1xI2uSxV9hxg8KCoG3PH4fXMMRZnkdNqr7unlkBkgty+65PEPwt emerio_admin@localhost.localdomain
+[emerio_admin@localhost .ssh]$
+[emerio_admin@localhost .ssh]$ cat id_rsa
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAr93kaJ4MZdQ1DHfl1Bs8ueqDJK0oa9kO0B4z/7Dwe5itXwku
+UpIbIFaJq6Sm4XEY/cdb8z2TvimQjy3eOh61k/PBaEmhUPwq/PfFuXfgQ2cn8ZJI
+ScqJ798Pc5uVs2GUqgZrYU6+6z8Ecyp8mXTI/IClYphss1J9Kum8lh1q7MGaznqC
+Cp/Bf7ZeRj4RX0+sQvLwZAfd31STbWpQss0lFBQWbktFiy0eqgy7jjqC6Ev14sOa
+2MKfh5o4+SVtkddksefBtF2G6/itEJDFezUdyb4g2si981Br92tcSNrksVfYcYPC
+gqBtzx+H1zDEWZ5HTaq+7p5ZAZILcvuuTxD8LQIDAQABAoIBAGgC69uT3fE7mERP
+hPX1Re0O7ZD7eDSQo1ojAs3ub8wpeCAE5gifsLtncvS45Jngsc8l4RPzDzYgjwaf
+MhddojZmq7RqF6Y1/ZavU5lldJVopQ8SXP6Hcx0S56iQE/GLfMkyEr/yOqgXFSKn
+thlsIJJ141p0m5VS7AQ9SPPfYiWzQERGABpjdvO5tfYXFTafFxsJS6BbAvqtmnyY
+JQ21CFKc1SxUfAi3qVcWS530i5UUqEtI5cNgTKjvdRu9ilSnBJsWcXE7e4fg/8o/
+pRH+jtLUkVubnCRQyHQe2v403KMN50c2mgnyermfhJ4SEPyPf/bDYoHDJEOR51cS
+gqWjfmECgYEA1lhmCefRffML4zidfO2dXf7KiVQ9kBDt61NGENTdXroc6wZG5g/d
+RG5Q+eC7fpWUrXjGoJADUmH2vIY807r8XCNFACjkXY7OYzS7PpCINQFazHq/aLuU
+oC7gWk2SQuprbQCfBKB0FFut3eBaXA2b2v/o+gmNOQ0I85nspFBFFksCgYEA0gsz
+PrLRh+1a5UJF/mZBTODfY6tNKV0BwT0M1NTVr5SiazoXBbp7UxUBbpadwijC0aJ2
+0Kwl9x5fZBHGX+oUaDubbzmzTgLjVEyYFLkW5ZpzDDKCmQJjNUS3gM/nmkZMkcR/
+SNf/nhz8exzjupMgTKpOku3M+hQylAK8VhS8jGcCgYBEmdA2lWIgDFyeoW0OIcJ+
+5eAOqc52QGTVLza6hlY/ThOZSM4CLcukbiYugzWe4uLNzlzL4Kuff0kHt3LaVPsV
+xhf8YBoOs3jsmWDgOkPNqxxTW2nNbFO6HKajYDZSglJVdaBvS6c7KMhxva9NzPE3
+2zXGaK4xNzHJPVdWk3Y5FwKBgQDFUe5HRXff6RQN8c+NaYSI82wI1wF7DTu7zF2E
+h5ljBA/9CapdIE4Aw+f/exEjOGWkyKoz6LUVzPuyJ5yjuGSJcw3XVG5kqAPlyrrI
+JQUkl47i84SKt5p5jV+SbD3YSZhfDCjDRt+FKxfplD8/pD2gqBF+qFV6zYSiVVuW
+xo5GmwKBgQCOxW6Prv54VCtEg9WHtUOZ/6hd1qTgbNZ8/0lmeTF7ewRb0heGC6P3
+i1MydeXChjQZPoZ6no0RAuafdk06D3S4J7ZR1SkoFWxMJG7IrSKKdflcRKwedbTc
+tz9Ry6TSRgPaiis5ejg7uCQo/4qBP8FMWZlyLWWySIBB8ehY2NYjFQ==
+-----END RSA PRIVATE KEY-----
+[emerio_admin@localhost .ssh]$ exit
+[root@localhost home]# passwd emerio_admin
+Changing password for user emerio_admin.
+New password:
+Retype new password:
+passwd: all authentication tokens updated successfully.
+[root@localhost home]# vi /etc/sudoers
+[root@localhost home]# sytemctl restart sshd
+-bash: sytemctl: command not found
+[root@localhost home]# systemctl restart sshd
+[root@localhost home]# ls
+emerio_admin
+[root@localhost home]#
+[root@localhost home]#
+[root@localhost home]#
+[root@localhost home]#
+[root@localhost home]#
+[root@localhost home]#
+[root@localhost home]# su - emerio_admin
+Last login: Wed Jun  6 05:22:14 EDT 2018 from 10.254.1.9 on pts/1
+[emerio_admin@localhost ~]$  cd ~
+[emerio_admin@localhost ~]$ ls
+[emerio_admin@localhost ~]$ cd .ssh/
+[emerio_admin@localhost .ssh]$ ls
+id_rsa  id_rsa.pub
+[emerio_admin@localhost .ssh]$ cat id_rsa.pub > authorized_keys
+[emerio_admin@localhost .ssh]$ ls
+authorized_keys  id_rsa  id_rsa.pub
+[emerio_admin@localhost .ssh]$ ll
+total 12
+-rw-rw-r--. 1 emerio_admin emerio_admin  416 Jun  6 05:28 authorized_keys
+-rw-------. 1 emerio_admin emerio_admin 1679 Jun  6 05:13 id_rsa
+-rw-r--r--. 1 emerio_admin emerio_admin  416 Jun  6 05:13 id_rsa.pub
+[emerio_admin@localhost .ssh]$ chmod 400 authorized_keys
+[emerio_admin@localhost .ssh]$ vi /etc/ssh/sshd_config
+[emerio_admin@localhost .ssh]$ systemctl restart sshd
+==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+Authentication is required to manage system services or units.
+Authenticating as: root
+Password:
+==== AUTHENTICATION COMPLETE ===
+[emerio_admin@localhost .ssh]$
+[emerio_admin@localhost .ssh]$
+[emerio_admin@localhost .ssh]$
+[emerio_admin@localhost .ssh]$
+[emerio_admin@localhost .ssh]$ logout
+[root@localhost home]#
+[root@localhost home]#
+[root@localhost home]#
+[root@localhost home]#
+[root@localhost home]# vi /etc/ssh/sshd_config
+[root@localhost home]# systemctl restart sshd
+[root@localhost home]# ]
+-bash: ]: command not found
+[root@localhost home]#
+[root@localhost home]#
+[root@localhost home]# cd /etc/ssh/sshd_config
+-bash: cd: /etc/ssh/sshd_config: Not a directory
+[root@localhost home]# vi /etc/ssh/sshd_config
+#       $OpenBSD: sshd_config,v 1.100 2016/08/15 12:32:04 naddy Exp $
+
+# This is the sshd server system-wide configuration file.  See
+# sshd_config(5) for more information.
+
+# This sshd was compiled with PATH=/usr/local/bin:/usr/bin
+
+# The strategy used for options in the default sshd_config shipped with
+# OpenSSH is to specify options with their default value where
+# possible, but leave them commented.  Uncommented options override the
+# default value.
+
+# If you want to change the port on a SELinux system, you have to tell
+# SELinux about this change.
+# semanage port -a -t ssh_port_t -p tcp #PORTNUMBER
+#
+#Port 22
+#AddressFamily any
+#ListenAddress 0.0.0.0
+#ListenAddress ::
+
+HostKey /etc/ssh/ssh_host_rsa_key
+#HostKey /etc/ssh/ssh_host_dsa_key
+HostKey /etc/ssh/ssh_host_ecdsa_key
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+# Ciphers and keying
+#RekeyLimit default none
+
+# Logging
+#SyslogFacility AUTH
+SyslogFacility AUTHPRIV
+#LogLevel INFO
+
+# Authentication:
+
+#LoginGraceTime 2m
+#PermitRootLogin yes
+#StrictModes yes
+#MaxAuthTries 6
+#MaxSessions 10
+
+#PubkeyAuthentication yes
+"/etc/ssh/sshd_config" 139L, 3907C
